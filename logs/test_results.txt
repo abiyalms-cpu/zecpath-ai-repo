@@ -1,0 +1,38 @@
+Test run: 2026-09-28 16:54:27
+
+============================= test session starts =============================
+platform win32 -- Python 3.13.14, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\ABHI\OneDrive\Desktop\zecpath-ai-repo\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\ABHI\OneDrive\Desktop\zecpath-ai-repo
+configfile: pytest.ini
+testpaths: tests
+collecting ... collected 26 items
+
+tests/test_ats_engine.py::test_full_skill_match PASSED                   [  3%]
+tests/test_ats_engine.py::test_partial_skill_match PASSED                [  7%]
+tests/test_extraction.py::test_cleaner_standardises_bullets PASSED       [ 11%]
+tests/test_extraction.py::test_cleaner_collapses_repeated_spaces PASSED  [ 15%]
+tests/test_extraction.py::test_cleaner_normalises_section_headings PASSED [ 19%]
+tests/test_extraction.py::test_cleaner_fixes_shouting_names PASSED       [ 23%]
+tests/test_extraction.py::test_cleaner_leaves_acronyms_alone PASSED      [ 26%]
+tests/test_extraction.py::test_docx_and_pdf_give_the_same_text[aditya_rao] PASSED [ 30%]
+tests/test_extraction.py::test_docx_and_pdf_give_the_same_text[anjali_suresh] PASSED [ 34%]
+tests/test_extraction.py::test_docx_and_pdf_give_the_same_text[arun_kumar] PASSED [ 38%]
+tests/test_extraction.py::test_docx_and_pdf_give_the_same_text[divya_menon] PASSED [ 42%]
+tests/test_extraction.py::test_docx_and_pdf_give_the_same_text[fathima_rasheed] PASSED [ 46%]
+tests/test_extraction.py::test_docx_and_pdf_give_the_same_text[karthik_subramaniam] PASSED [ 50%]
+tests/test_extraction.py::test_docx_and_pdf_give_the_same_text[priya_nair] PASSED [ 53%]
+tests/test_extraction.py::test_docx_and_pdf_give_the_same_text[rohan_mehta] PASSED [ 57%]
+tests/test_extraction.py::test_docx_and_pdf_give_the_same_text[sneha_thomas] PASSED [ 61%]
+tests/test_extraction.py::test_docx_and_pdf_give_the_same_text[vishnu_prasad] PASSED [ 65%]
+tests/test_extraction.py::test_table_contents_are_kept PASSED            [ 69%]
+tests/test_extraction.py::test_two_columns_are_read_in_order PASSED      [ 73%]
+tests/test_extraction.py::test_two_column_lines_are_not_mixed_together PASSED [ 76%]
+tests/test_extraction.py::test_photo_in_docx_does_not_break_extraction PASSED [ 80%]
+tests/test_extraction.py::test_scanned_pdf_is_flagged_not_crashed PASSED [ 84%]
+tests/test_extraction.py::test_unsupported_file_type_is_rejected PASSED  [ 88%]
+tests/test_extraction.py::test_extract_folder_saves_one_json_per_resume PASSED [ 92%]
+tests/test_scoring.py::test_high_scores_are_selected PASSED              [ 96%]
+tests/test_scoring.py::test_low_scores_are_rejected PASSED               [100%]
+
+============================= 26 passed in 2.49s ==============================
