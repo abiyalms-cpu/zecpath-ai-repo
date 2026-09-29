@@ -1,0 +1,20 @@
+{
+  "source_file": "sales_executive.txt",
+  "parsed_at": "2026-09-29T08:17:20",
+  "title": "Sales Executive",
+  "experience_required": {
+    "min_years": 2,
+    "max_years": null
+  },
+  "education_requirement": {
+    "raw_text": "- Bachelor's degree in any discipline; BBA preferred",
+    "level": "Bachelor's"
+  },
+  "required_skills": [
+    "Negotiation",
+    "Salesforce",
+    "Zoho",
+    "CRM"
+  ],
+  "normalized_text": "Position: Sales Executive\nLocation: Kochi, Kerala\nDepartment: Sales\n\nJob Summary\nWe are seeking a driven Sales Executive to grow our retail distributor network in the FMCG sector.\n\nREQUIREMENTS\n- At least 2 years of experience in B2B sales, preferably FMCG\n- Strong negotiation and relationship-building skills\n- Experience using CRM tools (Zoho, Salesforce, or similar)\n- Bachelor's degree in any discipline; BBA preferred\n\nRESPONSIBILITIES\n- Onboard new retail partners\n- Manage and grow existing distributor accounts\n- Meet monthly and quarterly sales targets\n- Travel within the assigned territory as needed"
+}

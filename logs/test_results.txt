@@ -1,4 +1,4 @@
-Test run: 2026-09-28 16:54:27
+Test run: 2026-09-29 08:19:19
 
 ============================= test session starts =============================
 platform win32 -- Python 3.13.14, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\ABHI\OneDrive\Desktop\zecpath-ai-repo\venv\Scripts\python.exe
@@ -6,33 +6,46 @@ cachedir: .pytest_cache
 rootdir: C:\Users\ABHI\OneDrive\Desktop\zecpath-ai-repo
 configfile: pytest.ini
 testpaths: tests
-collecting ... collected 26 items
+collecting ... collected 39 items
 
-tests/test_ats_engine.py::test_full_skill_match PASSED                   [  3%]
-tests/test_ats_engine.py::test_partial_skill_match PASSED                [  7%]
-tests/test_extraction.py::test_cleaner_standardises_bullets PASSED       [ 11%]
-tests/test_extraction.py::test_cleaner_collapses_repeated_spaces PASSED  [ 15%]
-tests/test_extraction.py::test_cleaner_normalises_section_headings PASSED [ 19%]
-tests/test_extraction.py::test_cleaner_fixes_shouting_names PASSED       [ 23%]
-tests/test_extraction.py::test_cleaner_leaves_acronyms_alone PASSED      [ 26%]
-tests/test_extraction.py::test_docx_and_pdf_give_the_same_text[aditya_rao] PASSED [ 30%]
-tests/test_extraction.py::test_docx_and_pdf_give_the_same_text[anjali_suresh] PASSED [ 34%]
-tests/test_extraction.py::test_docx_and_pdf_give_the_same_text[arun_kumar] PASSED [ 38%]
-tests/test_extraction.py::test_docx_and_pdf_give_the_same_text[divya_menon] PASSED [ 42%]
-tests/test_extraction.py::test_docx_and_pdf_give_the_same_text[fathima_rasheed] PASSED [ 46%]
-tests/test_extraction.py::test_docx_and_pdf_give_the_same_text[karthik_subramaniam] PASSED [ 50%]
-tests/test_extraction.py::test_docx_and_pdf_give_the_same_text[priya_nair] PASSED [ 53%]
-tests/test_extraction.py::test_docx_and_pdf_give_the_same_text[rohan_mehta] PASSED [ 57%]
-tests/test_extraction.py::test_docx_and_pdf_give_the_same_text[sneha_thomas] PASSED [ 61%]
-tests/test_extraction.py::test_docx_and_pdf_give_the_same_text[vishnu_prasad] PASSED [ 65%]
-tests/test_extraction.py::test_table_contents_are_kept PASSED            [ 69%]
-tests/test_extraction.py::test_two_columns_are_read_in_order PASSED      [ 73%]
-tests/test_extraction.py::test_two_column_lines_are_not_mixed_together PASSED [ 76%]
-tests/test_extraction.py::test_photo_in_docx_does_not_break_extraction PASSED [ 80%]
-tests/test_extraction.py::test_scanned_pdf_is_flagged_not_crashed PASSED [ 84%]
-tests/test_extraction.py::test_unsupported_file_type_is_rejected PASSED  [ 88%]
-tests/test_extraction.py::test_extract_folder_saves_one_json_per_resume PASSED [ 92%]
-tests/test_scoring.py::test_high_scores_are_selected PASSED              [ 96%]
+tests/test_ats_engine.py::test_full_skill_match PASSED                   [  2%]
+tests/test_ats_engine.py::test_partial_skill_match PASSED                [  5%]
+tests/test_extraction.py::test_cleaner_standardises_bullets PASSED       [  7%]
+tests/test_extraction.py::test_cleaner_collapses_repeated_spaces PASSED  [ 10%]
+tests/test_extraction.py::test_cleaner_normalises_section_headings PASSED [ 12%]
+tests/test_extraction.py::test_cleaner_fixes_shouting_names PASSED       [ 15%]
+tests/test_extraction.py::test_cleaner_leaves_acronyms_alone PASSED      [ 17%]
+tests/test_extraction.py::test_docx_and_pdf_give_the_same_text[aditya_rao] PASSED [ 20%]
+tests/test_extraction.py::test_docx_and_pdf_give_the_same_text[anjali_suresh] PASSED [ 23%]
+tests/test_extraction.py::test_docx_and_pdf_give_the_same_text[arun_kumar] PASSED [ 25%]
+tests/test_extraction.py::test_docx_and_pdf_give_the_same_text[divya_menon] PASSED [ 28%]
+tests/test_extraction.py::test_docx_and_pdf_give_the_same_text[fathima_rasheed] PASSED [ 30%]
+tests/test_extraction.py::test_docx_and_pdf_give_the_same_text[karthik_subramaniam] PASSED [ 33%]
+tests/test_extraction.py::test_docx_and_pdf_give_the_same_text[priya_nair] PASSED [ 35%]
+tests/test_extraction.py::test_docx_and_pdf_give_the_same_text[rohan_mehta] PASSED [ 38%]
+tests/test_extraction.py::test_docx_and_pdf_give_the_same_text[sneha_thomas] PASSED [ 41%]
+tests/test_extraction.py::test_docx_and_pdf_give_the_same_text[vishnu_prasad] PASSED [ 43%]
+tests/test_extraction.py::test_table_contents_are_kept PASSED            [ 46%]
+tests/test_extraction.py::test_two_columns_are_read_in_order PASSED      [ 48%]
+tests/test_extraction.py::test_two_column_lines_are_not_mixed_together PASSED [ 51%]
+tests/test_extraction.py::test_photo_in_docx_does_not_break_extraction PASSED [ 53%]
+tests/test_extraction.py::test_scanned_pdf_is_flagged_not_crashed PASSED [ 56%]
+tests/test_extraction.py::test_unsupported_file_type_is_rejected PASSED  [ 58%]
+tests/test_extraction.py::test_extract_folder_saves_one_json_per_resume PASSED [ 61%]
+tests/test_jd_parser.py::test_cleaner_normalizes_heading_variants PASSED [ 64%]
+tests/test_jd_parser.py::test_cleaner_splits_inline_heading_from_content PASSED [ 66%]
+tests/test_jd_parser.py::test_two_worded_differently_are_the_same_role PASSED [ 69%]
+tests/test_jd_parser.py::test_role_survives_word_boundary_fix PASSED     [ 71%]
+tests/test_jd_parser.py::test_skill_synonyms_map_to_one_canonical_name PASSED [ 74%]
+tests/test_jd_parser.py::test_java_is_not_falsely_found_inside_javascript PASSED [ 76%]
+tests/test_jd_parser.py::test_hris_is_not_falsely_found_inside_thrissur PASSED [ 79%]
+tests/test_jd_parser.py::test_plus_years_format PASSED                   [ 82%]
+tests/test_jd_parser.py::test_range_years_format PASSED                  [ 84%]
+tests/test_jd_parser.py::test_takes_the_primary_requirement_not_a_sub_clause PASSED [ 87%]
+tests/test_jd_parser.py::test_mba_is_not_falsely_found_inside_mumbai PASSED [ 89%]
+tests/test_jd_parser.py::test_parse_jd_text_returns_a_complete_object PASSED [ 92%]
+tests/test_jd_parser.py::test_parse_folder_saves_one_json_per_jd PASSED  [ 94%]
+tests/test_scoring.py::test_high_scores_are_selected PASSED              [ 97%]
 tests/test_scoring.py::test_low_scores_are_rejected PASSED               [100%]
 
-============================= 26 passed in 2.49s ==============================
+============================= 39 passed in 2.15s ==============================

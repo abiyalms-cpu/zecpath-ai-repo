@@ -1,0 +1,17 @@
+Role: Financial Analyst
+Department: Finance
+Location: Mumbai, Maharashtra
+
+About Us
+A mid-size manufacturing firm is looking for a Financial Analyst to support budgeting, forecasting and reporting.
+
+Must Have
+- 2 to 4 years of experience in financial analysis or FP&A
+- Advanced Excel skills and experience with Power BI
+- Knowledge of SAP FICO is a plus
+- M.Com, MBA Finance, or CFA Level 1 cleared
+
+Responsibilities
+- Prepare monthly MIS reports for leadership
+- Build and maintain rolling forecast models
+- Support quarterly close and audit preparation

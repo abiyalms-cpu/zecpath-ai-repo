@@ -1,0 +1,25 @@
+{
+  "source_file": "software_developer.txt",
+  "parsed_at": "2026-09-29T08:17:20",
+  "title": "Software Engineer",
+  "experience_required": {
+    "min_years": 2,
+    "max_years": 4
+  },
+  "education_requirement": {
+    "raw_text": "- Bachelor's degree in Computer Science, IT, or a related field",
+    "level": "Bachelor's"
+  },
+  "required_skills": [
+    "SQL",
+    "Microservices",
+    "PostgreSQL",
+    "REST APIs",
+    "Python",
+    "Docker",
+    "MySQL",
+    "Java",
+    "AWS"
+  ],
+  "normalized_text": "Job Title: Software Developer\nDepartment: Engineering\nLocation: Bengaluru, Karnataka (Hybrid)\n\nAbout the Role\nWe are looking for a Software Developer to join our backend team and help build scalable APIs for our e-commerce platform.\n\nREQUIREMENTS\n- 2-4 years of experience in backend development\n- Strong knowledge of Java or Python\n- Experience with REST APIs and microservices\n- Familiarity with SQL databases (MySQL, PostgreSQL)\n- Working knowledge of AWS or similar cloud platforms\n- Bachelor's degree in Computer Science, IT, or a related field\n\nRESPONSIBILITIES\n- Design and build backend services and APIs\n- Write clean, tested, maintainable code\n- Collaborate with frontend and product teams\n- Participate in code reviews\n\nNICE TO HAVE\n- Experience with Docker\n- Exposure to Agile/Scrum practices"
+}

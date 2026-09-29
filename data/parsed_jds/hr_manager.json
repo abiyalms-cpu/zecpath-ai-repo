@@ -1,0 +1,19 @@
+{
+  "source_file": "hr_manager.txt",
+  "parsed_at": "2026-09-29T08:17:20",
+  "title": "HR Manager",
+  "experience_required": {
+    "min_years": 5,
+    "max_years": null
+  },
+  "education_requirement": {
+    "raw_text": "- MBA in HR or a Master's degree in a related field",
+    "level": "Master's"
+  },
+  "required_skills": [
+    "SAP SuccessFactors",
+    "Darwinbox",
+    "HRIS"
+  ],
+  "normalized_text": "Job Title: HR Manager\nLocation: Chennai, Tamil Nadu\n\nOverview\nOur growing manufacturing unit is looking for an experienced HR Manager to lead recruitment and employee relations for a 250+ person team.\n\nREQUIREMENTS\n- 5+ years of experience in Human Resources, with at least 2 years in a managerial role\n- Experience with HRIS systems (Darwinbox, SAP SuccessFactors, or equivalent)\n- MBA in HR or a Master's degree in a related field\n- Strong understanding of labour law compliance\n\nRESPONSIBILITIES\n- Lead end-to-end recruitment for multiple departments\n- Design and improve onboarding processes\n- Handle employee grievances and disciplinary matters\n- Partner with leadership on workforce planning"
+}

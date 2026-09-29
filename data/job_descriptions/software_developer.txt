@@ -1,0 +1,24 @@
+Job Title: Software Developer
+Department: Engineering
+Location: Bengaluru, Karnataka (Hybrid)
+
+About the Role
+We are looking for a Software Developer to join our backend team and help build scalable APIs for our e-commerce platform.
+
+Requirements
+- 2-4 years of experience in backend development
+- Strong knowledge of Java or Python
+- Experience with REST APIs and microservices
+- Familiarity with SQL databases (MySQL, PostgreSQL)
+- Working knowledge of AWS or similar cloud platforms
+- Bachelor's degree in Computer Science, IT, or a related field
+
+Responsibilities
+- Design and build backend services and APIs
+- Write clean, tested, maintainable code
+- Collaborate with frontend and product teams
+- Participate in code reviews
+
+Nice to Have
+- Experience with Docker
+- Exposure to Agile/Scrum practices

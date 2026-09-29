@@ -1,0 +1,16 @@
+We're hiring an SDE II for our platform team.
+
+Location: Remote (India)
+
+What you'll need:
+Minimum 3 years of relevant experience building web applications.
+Proficiency in JavaScript, ReactJS and Node.js.
+Comfortable working with MongoDB or similar NoSQL databases.
+A degree in Computer Science or equivalent practical experience.
+
+What you'll do:
+- Build and maintain customer-facing features
+- Own a service end to end, from design to deployment
+- Mentor junior engineers on the team
+
+Good to have: familiarity with GraphQL, exposure to CI/CD pipelines.

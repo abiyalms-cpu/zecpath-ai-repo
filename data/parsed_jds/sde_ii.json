@@ -1,0 +1,22 @@
+{
+  "source_file": "sde_ii.txt",
+  "parsed_at": "2026-09-29T08:17:20",
+  "title": "Software Engineer",
+  "experience_required": {
+    "min_years": 3,
+    "max_years": null
+  },
+  "education_requirement": {
+    "raw_text": "A degree in Computer Science or equivalent practical experience.",
+    "level": "Bachelor's"
+  },
+  "required_skills": [
+    "JavaScript",
+    "React",
+    "Node.js",
+    "MongoDB",
+    "GraphQL",
+    "CI/CD"
+  ],
+  "normalized_text": "We're hiring an SDE II for our platform team.\n\nLocation: Remote (India)\n\nREQUIREMENTS\nMinimum 3 years of relevant experience building web applications.\nProficiency in JavaScript, ReactJS and Node.js.\nComfortable working with MongoDB or similar NoSQL databases.\nA degree in Computer Science or equivalent practical experience.\n\nRESPONSIBILITIES\n- Build and maintain customer-facing features\n- Own a service end to end, from design to deployment\n- Mentor junior engineers on the team\n\nNICE TO HAVE\n- familiarity with GraphQL, exposure to CI/CD pipelines."
+}
