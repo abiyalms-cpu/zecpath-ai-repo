@@ -1,19 +1,44 @@
 {
-  "source_file": "financial_analyst.txt",
-  "parsed_at": "2026-09-29T08:17:20",
+  "job_id": null,
   "title": "Financial Analyst",
+  "department": "Finance",
+  "employment_type": null,
+  "location": "Mumbai, Maharashtra",
   "experience_required": {
     "min_years": 2,
     "max_years": 4
   },
-  "education_requirement": {
-    "raw_text": "- M.Com, MBA Finance, or CFA Level 1 cleared",
-    "level": "Master's"
-  },
   "required_skills": [
-    "Excel",
-    "Power BI",
-    "SAP FICO"
+    {
+      "name": "Excel",
+      "category": "domain",
+      "mandatory": true
+    },
+    {
+      "name": "Power BI",
+      "category": "domain",
+      "mandatory": true
+    },
+    {
+      "name": "SAP FICO",
+      "category": "domain",
+      "mandatory": true
+    }
   ],
+  "education_requirements": [
+    {
+      "degree": "Master's",
+      "field_of_study": null,
+      "mandatory": true
+    }
+  ],
+  "responsibilities": [
+    "Prepare monthly MIS reports for leadership",
+    "Build and maintain rolling forecast models",
+    "Support quarterly close and audit preparation"
+  ],
+  "salary_range": null,
+  "source_file": "financial_analyst.txt",
+  "parsed_at": "2026-09-30T07:40:29",
   "normalized_text": "Role: Financial Analyst\nDepartment: Finance\nLocation: Mumbai, Maharashtra\n\nAbout Us\nA mid-size manufacturing firm is looking for a Financial Analyst to support budgeting, forecasting and reporting.\n\nREQUIREMENTS\n- 2 to 4 years of experience in financial analysis or FP&A\n- Advanced Excel skills and experience with Power BI\n- Knowledge of SAP FICO is a plus\n- M.Com, MBA Finance, or CFA Level 1 cleared\n\nRESPONSIBILITIES\n- Prepare monthly MIS reports for leadership\n- Build and maintain rolling forecast models\n- Support quarterly close and audit preparation"
 }

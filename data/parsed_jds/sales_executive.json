@@ -1,20 +1,50 @@
 {
-  "source_file": "sales_executive.txt",
-  "parsed_at": "2026-09-29T08:17:20",
+  "job_id": null,
   "title": "Sales Executive",
+  "department": "Sales",
+  "employment_type": null,
+  "location": "Kochi, Kerala",
   "experience_required": {
     "min_years": 2,
     "max_years": null
   },
-  "education_requirement": {
-    "raw_text": "- Bachelor's degree in any discipline; BBA preferred",
-    "level": "Bachelor's"
-  },
   "required_skills": [
-    "Negotiation",
-    "Salesforce",
-    "Zoho",
-    "CRM"
+    {
+      "name": "Negotiation",
+      "category": "soft",
+      "mandatory": true
+    },
+    {
+      "name": "Salesforce",
+      "category": "domain",
+      "mandatory": true
+    },
+    {
+      "name": "Zoho",
+      "category": "domain",
+      "mandatory": true
+    },
+    {
+      "name": "CRM",
+      "category": "domain",
+      "mandatory": true
+    }
   ],
+  "education_requirements": [
+    {
+      "degree": "Bachelor's",
+      "field_of_study": "any discipline; BBA preferred",
+      "mandatory": true
+    }
+  ],
+  "responsibilities": [
+    "Onboard new retail partners",
+    "Manage and grow existing distributor accounts",
+    "Meet monthly and quarterly sales targets",
+    "Travel within the assigned territory as needed"
+  ],
+  "salary_range": null,
+  "source_file": "sales_executive.txt",
+  "parsed_at": "2026-09-30T07:40:29",
   "normalized_text": "Position: Sales Executive\nLocation: Kochi, Kerala\nDepartment: Sales\n\nJob Summary\nWe are seeking a driven Sales Executive to grow our retail distributor network in the FMCG sector.\n\nREQUIREMENTS\n- At least 2 years of experience in B2B sales, preferably FMCG\n- Strong negotiation and relationship-building skills\n- Experience using CRM tools (Zoho, Salesforce, or similar)\n- Bachelor's degree in any discipline; BBA preferred\n\nRESPONSIBILITIES\n- Onboard new retail partners\n- Manage and grow existing distributor accounts\n- Meet monthly and quarterly sales targets\n- Travel within the assigned territory as needed"
 }

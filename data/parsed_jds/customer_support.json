@@ -1,17 +1,34 @@
 {
-  "source_file": "customer_support.txt",
-  "parsed_at": "2026-09-29T08:17:20",
+  "job_id": null,
   "title": "Customer Support Executive",
+  "department": null,
+  "employment_type": null,
+  "location": "Kozhikode, Kerala",
   "experience_required": {
     "min_years": 1,
     "max_years": 3
   },
-  "education_requirement": {
-    "raw_text": "- Any graduate degree",
-    "level": "Bachelor's"
-  },
   "required_skills": [
-    "Zendesk"
+    {
+      "name": "Zendesk",
+      "category": "domain",
+      "mandatory": true
+    }
   ],
+  "education_requirements": [
+    {
+      "degree": "Bachelor's",
+      "field_of_study": null,
+      "mandatory": true
+    }
+  ],
+  "responsibilities": [
+    "Handle 50+ customer interactions daily across chat and voice",
+    "Troubleshoot product issues and escalate when needed",
+    "Maintain high customer satisfaction scores"
+  ],
+  "salary_range": null,
+  "source_file": "customer_support.txt",
+  "parsed_at": "2026-09-30T07:40:29",
   "normalized_text": "Customer Support Executive\n\nLocation: Kozhikode, Kerala\n\nWe are hiring a Customer Support Executive for our fintech product support team.\n\nREQUIREMENTS\n- 1-3 years of experience in customer support (voice/chat)\n- Experience with Zendesk or similar ticketing tools\n- Excellent communication skills in English and Malayalam\n- Any graduate degree\n\nRESPONSIBILITIES\n- Handle 50+ customer interactions daily across chat and voice\n- Troubleshoot product issues and escalate when needed\n- Maintain high customer satisfaction scores"
 }

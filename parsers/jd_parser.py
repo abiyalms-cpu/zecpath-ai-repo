@@ -2,8 +2,9 @@
 Main entry point of the JD parsing system.
 
 Give it a job description (plain text) and it returns a structured job
-requirement object: role, experience, education and skills, normalized
-against the synonym tables, in the shape Day 4's JD schema defined.
+requirement object matching Day 4's JD schema: role, location, department,
+experience, education, skills and responsibilities, normalized against the
+synonym tables so different wordings collapse into one form.
 """
 
 import json
@@ -11,7 +12,17 @@ import os
 from datetime import datetime
 
 from parsers.jd_cleaner import clean_jd_text
-from parsers.jd_extractor import extract_education, extract_experience, extract_role, extract_skills
+from parsers.jd_extractor import (
+    extract_department,
+    extract_education,
+    extract_employment_type,
+    extract_experience,
+    extract_location,
+    extract_responsibilities,
+    extract_role,
+    extract_salary_range,
+    extract_skills,
+)
 from utils.logger import get_logger
 
 logger = get_logger(__name__)
@@ -22,20 +33,24 @@ def parse_jd_text(raw_text: str, source_file: str = "") -> dict:
     text = clean_jd_text(raw_text)
 
     role = extract_role(text)
-    experience = extract_experience(text)
-    education = extract_education(text)
-    skills = extract_skills(text)
-
     if not role:
         logger.warning(f"No known role found in {source_file or 'JD text'}")
 
     return {
+        # job_id is assigned by whatever system creates the posting - it
+        # cannot be extracted from the JD text itself, so it stays null here.
+        "job_id": None,
+        "title": role,
+        "department": extract_department(text),
+        "employment_type": extract_employment_type(text),
+        "location": extract_location(text),
+        "experience_required": extract_experience(text),
+        "required_skills": extract_skills(text),
+        "education_requirements": extract_education(text),
+        "responsibilities": extract_responsibilities(text),
+        "salary_range": extract_salary_range(text),
         "source_file": source_file,
         "parsed_at": datetime.now().isoformat(timespec="seconds"),
-        "title": role,
-        "experience_required": experience,
-        "education_requirement": education,
-        "required_skills": skills,
         "normalized_text": text,
     }
 

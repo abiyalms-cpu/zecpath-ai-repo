@@ -50,6 +50,20 @@ SKILL_SYNONYMS = {
     "Zendesk": ["zendesk"],
     "Negotiation": ["negotiation"],
 }
+SKILL_CATEGORIES = {
+    "Java": "technical", "Python": "technical", "JavaScript": "technical",
+    "React": "technical", "Node.js": "technical", "SQL": "technical",
+    "MySQL": "technical", "PostgreSQL": "technical", "MongoDB": "technical",
+    "GraphQL": "technical", "AWS": "technical", "Docker": "technical",
+    "REST APIs": "technical", "Microservices": "technical", "CI/CD": "technical",
+    "SolidWorks": "technical", "AutoCAD": "technical", "GD&T": "technical", "DFMEA": "technical",
+    "Excel": "domain", "Power BI": "domain", "SAP FICO": "domain", "CRM": "domain",
+    "Salesforce": "domain", "Zoho": "domain", "HRIS": "domain", "Darwinbox": "domain",
+    "SAP SuccessFactors": "domain", "Google Ads": "domain", "Meta Ads": "domain",
+    "SEO": "domain", "Google Analytics 4": "domain", "Mailchimp": "domain",
+    "Zendesk": "domain", "Lean Manufacturing": "domain",
+    "Negotiation": "soft",
+}
 
 
 def _build_lookup(synonym_map):

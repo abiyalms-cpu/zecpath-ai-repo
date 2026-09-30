@@ -1,19 +1,45 @@
 {
-  "source_file": "hr_manager.txt",
-  "parsed_at": "2026-09-29T08:17:20",
+  "job_id": null,
   "title": "HR Manager",
+  "department": null,
+  "employment_type": null,
+  "location": "Chennai, Tamil Nadu",
   "experience_required": {
     "min_years": 5,
     "max_years": null
   },
-  "education_requirement": {
-    "raw_text": "- MBA in HR or a Master's degree in a related field",
-    "level": "Master's"
-  },
   "required_skills": [
-    "SAP SuccessFactors",
-    "Darwinbox",
-    "HRIS"
+    {
+      "name": "SAP SuccessFactors",
+      "category": "domain",
+      "mandatory": true
+    },
+    {
+      "name": "Darwinbox",
+      "category": "domain",
+      "mandatory": true
+    },
+    {
+      "name": "HRIS",
+      "category": "domain",
+      "mandatory": true
+    }
   ],
+  "education_requirements": [
+    {
+      "degree": "Master's",
+      "field_of_study": "HR or a Master's degree in a related field",
+      "mandatory": true
+    }
+  ],
+  "responsibilities": [
+    "Lead end-to-end recruitment for multiple departments",
+    "Design and improve onboarding processes",
+    "Handle employee grievances and disciplinary matters",
+    "Partner with leadership on workforce planning"
+  ],
+  "salary_range": null,
+  "source_file": "hr_manager.txt",
+  "parsed_at": "2026-09-30T07:40:29",
   "normalized_text": "Job Title: HR Manager\nLocation: Chennai, Tamil Nadu\n\nOverview\nOur growing manufacturing unit is looking for an experienced HR Manager to lead recruitment and employee relations for a 250+ person team.\n\nREQUIREMENTS\n- 5+ years of experience in Human Resources, with at least 2 years in a managerial role\n- Experience with HRIS systems (Darwinbox, SAP SuccessFactors, or equivalent)\n- MBA in HR or a Master's degree in a related field\n- Strong understanding of labour law compliance\n\nRESPONSIBILITIES\n- Lead end-to-end recruitment for multiple departments\n- Design and improve onboarding processes\n- Handle employee grievances and disciplinary matters\n- Partner with leadership on workforce planning"
 }

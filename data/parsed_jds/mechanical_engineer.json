@@ -1,21 +1,54 @@
 {
-  "source_file": "mechanical_engineer.txt",
-  "parsed_at": "2026-09-29T08:17:20",
+  "job_id": null,
   "title": "Mechanical Engineer",
+  "department": null,
+  "employment_type": null,
+  "location": "Thrissur, Kerala",
   "experience_required": {
     "min_years": 3,
     "max_years": 5
   },
-  "education_requirement": {
-    "raw_text": "- B.Tech / B.E in Mechanical Engineering",
-    "level": "Bachelor's"
-  },
   "required_skills": [
-    "Lean Manufacturing",
-    "SolidWorks",
-    "AutoCAD",
-    "DFMEA",
-    "GD&T"
+    {
+      "name": "Lean Manufacturing",
+      "category": "domain",
+      "mandatory": true
+    },
+    {
+      "name": "SolidWorks",
+      "category": "technical",
+      "mandatory": true
+    },
+    {
+      "name": "AutoCAD",
+      "category": "technical",
+      "mandatory": true
+    },
+    {
+      "name": "DFMEA",
+      "category": "technical",
+      "mandatory": true
+    },
+    {
+      "name": "GD&T",
+      "category": "technical",
+      "mandatory": true
+    }
   ],
+  "education_requirements": [
+    {
+      "degree": "Bachelor's",
+      "field_of_study": "Mechanical Engineering",
+      "mandatory": true
+    }
+  ],
+  "responsibilities": [
+    "Design and validate automotive components",
+    "Lead root cause analysis for field failures",
+    "Work with cross-functional teams on new product introductions"
+  ],
+  "salary_range": null,
+  "source_file": "mechanical_engineer.txt",
+  "parsed_at": "2026-09-30T07:40:29",
   "normalized_text": "Job Title: Mechanical Design Engineer\nLocation: Thrissur, Kerala\n\nJob Description\nWe need a mechanical engineer with 3-5 years of experience in automotive component design.\n\nREQUIREMENTS\n- Proficiency in SolidWorks and AutoCAD\n- Experience with GD&T and DFMEA processes\n- Understanding of Lean Manufacturing principles\n- B.Tech / B.E in Mechanical Engineering\n\nRESPONSIBILITIES\n- Design and validate automotive components\n- Lead root cause analysis for field failures\n- Work with cross-functional teams on new product introductions\n\nNICE TO HAVE\n- Certified SolidWorks Associate (CSWA)"
 }

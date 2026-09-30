@@ -64,3 +64,13 @@ python run_tests.py
 Known limits:
 - Scanned (image-only) PDFs are flagged as `no_text_found`. Reading them would need OCR, which is not built yet.
 - Wrapped-line and two-column detection are rules of thumb, tuned on the 24 sample resumes in `data/resumes/`. An unusual layout may need the rules adjusted.
+## JD parsing (Day 6)
+
+Turns a plain-text job description into a structured job requirement
+object, matching the schema from Day 4. Full documentation: `JD_PARSING.md`.
+
+Run it on a whole folder:
+
+```bash
+python -c "from parsers.jd_parser import parse_folder; parse_folder('data/job_descriptions', 'data/parsed_jds')"
+```
