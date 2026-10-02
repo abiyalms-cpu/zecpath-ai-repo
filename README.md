@@ -34,7 +34,7 @@ Logs go to the console and to `logs/zecpath_ai.log`.
 ## Tests
 
 Run `pytest` to check everything still works.
-## Resume text extraction (Day 5)
+## Resume text extraction 
 
 Turns a PDF or DOCX resume into clean plain text, ready for the AI to read.
 
@@ -64,7 +64,7 @@ python run_tests.py
 Known limits:
 - Scanned (image-only) PDFs are flagged as `no_text_found`. Reading them would need OCR, which is not built yet.
 - Wrapped-line and two-column detection are rules of thumb, tuned on the 24 sample resumes in `data/resumes/`. An unusual layout may need the rules adjusted.
-## JD parsing (Day 6)
+## JD parsing 
 
 Turns a plain-text job description into a structured job requirement
 object, matching the schema from Day 4. Full documentation: `JD_PARSING.md`.
@@ -73,4 +73,13 @@ Run it on a whole folder:
 
 ```bash
 python -c "from parsers.jd_parser import parse_folder; parse_folder('data/job_descriptions', 'data/parsed_jds')"
+```
+## Resume section classification 
+
+Splits cleaned resume text (from Day 5) into labeled sections: SUMMARY,
+SKILLS, EXPERIENCE, EDUCATION, CERTIFICATIONS, PROJECTS. Full accuracy
+report: `SECTION_ACCURACY_REPORT.md`.
+
+```bash
+python -c "from parsers.section_tagger import tag_folder; tag_folder('data/extracted', 'data/segmented')"
 ```

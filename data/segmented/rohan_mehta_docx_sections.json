@@ -1,0 +1,32 @@
+{
+  "source_file": "rohan_mehta.docx",
+  "method": "heading",
+  "sections": {
+    "HEADER": [
+      "Rohan Mehta",
+      "Software Developer",
+      "Bengaluru, Karnataka | rohan.mehta.dev@gmail.com | +91 98450 12345 | linkedin.com/in/rohanmehta"
+    ],
+    "SUMMARY": [
+      "Backend-focused software developer with 3 years of experience building REST APIs and microservices for e-commerce platforms. Comfortable working across the stack when needed."
+    ],
+    "SKILLS": [
+      "Java, Spring Boot, Python, REST APIs, MySQL, MongoDB, Docker, Git, AWS (EC2, S3), Agile/Scrum"
+    ],
+    "EXPERIENCE": [
+      "Software Engineer, Kestrel Technologies, Bengaluru — Jun 2023 – Present",
+      "- Built and maintained 6+ microservices handling order processing for a platform doing 50k+ daily transactions",
+      "- Reduced average API response time by 35% by optimizing database queries and adding caching",
+      "- Mentored 2 junior developers during onboarding",
+      "Junior Developer, Codeverse Solutions, Pune — Jul 2021 – May 2023",
+      "- Developed internal tools using Python and Flask for the operations team",
+      "- Fixed production bugs and wrote unit tests, raising test coverage from 40% to 70%"
+    ],
+    "EDUCATION": [
+      "B.Tech, Computer Science — Visvesvaraya Technological University (2021)"
+    ],
+    "CERTIFICATIONS": [
+      "- AWS Certified Cloud Practitioner (2023)"
+    ]
+  }
+}

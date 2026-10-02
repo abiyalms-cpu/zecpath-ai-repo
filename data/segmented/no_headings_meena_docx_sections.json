@@ -1,0 +1,31 @@
+{
+  "source_file": "no_headings_meena.docx",
+  "method": "heuristic",
+  "sections": {
+    "HEADER": [
+      "Meena Pillai",
+      "meena.pillai.design@gmail.com | +91 96330 44210 | Kochi, Kerala"
+    ],
+    "UNCLASSIFIED": [
+      "Product designer focused on mobile app experiences, with a habit of sketching flows on paper before touching Figma."
+    ],
+    "SKILLS": [
+      "Figma, Sketch, Adobe XD, User Research, Wireframing, Prototyping, Design Systems."
+    ],
+    "EXPERIENCE": [
+      "Senior Product Designer at Lumen Health App, Kochi — Aug 2021 to Present.",
+      "- Redesigned the onboarding flow, increasing completion rate by 24%",
+      "- Built and maintained a shared design system used across 3 product squads",
+      "- Led usability testing sessions with 20+ users every quarter",
+      "UX Designer at Clario Fintech, Kochi — Jun 2019 to Jul 2021.",
+      "- Designed the mobile banking app's card management screens",
+      "- Partnered with engineering to ship a redesigned dashboard in 6 weeks"
+    ],
+    "EDUCATION": [
+      "B.Des in Interaction Design, National Institute of Design, 2019."
+    ],
+    "CERTIFICATIONS": [
+      "Google UX Design Certificate, completed 2020."
+    ]
+  }
+}

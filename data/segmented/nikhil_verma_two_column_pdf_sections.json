@@ -1,0 +1,37 @@
+{
+  "source_file": "nikhil_verma_two_column.pdf",
+  "method": "heading",
+  "sections": {
+    "HEADER": [
+      "Nikhil Verma",
+      "Full Stack Developer",
+      "CONTACT",
+      "Hyderabad, Telangana nikhil.verma@gmail.com +91 90000 12345"
+    ],
+    "SKILLS": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "EDUCATION": [
+      "B.Tech, Information Technology",
+      "JNTU Hyderabad (2020)"
+    ],
+    "CERTIFICATIONS": [
+      "AWS Certified Developer (2023)"
+    ],
+    "SUMMARY": [
+      "Full stack developer with 5 years of experience building web apps for fintech and retail clients."
+    ],
+    "EXPERIENCE": [
+      "Senior Developer, Finlytics Pvt Ltd — Feb 2022 – Present",
+      "- Led a team of 4 building a payments dashboard used by 30k users",
+      "- Cut page load time by 40% by moving to server-side rendering",
+      "Developer, Webcraft Studio — Jul 2020 – Jan 2022",
+      "- Built 8 client websites using React and Node.js",
+      "- Set up CI pipelines that reduced release time from 2 days to 3 hours"
+    ]
+  }
+}

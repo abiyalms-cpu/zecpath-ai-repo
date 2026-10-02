@@ -1,0 +1,29 @@
+{
+  "source_file": "aditya_rao.pdf",
+  "method": "heading",
+  "sections": {
+    "HEADER": [
+      "Aditya Rao",
+      "Graphic Designer",
+      "Pune, Maharashtra | aditya.rao.design@gmail.com | +91 90210 34567 | behance.net/adityarao"
+    ],
+    "SUMMARY": [
+      "Graphic designer with 5 years of experience across branding, packaging, and digital ad creatives for consumer brands."
+    ],
+    "SKILLS": [
+      "Adobe Photoshop, Illustrator, InDesign, Figma, Brand Identity Design, Packaging Design, Typography"
+    ],
+    "EXPERIENCE": [
+      "Senior Graphic Designer, Studio Ember Creative Agency — Mar 2022 – Present",
+      "- Led rebranding projects for 6 clients, including full logo and identity systems",
+      "- Designed packaging for 20+ product SKUs across 3 consumer brands",
+      "- Mentored a team of 2 junior designers",
+      "Graphic Designer, Pixel & Pine Studio — Jul 2019 – Feb 2022",
+      "- Created digital ad creatives for social media campaigns",
+      "- Collaborated with the marketing team on seasonal campaign assets"
+    ],
+    "EDUCATION": [
+      "B.Des, Visual Communication — Symbiosis Institute of Design (2019)"
+    ]
+  }
+}

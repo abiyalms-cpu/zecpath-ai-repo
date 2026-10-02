@@ -1,0 +1,9 @@
+{
+  "source_file": "ananya_rao.docx",
+  "file_type": "docx",
+  "status": "ok",
+  "extracted_at": "2026-10-02T15:52:21",
+  "char_count": 959,
+  "line_count": 22,
+  "text": "Ananya Rao\nFrontend Developer\nPune, Maharashtra | ananya.rao.dev@gmail.com | +91 98220 55110\nSUMMARY\nFrontend developer with 2 years of experience building React-based dashboards and internal tools.\nSKILLS\nJavaScript, React, TypeScript, Tailwind CSS, Figma, Git\nPROJECTS\nExpense Tracker Web App\n- Built a personal finance tracker using React and Firebase\n- Added charts with Recharts to visualize monthly spending\nInternal Admin Dashboard (Capstone Project)\n- Led a 3-person team to build an admin dashboard for a college event platform\n- Implemented role-based access control and a notifications panel\nEXPERIENCE\nFrontend Developer, Brightloop Software — Jan 2024 – Present\n- Built and maintained 4 internal dashboards used by the operations team\n- Migrated a legacy jQuery UI to React, cutting page load time by 30%\nEDUCATION\nB.Tech, Information Technology — Pune Institute of Computer Technology (2023)\nCERTIFICATIONS\n- Meta Front-End Developer Certificate"
+}

@@ -21,6 +21,7 @@ HEADING_ALIASES = {
                   "educational qualifications", "qualifications", "academics"],
     "CERTIFICATIONS": ["certifications", "certificates",
                        "licenses & certifications", "courses & certifications"],
+    "PROJECTS": ["projects", "personal projects", "key projects", "academic projects", "project experience"],                   
 }
 ALIAS_TO_STANDARD = {
     alias: standard
