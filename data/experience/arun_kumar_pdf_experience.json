@@ -1,0 +1,31 @@
+{
+  "source_file": "arun_kumar.pdf",
+  "jobs": [
+    {
+      "raw_line": "Mathematics Teacher (Grades 8-10), Greenfield International School \u2014 Jun 2017 \u2013 Present",
+      "title": "Mathematics Teacher (Grades 8-10)",
+      "company": "Greenfield International School",
+      "start_month": 6,
+      "start_year": 2017,
+      "end_month": null,
+      "end_year": null,
+      "is_current": true
+    },
+    {
+      "raw_line": "Mathematics Teacher (Grades 6-8), St. Michael's Higher Secondary School \u2014 Jun 2015 \u2013 May 2017",
+      "title": "Mathematics Teacher (Grades 6-8)",
+      "company": "St. Michael's Higher Secondary School",
+      "start_month": 6,
+      "start_year": 2015,
+      "end_month": 5,
+      "end_year": 2017,
+      "is_current": false
+    }
+  ],
+  "total_experience_months": 137,
+  "total_experience_display": "11y 5m",
+  "gaps": [],
+  "overlaps": [],
+  "relevance": null,
+  "extracted_at": "2026-10-05T11:33:25.722706+00:00"
+}

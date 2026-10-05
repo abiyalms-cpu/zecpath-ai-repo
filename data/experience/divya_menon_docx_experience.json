@@ -1,0 +1,31 @@
+{
+  "source_file": "divya_menon.docx",
+  "jobs": [
+    {
+      "raw_line": "Digital Marketing Specialist, Loopstack Media \u2014 Sep 2022 \u2013 Present",
+      "title": "Digital Marketing Specialist",
+      "company": "Loopstack Media",
+      "start_month": 9,
+      "start_year": 2022,
+      "end_month": null,
+      "end_year": null,
+      "is_current": true
+    },
+    {
+      "raw_line": "Marketing Associate, Urban Roots D2C \u2014 Jan 2021 \u2013 Aug 2022",
+      "title": "Marketing Associate",
+      "company": "Urban Roots D2C",
+      "start_month": 1,
+      "start_year": 2021,
+      "end_month": 8,
+      "end_year": 2022,
+      "is_current": false
+    }
+  ],
+  "total_experience_months": 70,
+  "total_experience_display": "5y 10m",
+  "gaps": [],
+  "overlaps": [],
+  "relevance": null,
+  "extracted_at": "2026-10-05T11:33:25.725271+00:00"
+}

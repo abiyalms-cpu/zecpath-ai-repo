@@ -1,0 +1,31 @@
+{
+  "source_file": "karthik_subramaniam.docx",
+  "jobs": [
+    {
+      "raw_line": "Financial Analyst, Trident Industries \u2014 Aug 2021 \u2013 Present",
+      "title": "Financial Analyst",
+      "company": "Trident Industries",
+      "start_month": 8,
+      "start_year": 2021,
+      "end_month": null,
+      "end_year": null,
+      "is_current": true
+    },
+    {
+      "raw_line": "Finance Associate, Aster Capital Advisors \u2014 Jul 2019 \u2013 Jul 2021",
+      "title": "Finance Associate",
+      "company": "Aster Capital Advisors",
+      "start_month": 7,
+      "start_year": 2019,
+      "end_month": 7,
+      "end_year": 2021,
+      "is_current": false
+    }
+  ],
+  "total_experience_months": 88,
+  "total_experience_display": "7y 4m",
+  "gaps": [],
+  "overlaps": [],
+  "relevance": null,
+  "extracted_at": "2026-10-05T11:33:25.739067+00:00"
+}

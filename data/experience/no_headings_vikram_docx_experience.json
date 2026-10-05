@@ -1,0 +1,31 @@
+{
+  "source_file": "no_headings_vikram.docx",
+  "jobs": [
+    {
+      "raw_line": "Operations Lead at Swiftline Logistics, Bengaluru, from March 2021 to present. Reduced average delivery delays by 22% across 4 regional hubs. Managed a team of 12 warehouse staff and 3 shift supervisors. Introduced a new vendor scorecard system that cut late deliveries from vendors by a third.",
+      "title": "Operations Lead",
+      "company": "Swiftline Logistics",
+      "start_month": 3,
+      "start_year": 2021,
+      "end_month": null,
+      "end_year": null,
+      "is_current": true
+    },
+    {
+      "raw_line": "Warehouse Supervisor at Metro Freight Solutions, Chennai, from June 2018 to February 2021. Supervised daily operations for a 40,000 sq ft warehouse. Coordinated with 15+ vendors on inbound shipment schedules. Trained new warehouse staff on safety protocols and inventory systems.",
+      "title": "Warehouse Supervisor",
+      "company": "Metro Freight Solutions",
+      "start_month": 6,
+      "start_year": 2018,
+      "end_month": 2,
+      "end_year": 2021,
+      "is_current": false
+    }
+  ],
+  "total_experience_months": 101,
+  "total_experience_display": "8y 5m",
+  "gaps": [],
+  "overlaps": [],
+  "relevance": null,
+  "extracted_at": "2026-10-05T11:33:25.751826+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "source_file": "ananya_rao.docx",
+  "jobs": [
+    {
+      "raw_line": "Frontend Developer, Brightloop Software \u2014 Jan 2024 \u2013 Present",
+      "title": "Frontend Developer",
+      "company": "Brightloop Software",
+      "start_month": 1,
+      "start_year": 2024,
+      "end_month": null,
+      "end_year": null,
+      "is_current": true
+    }
+  ],
+  "total_experience_months": 34,
+  "total_experience_display": "2y 10m",
+  "gaps": [],
+  "overlaps": [],
+  "relevance": null,
+  "extracted_at": "2026-10-05T11:33:25.711029+00:00"
+}

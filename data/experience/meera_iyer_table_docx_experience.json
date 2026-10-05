@@ -1,0 +1,21 @@
+{
+  "source_file": "meera_iyer_table.docx",
+  "jobs": [
+    {
+      "raw_line": "Data Analyst, Northwind Retail \u2014 Jan 2022 \u2013 Present",
+      "title": "Data Analyst",
+      "company": "Northwind Retail",
+      "start_month": 1,
+      "start_year": 2022,
+      "end_month": null,
+      "end_year": null,
+      "is_current": true
+    }
+  ],
+  "total_experience_months": 58,
+  "total_experience_display": "4y 10m",
+  "gaps": [],
+  "overlaps": [],
+  "relevance": null,
+  "extracted_at": "2026-10-05T11:33:25.743708+00:00"
+}

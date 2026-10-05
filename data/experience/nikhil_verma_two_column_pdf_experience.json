@@ -1,0 +1,31 @@
+{
+  "source_file": "nikhil_verma_two_column.pdf",
+  "jobs": [
+    {
+      "raw_line": "Senior Developer, Finlytics Pvt Ltd \u2014 Feb 2022 \u2013 Present",
+      "title": "Senior Developer",
+      "company": "Finlytics Pvt Ltd",
+      "start_month": 2,
+      "start_year": 2022,
+      "end_month": null,
+      "end_year": null,
+      "is_current": true
+    },
+    {
+      "raw_line": "Developer, Webcraft Studio \u2014 Jul 2020 \u2013 Jan 2022",
+      "title": "Developer",
+      "company": "Webcraft Studio",
+      "start_month": 7,
+      "start_year": 2020,
+      "end_month": 1,
+      "end_year": 2022,
+      "is_current": false
+    }
+  ],
+  "total_experience_months": 76,
+  "total_experience_display": "6y 4m",
+  "gaps": [],
+  "overlaps": [],
+  "relevance": null,
+  "extracted_at": "2026-10-05T11:33:25.746117+00:00"
+}

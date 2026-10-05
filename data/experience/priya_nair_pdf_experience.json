@@ -1,0 +1,31 @@
+{
+  "source_file": "priya_nair.pdf",
+  "jobs": [
+    {
+      "raw_line": "Senior Sales Executive, Brightline Foods Pvt Ltd \u2014 Apr 2022 \u2013 Present",
+      "title": "Senior Sales Executive",
+      "company": "Brightline Foods Pvt Ltd",
+      "start_month": 4,
+      "start_year": 2022,
+      "end_month": null,
+      "end_year": null,
+      "is_current": true
+    },
+    {
+      "raw_line": "Sales Associate, Meridian Consumer Goods \u2014 Jan 2020 \u2013 Mar 2022",
+      "title": "Sales Associate",
+      "company": "Meridian Consumer Goods",
+      "start_month": 1,
+      "start_year": 2020,
+      "end_month": 3,
+      "end_year": 2022,
+      "is_current": false
+    }
+  ],
+  "total_experience_months": 82,
+  "total_experience_display": "6y 10m",
+  "gaps": [],
+  "overlaps": [],
+  "relevance": null,
+  "extracted_at": "2026-10-05T11:33:25.757211+00:00"
+}

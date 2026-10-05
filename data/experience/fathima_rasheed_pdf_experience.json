@@ -1,0 +1,31 @@
+{
+  "source_file": "fathima_rasheed.pdf",
+  "jobs": [
+    {
+      "raw_line": "Senior Customer Support Executive, PayNest Fintech Solutions \u2014 Nov 2022 \u2013 Present",
+      "title": "Senior Customer Support Executive",
+      "company": "PayNest Fintech Solutions",
+      "start_month": 11,
+      "start_year": 2022,
+      "end_month": null,
+      "end_year": null,
+      "is_current": true
+    },
+    {
+      "raw_line": "Customer Support Associate, Clarion BPO Services \u2014 Feb 2021 \u2013 Oct 2022",
+      "title": "Customer Support Associate",
+      "company": "Clarion BPO Services",
+      "start_month": 2,
+      "start_year": 2021,
+      "end_month": 10,
+      "end_year": 2022,
+      "is_current": false
+    }
+  ],
+  "total_experience_months": 69,
+  "total_experience_display": "5y 9m",
+  "gaps": [],
+  "overlaps": [],
+  "relevance": null,
+  "extracted_at": "2026-10-05T11:33:25.733942+00:00"
+}

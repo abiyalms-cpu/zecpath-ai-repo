@@ -1,0 +1,21 @@
+{
+  "source_file": "ishaan_kapoor_photo.docx",
+  "jobs": [
+    {
+      "raw_line": "Operations Manager, Zenith Logistics \u2014 Mar 2020 \u2013 Present",
+      "title": "Operations Manager",
+      "company": "Zenith Logistics",
+      "start_month": 3,
+      "start_year": 2020,
+      "end_month": null,
+      "end_year": null,
+      "is_current": true
+    }
+  ],
+  "total_experience_months": 80,
+  "total_experience_display": "6y 8m",
+  "gaps": [],
+  "overlaps": [],
+  "relevance": null,
+  "extracted_at": "2026-10-05T11:33:25.736635+00:00"
+}

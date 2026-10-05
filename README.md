@@ -98,3 +98,18 @@ Run it:
 python -c "from skills_engine.skill_tagger import tag_folder; tag_folder('data/segmented', 'data/skills')"
 python run_tests.py
 ```
+## Experience parsing & relevance engine
+
+Parses a resume's EXPERIENCE section (from Day 8) into structured job entries — company, title, start/end dates — computes total experience (merging overlapping date ranges so dual roles aren't double-counted), flags gaps and overlaps between jobs, and scores how relevant a candidate's past roles are to a specific job description.
+
+Files: `experience_engine/experience_parser.py` (extracts company/title/dates from messy real-world header formats like "Title, Company — Date – Date" and "Title at Company, Location, from Date to Date"), `experience_engine/experience_calculator.py` (total experience, gap/overlap detection), `experience_engine/relevance_scorer.py` (role-to-role similarity via Day 6's role synonyms, plus skill overlap via Day 9's skill profiles), `experience_engine/experience_tagger.py` (runs it all across a folder).
+
+Relevance combines two signals: role similarity (1.0 for an exact synonym match via Day 6, otherwise a word-overlap fallback) and skill overlap against a JD's mandatory required skills (from Day 9). Ran against all 27 resumes scored for a real Software Engineer JD, Rohan Mehta's actual software engineering background scored highest (0.62); unrelated profiles (sales, HR, mechanical engineering) correctly scored 0.
+
+Known limit: the word-overlap fallback for role similarity can give a small nonzero score to titles that share only a generic word like "Engineer" (e.g. "Design Engineer" vs "Software Engineer") without the roles being functionally related. This is honest word overlap, not a synonym match, and is visible in the `role_relevance` field rather than hidden in a single blended score.
+
+Run it:
+```
+python -c "from experience_engine.experience_tagger import tag_folder; tag_folder('data/segmented', 'data/experience')"
+python run_tests.py
+```

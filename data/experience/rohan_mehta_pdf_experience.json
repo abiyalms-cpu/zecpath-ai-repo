@@ -1,0 +1,31 @@
+{
+  "source_file": "rohan_mehta.pdf",
+  "jobs": [
+    {
+      "raw_line": "Software Engineer, Kestrel Technologies, Bengaluru \u2014 Jun 2023 \u2013 Present",
+      "title": "Software Engineer",
+      "company": "Kestrel Technologies, Bengaluru",
+      "start_month": 6,
+      "start_year": 2023,
+      "end_month": null,
+      "end_year": null,
+      "is_current": true
+    },
+    {
+      "raw_line": "Junior Developer, Codeverse Solutions, Pune \u2014 Jul 2021 \u2013 May 2023",
+      "title": "Junior Developer",
+      "company": "Codeverse Solutions, Pune",
+      "start_month": 7,
+      "start_year": 2021,
+      "end_month": 5,
+      "end_year": 2023,
+      "is_current": false
+    }
+  ],
+  "total_experience_months": 64,
+  "total_experience_display": "5y 4m",
+  "gaps": [],
+  "overlaps": [],
+  "relevance": null,
+  "extracted_at": "2026-10-05T11:33:25.762265+00:00"
+}

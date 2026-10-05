@@ -1,0 +1,31 @@
+{
+  "source_file": "sneha_thomas.docx",
+  "jobs": [
+    {
+      "raw_line": "Staff Nurse \u2013 ICU, St. Xavier's Multispecialty Hospital \u2014 Mar 2021 \u2013 Present",
+      "title": "Staff Nurse \u2013 ICU",
+      "company": "St. Xavier's Multispecialty Hospital",
+      "start_month": 3,
+      "start_year": 2021,
+      "end_month": null,
+      "end_year": null,
+      "is_current": true
+    },
+    {
+      "raw_line": "Staff Nurse \u2013 General Ward, Believers Church Medical College Hospital \u2014 Jun 2019 \u2013 Feb 2021",
+      "title": "Staff Nurse \u2013 General Ward",
+      "company": "Believers Church Medical College Hospital",
+      "start_month": 6,
+      "start_year": 2019,
+      "end_month": 2,
+      "end_year": 2021,
+      "is_current": false
+    }
+  ],
+  "total_experience_months": 89,
+  "total_experience_display": "7y 5m",
+  "gaps": [],
+  "overlaps": [],
+  "relevance": null,
+  "extracted_at": "2026-10-05T11:33:25.765131+00:00"
+}

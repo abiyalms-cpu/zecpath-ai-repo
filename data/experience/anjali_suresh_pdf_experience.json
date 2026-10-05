@@ -1,0 +1,31 @@
+{
+  "source_file": "anjali_suresh.pdf",
+  "jobs": [
+    {
+      "raw_line": "HR Manager, Solstice Manufacturing Ltd \u2014 Feb 2021 \u2013 Present",
+      "title": "HR Manager",
+      "company": "Solstice Manufacturing Ltd",
+      "start_month": 2,
+      "start_year": 2021,
+      "end_month": null,
+      "end_year": null,
+      "is_current": true
+    },
+    {
+      "raw_line": "HR Executive, Nova Textiles \u2014 Jun 2018 \u2013 Jan 2021",
+      "title": "HR Executive",
+      "company": "Nova Textiles",
+      "start_month": 6,
+      "start_year": 2018,
+      "end_month": 1,
+      "end_year": 2021,
+      "is_current": false
+    }
+  ],
+  "total_experience_months": 101,
+  "total_experience_display": "8y 5m",
+  "gaps": [],
+  "overlaps": [],
+  "relevance": null,
+  "extracted_at": "2026-10-05T11:33:25.716998+00:00"
+}

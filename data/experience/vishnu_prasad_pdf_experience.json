@@ -1,0 +1,31 @@
+{
+  "source_file": "vishnu_prasad.pdf",
+  "jobs": [
+    {
+      "raw_line": "Design Engineer, Torque Auto Components Pvt Ltd \u2014 May 2022 \u2013 Present",
+      "title": "Design Engineer",
+      "company": "Torque Auto Components Pvt Ltd",
+      "start_month": 5,
+      "start_year": 2022,
+      "end_month": null,
+      "end_year": null,
+      "is_current": true
+    },
+    {
+      "raw_line": "Graduate Engineer Trainee, Precision Forge Industries \u2014 Jun 2020 \u2013 Apr 2022",
+      "title": "Graduate Engineer Trainee",
+      "company": "Precision Forge Industries",
+      "start_month": 6,
+      "start_year": 2020,
+      "end_month": 4,
+      "end_year": 2022,
+      "is_current": false
+    }
+  ],
+  "total_experience_months": 77,
+  "total_experience_display": "6y 5m",
+  "gaps": [],
+  "overlaps": [],
+  "relevance": null,
+  "extracted_at": "2026-10-05T11:33:25.774550+00:00"
+}
