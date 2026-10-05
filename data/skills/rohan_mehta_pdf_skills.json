@@ -1,0 +1,101 @@
+{
+  "source_file": "rohan_mehta.pdf",
+  "method": "heading",
+  "skills": [
+    {
+      "skill": "MongoDB",
+      "category": "technical",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "mongodb",
+      "found_in": [
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "Python",
+      "category": "technical",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "python",
+      "found_in": [
+        "SKILLS",
+        "EXPERIENCE"
+      ]
+    },
+    {
+      "skill": "Docker",
+      "category": "technical",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "docker",
+      "found_in": [
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "MySQL",
+      "category": "technical",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "mysql",
+      "found_in": [
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "Java",
+      "category": "technical",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "java",
+      "found_in": [
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "AWS",
+      "category": "technical",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "aws",
+      "found_in": [
+        "SKILLS",
+        "CERTIFICATIONS"
+      ]
+    },
+    {
+      "skill": "Git",
+      "category": "technical",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "git",
+      "found_in": [
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "REST API",
+      "category": "technical",
+      "confidence": 0.93,
+      "match_type": "exact_synonym",
+      "matched_text": "rest",
+      "found_in": [
+        "SUMMARY",
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "Flask",
+      "category": "technical",
+      "confidence": 0.873,
+      "match_type": "exact_canonical",
+      "matched_text": "flask",
+      "found_in": [
+        "EXPERIENCE"
+      ]
+    }
+  ],
+  "total_skills_found": 9,
+  "extracted_at": "2026-10-05T02:37:56.206524+00:00"
+}

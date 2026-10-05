@@ -1,0 +1,91 @@
+{
+  "source_file": "ananya_rao.docx",
+  "method": "heading",
+  "skills": [
+    {
+      "skill": "React",
+      "category": "technical",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "react",
+      "found_in": [
+        "SUMMARY",
+        "SKILLS",
+        "PROJECTS",
+        "EXPERIENCE"
+      ]
+    },
+    {
+      "skill": "Tailwind CSS",
+      "category": "technical",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "tailwind css",
+      "found_in": [
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "JavaScript",
+      "category": "technical",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "javascript",
+      "found_in": [
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "TypeScript",
+      "category": "technical",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "typescript",
+      "found_in": [
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "Figma",
+      "category": "creative",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "figma",
+      "found_in": [
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "Git",
+      "category": "technical",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "git",
+      "found_in": [
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "Firebase",
+      "category": "technical",
+      "confidence": 0.921,
+      "match_type": "exact_canonical",
+      "matched_text": "firebase",
+      "found_in": [
+        "PROJECTS"
+      ]
+    },
+    {
+      "skill": "jQuery",
+      "category": "technical",
+      "confidence": 0.873,
+      "match_type": "exact_canonical",
+      "matched_text": "jquery",
+      "found_in": [
+        "EXPERIENCE"
+      ]
+    }
+  ],
+  "total_skills_found": 8,
+  "extracted_at": "2026-10-05T02:37:55.962255+00:00"
+}

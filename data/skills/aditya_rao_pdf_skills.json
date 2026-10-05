@@ -1,0 +1,38 @@
+{
+  "source_file": "aditya_rao.pdf",
+  "method": "heading",
+  "skills": [
+    {
+      "skill": "Adobe Photoshop",
+      "category": "creative",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "adobe photoshop",
+      "found_in": [
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "Figma",
+      "category": "creative",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "figma",
+      "found_in": [
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "Adobe Illustrator",
+      "category": "creative",
+      "confidence": 0.93,
+      "match_type": "exact_synonym",
+      "matched_text": "illustrator",
+      "found_in": [
+        "SKILLS"
+      ]
+    }
+  ],
+  "total_skills_found": 3,
+  "extracted_at": "2026-10-05T02:37:55.949384+00:00"
+}

@@ -1,0 +1,39 @@
+{
+  "source_file": "no_headings_meena.docx",
+  "method": "heuristic",
+  "skills": [
+    {
+      "skill": "Figma",
+      "category": "creative",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "figma",
+      "found_in": [
+        "UNCLASSIFIED",
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "Adobe XD",
+      "category": "creative",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "adobe xd",
+      "found_in": [
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "UI/UX Design",
+      "category": "creative",
+      "confidence": 0.837,
+      "match_type": "exact_synonym",
+      "matched_text": "ux design",
+      "found_in": [
+        "CERTIFICATIONS"
+      ]
+    }
+  ],
+  "total_skills_found": 3,
+  "extracted_at": "2026-10-05T02:37:56.140408+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "source_file": "anjali_suresh.pdf",
+  "method": "heading",
+  "skills": [
+    {
+      "skill": "HRIS",
+      "category": "technical",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "hris",
+      "found_in": [
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "Recruitment",
+      "category": "business",
+      "confidence": 0.93,
+      "match_type": "exact_synonym",
+      "matched_text": "talent acquisition",
+      "found_in": [
+        "SUMMARY",
+        "SKILLS",
+        "EXPERIENCE"
+      ]
+    },
+    {
+      "skill": "Payroll",
+      "category": "business",
+      "confidence": 0.873,
+      "match_type": "exact_canonical",
+      "matched_text": "payroll",
+      "found_in": [
+        "EXPERIENCE"
+      ]
+    }
+  ],
+  "total_skills_found": 3,
+  "extracted_at": "2026-10-05T02:37:55.995895+00:00"
+}

@@ -1,0 +1,48 @@
+{
+  "source_file": "no_headings_vikram.docx",
+  "method": "heuristic",
+  "skills": [
+    {
+      "skill": "Negotiation",
+      "category": "business",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "negotiation",
+      "found_in": [
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "Power BI",
+      "category": "technical",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "power bi",
+      "found_in": [
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "Excel",
+      "category": "technical",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "excel",
+      "found_in": [
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "Supply Chain Management",
+      "category": "business",
+      "confidence": 0.825,
+      "match_type": "exact_canonical",
+      "matched_text": "supply chain management",
+      "found_in": [
+        "EDUCATION"
+      ]
+    }
+  ],
+  "total_skills_found": 4,
+  "extracted_at": "2026-10-05T02:37:56.153946+00:00"
+}

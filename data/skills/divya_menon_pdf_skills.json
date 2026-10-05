@@ -1,0 +1,19 @@
+{
+  "source_file": "divya_menon.pdf",
+  "method": "heading",
+  "skills": [
+    {
+      "skill": "Digital Marketing",
+      "category": "creative",
+      "confidence": 0.873,
+      "match_type": "exact_canonical",
+      "matched_text": "digital marketing",
+      "found_in": [
+        "HEADER",
+        "EXPERIENCE"
+      ]
+    }
+  ],
+  "total_skills_found": 1,
+  "extracted_at": "2026-10-05T02:37:56.052935+00:00"
+}

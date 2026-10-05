@@ -1,0 +1,52 @@
+{
+  "source_file": "karthik_subramaniam.docx",
+  "method": "heading",
+  "skills": [
+    {
+      "skill": "Forecasting",
+      "category": "business",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "forecasting",
+      "found_in": [
+        "SUMMARY",
+        "SKILLS",
+        "EXPERIENCE"
+      ]
+    },
+    {
+      "skill": "Budgeting",
+      "category": "business",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "budgeting",
+      "found_in": [
+        "SUMMARY",
+        "SKILLS",
+        "EXPERIENCE"
+      ]
+    },
+    {
+      "skill": "Power BI",
+      "category": "technical",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "power bi",
+      "found_in": [
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "Excel",
+      "category": "technical",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "excel",
+      "found_in": [
+        "SKILLS"
+      ]
+    }
+  ],
+  "total_skills_found": 4,
+  "extracted_at": "2026-10-05T02:37:56.098901+00:00"
+}

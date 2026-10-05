@@ -1,0 +1,41 @@
+{
+  "source_file": "priya_nair.pdf",
+  "method": "heading",
+  "skills": [
+    {
+      "skill": "Sales",
+      "category": "business",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "sales",
+      "found_in": [
+        "HEADER",
+        "SUMMARY",
+        "SKILLS",
+        "EXPERIENCE"
+      ]
+    },
+    {
+      "skill": "Negotiation",
+      "category": "business",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "negotiation",
+      "found_in": [
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "Customer Relationship Management",
+      "category": "business",
+      "confidence": 0.93,
+      "match_type": "exact_synonym",
+      "matched_text": "crm",
+      "found_in": [
+        "SKILLS"
+      ]
+    }
+  ],
+  "total_skills_found": 3,
+  "extracted_at": "2026-10-05T02:37:56.176783+00:00"
+}

@@ -83,3 +83,18 @@ report: `SECTION_ACCURACY_REPORT.md`.
 ```bash
 python -c "from parsers.section_tagger import tag_folder; tag_folder('data/extracted', 'data/segmented')"
 ```
+## Skill extraction engine
+
+Pulls the actual skills out of a resume's section-tagged text (from Day 8) using a master dictionary of technical, business, and creative skills, with synonym matching, skill-stack expansion (MERN, MEAN, LAMP), and fuzzy matching for spelling mistakes the dictionary doesn't already list.
+
+Files: `skills_engine/skill_dictionary.py` (the master dictionary and stacks), `skills_engine/skill_extractor.py` (finds skills in a block of text), `skills_engine/skill_profile.py` (weights matches by which resume section they came from and deduplicates across sections), `skills_engine/skill_tagger.py` (runs the whole thing across a folder).
+
+Confidence per skill depends on how it was found — exact name match scores highest, a known synonym or stack-inferred mention next, a fuzzy spelling match lowest — multiplied by how much we trust the section it came from (the SKILLS section itself outweighs a passing mention buried in EXPERIENCE text).
+
+Three real bugs were caught while testing against actual resumes, not invented ones: a trailing sentence period was silently breaking fuzzy matching ("Pyhton." never matched "Python"), "Six Sigma" was fuzzy-matching "Figma" (fixed by requiring a fuzzy match to start with the same letter — real typos almost never change the first letter), and "Tailwind CSS" was being double-counted as a separate standalone "CSS" skill (fixed by tracking which part of the text a longer match already claims). All three are regression-tested.
+
+Run it:
+```
+python -c "from skills_engine.skill_tagger import tag_folder; tag_folder('data/segmented', 'data/skills')"
+python run_tests.py
+```

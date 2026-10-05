@@ -1,0 +1,70 @@
+{
+  "source_file": "nikhil_verma_two_column.pdf",
+  "method": "heading",
+  "skills": [
+    {
+      "skill": "TypeScript",
+      "category": "technical",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "typescript",
+      "found_in": [
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "PostgreSQL",
+      "category": "technical",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "postgresql",
+      "found_in": [
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "Node.js",
+      "category": "technical",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "node.js",
+      "found_in": [
+        "SKILLS",
+        "EXPERIENCE"
+      ]
+    },
+    {
+      "skill": "Docker",
+      "category": "technical",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "docker",
+      "found_in": [
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "React",
+      "category": "technical",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "react",
+      "found_in": [
+        "SKILLS",
+        "EXPERIENCE"
+      ]
+    },
+    {
+      "skill": "AWS",
+      "category": "technical",
+      "confidence": 0.873,
+      "match_type": "exact_canonical",
+      "matched_text": "aws",
+      "found_in": [
+        "CERTIFICATIONS"
+      ]
+    }
+  ],
+  "total_skills_found": 6,
+  "extracted_at": "2026-10-05T02:37:56.129687+00:00"
+}

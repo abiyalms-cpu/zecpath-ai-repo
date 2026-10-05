@@ -1,0 +1,58 @@
+{
+  "source_file": "meera_iyer_table.docx",
+  "method": "heading",
+  "skills": [
+    {
+      "skill": "Power BI",
+      "category": "technical",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "power bi",
+      "found_in": [
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "Python",
+      "category": "technical",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "python",
+      "found_in": [
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "Excel",
+      "category": "technical",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "excel",
+      "found_in": [
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "SQL",
+      "category": "technical",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "sql",
+      "found_in": [
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "Sales",
+      "category": "business",
+      "confidence": 0.873,
+      "match_type": "exact_canonical",
+      "matched_text": "sales",
+      "found_in": [
+        "EXPERIENCE"
+      ]
+    }
+  ],
+  "total_skills_found": 5,
+  "extracted_at": "2026-10-05T02:37:56.119609+00:00"
+}
