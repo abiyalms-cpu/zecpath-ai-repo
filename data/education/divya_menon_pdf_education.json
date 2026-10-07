@@ -1,0 +1,29 @@
+{
+  "source_file": "divya_menon.pdf",
+  "method": "heading",
+  "education": [
+    {
+      "raw_line": "MBA, Marketing \u2014 Osmania University (2020)",
+      "degree_raw": "MBA",
+      "degree_normalized": "MBA",
+      "field_of_study": "Marketing",
+      "institution": "Osmania University",
+      "graduation_year": 2020
+    }
+  ],
+  "certifications": [
+    {
+      "raw_line": "- Google Ads Certified",
+      "certification_name": "Google Ads Certified",
+      "year": null,
+      "category": "Business"
+    },
+    {
+      "raw_line": "- HubSpot Content Marketing Certified",
+      "certification_name": "HubSpot Content Marketing Certified",
+      "year": null,
+      "category": "Business"
+    }
+  ],
+  "extracted_at": "2026-10-07T06:40:54.480364+00:00"
+}

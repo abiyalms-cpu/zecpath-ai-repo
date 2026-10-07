@@ -1,0 +1,16 @@
+{
+  "source_file": "meera_iyer_table.docx",
+  "method": "heading",
+  "education": [
+    {
+      "raw_line": "B.Sc Statistics | Loyola College | 2020",
+      "degree_raw": "B.Sc",
+      "degree_normalized": "B.Sc",
+      "field_of_study": "Statistics",
+      "institution": "Loyola College",
+      "graduation_year": 2020
+    }
+  ],
+  "certifications": [],
+  "extracted_at": "2026-10-07T06:40:54.501403+00:00"
+}

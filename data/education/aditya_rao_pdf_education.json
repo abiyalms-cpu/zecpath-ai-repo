@@ -1,0 +1,16 @@
+{
+  "source_file": "aditya_rao.pdf",
+  "method": "heading",
+  "education": [
+    {
+      "raw_line": "B.Des, Visual Communication \u2014 Symbiosis Institute of Design (2019)",
+      "degree_raw": "B.Des",
+      "degree_normalized": "B.Des",
+      "field_of_study": "Visual Communication",
+      "institution": "Symbiosis Institute of Design",
+      "graduation_year": 2019
+    }
+  ],
+  "certifications": [],
+  "extracted_at": "2026-10-07T06:40:54.452464+00:00"
+}

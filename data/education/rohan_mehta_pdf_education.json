@@ -1,0 +1,23 @@
+{
+  "source_file": "rohan_mehta.pdf",
+  "method": "heading",
+  "education": [
+    {
+      "raw_line": "B.Tech, Computer Science \u2014 Visvesvaraya Technological University (2021)",
+      "degree_raw": "B.Tech",
+      "degree_normalized": "B.Tech",
+      "field_of_study": "Computer Science",
+      "institution": "Visvesvaraya Technological University",
+      "graduation_year": 2021
+    }
+  ],
+  "certifications": [
+    {
+      "raw_line": "- AWS Certified Cloud Practitioner (2023)",
+      "certification_name": "AWS Certified Cloud Practitioner",
+      "year": 2023,
+      "category": "Technology"
+    }
+  ],
+  "extracted_at": "2026-10-07T06:40:54.521317+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "source_file": "fathima_rasheed.pdf",
+  "method": "heading",
+  "education": [
+    {
+      "raw_line": "B.A. English Literature \u2014 University of Calicut (2020)",
+      "degree_raw": "B.A.",
+      "degree_normalized": "B.A.",
+      "field_of_study": "English Literature",
+      "institution": "University of Calicut",
+      "graduation_year": 2020
+    }
+  ],
+  "certifications": [],
+  "extracted_at": "2026-10-07T06:40:54.487179+00:00"
+}

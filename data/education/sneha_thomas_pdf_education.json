@@ -1,0 +1,29 @@
+{
+  "source_file": "sneha_thomas.pdf",
+  "method": "heading",
+  "education": [
+    {
+      "raw_line": "B.Sc Nursing \u2014 Kerala University of Health Sciences (2019)",
+      "degree_raw": "B.Sc",
+      "degree_normalized": "B.Sc",
+      "field_of_study": "Nursing",
+      "institution": "Kerala University of Health Sciences",
+      "graduation_year": 2019
+    }
+  ],
+  "certifications": [
+    {
+      "raw_line": "- Basic Life Support (BLS) Certified",
+      "certification_name": "Basic Life Support (BLS) Certified",
+      "year": null,
+      "category": "Healthcare"
+    },
+    {
+      "raw_line": "- Advanced Cardiac Life Support (ACLS) Certified",
+      "certification_name": "Advanced Cardiac Life Support (ACLS) Certified",
+      "year": null,
+      "category": "Healthcare"
+    }
+  ],
+  "extracted_at": "2026-10-07T06:40:54.527317+00:00"
+}

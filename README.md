@@ -113,3 +113,25 @@ Run it:
 python -c "from experience_engine.experience_tagger import tag_folder; tag_folder('data/segmented', 'data/experience')"
 python run_tests.py
 ```
+## Education & certification parsing engine
+
+ Extracts structured academic data from a resume's EDUCATION and CERTIFICATIONS sections (from Day 8's segmentation).
+
+- `education_engine/education_parser.py` — parses degree type, field of study, institution, and graduation year from lines like `"B.Tech, Computer Science — Visvesvaraya Technological University (2021)"`. Handles both em-dash and pipe separators, and lines with or without a comma between degree and field. Also parses certification lines (bullet prefix optional, year optional).
+- `education_engine/certification_tagger.py` — categorizes each certification into Technology, Finance, Healthcare, Engineering, Design, or Business using keyword matching, falling back to "Uncategorized" honestly rather than guessing.
+- `education_engine/education_tagger.py` — runs both parsers across a whole folder of Day 8's segmented resumes and saves one structured academic profile per resume.
+- `education_engine/education_relevance.py` — scores how relevant a candidate's field of study is to a target role by reusing Day 10's `role_similarity`, and flags which certifications match a target role's relevant categories.
+
+**A real bug found while testing:** a pipe-separated line with two pipes (`"B.Sc Statistics | Loyola College | 2020"`) left a dangling `|` on the end of the institution name, because the year-removal step stripped the digits but not the leftover separator next to them. Fixed by trimming dangling separator characters after the year is removed.
+
+**Known limits:**
+- Lines split across two entries by a two-column PDF layout (e.g. degree on one line, institution+year on the next) are honestly skipped rather than stitched back together.
+- Prose-style "no headings" resumes that describe education/certifications in full sentences (e.g. "B.Com from Madras University, completed in 2018.") are also skipped rather than guessed at.
+- Field-relevance scoring is pure word overlap — a field like "Computer Science" scores 0 against a role like "Software Engineer" even though they're obviously related, because there's no overlapping word. This is a real limitation, not a close call.
+- The certification category list is hand-picked from what's actually in the 27 sample resumes (Technology, Finance, Healthcare, Engineering, Design, Business) — an uncommon certification domain not covered by these keywords falls into "Uncategorized".
+
+Run it:
+```
+python -c "from education_engine.education_tagger import tag_folder; tag_folder('data/segmented', 'data/education')"
+python run_tests.py
+```

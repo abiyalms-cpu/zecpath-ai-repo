@@ -1,0 +1,23 @@
+{
+  "source_file": "karthik_subramaniam.docx",
+  "method": "heading",
+  "education": [
+    {
+      "raw_line": "M.Com, Finance \u2014 University of Mumbai (2019)",
+      "degree_raw": "M.Com",
+      "degree_normalized": "M.Com",
+      "field_of_study": "Finance",
+      "institution": "University of Mumbai",
+      "graduation_year": 2019
+    }
+  ],
+  "certifications": [
+    {
+      "raw_line": "- CFA Level I Cleared (2022)",
+      "certification_name": "CFA Level I Cleared",
+      "year": 2022,
+      "category": "Finance"
+    }
+  ],
+  "extracted_at": "2026-10-07T06:40:54.494717+00:00"
+}

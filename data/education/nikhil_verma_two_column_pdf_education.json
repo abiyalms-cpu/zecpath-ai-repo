@@ -1,0 +1,14 @@
+{
+  "source_file": "nikhil_verma_two_column.pdf",
+  "method": "heading",
+  "education": [],
+  "certifications": [
+    {
+      "raw_line": "AWS Certified Developer (2023)",
+      "certification_name": "AWS Certified Developer",
+      "year": 2023,
+      "category": "Technology"
+    }
+  ],
+  "extracted_at": "2026-10-07T06:40:54.503481+00:00"
+}

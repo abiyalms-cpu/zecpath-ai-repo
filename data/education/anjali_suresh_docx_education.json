@@ -1,0 +1,31 @@
+{
+  "source_file": "anjali_suresh.docx",
+  "method": "heading",
+  "education": [
+    {
+      "raw_line": "MBA, Human Resources \u2014 Anna University (2018)",
+      "degree_raw": "MBA",
+      "degree_normalized": "MBA",
+      "field_of_study": "Human Resources",
+      "institution": "Anna University",
+      "graduation_year": 2018
+    },
+    {
+      "raw_line": "B.Com \u2014 Loyola College, Chennai (2016)",
+      "degree_raw": "B.Com",
+      "degree_normalized": "B.Com",
+      "field_of_study": null,
+      "institution": "Loyola College, Chennai",
+      "graduation_year": 2016
+    }
+  ],
+  "certifications": [
+    {
+      "raw_line": "- Shrm-Cp (2022)",
+      "certification_name": "Shrm-Cp",
+      "year": 2022,
+      "category": "Business"
+    }
+  ],
+  "extracted_at": "2026-10-07T06:40:54.462348+00:00"
+}

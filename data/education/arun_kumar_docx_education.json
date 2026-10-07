@@ -1,0 +1,24 @@
+{
+  "source_file": "arun_kumar.docx",
+  "method": "heading",
+  "education": [
+    {
+      "raw_line": "B.Ed \u2014 Bharathiar University (2015)",
+      "degree_raw": "B.Ed",
+      "degree_normalized": "B.Ed",
+      "field_of_study": null,
+      "institution": "Bharathiar University",
+      "graduation_year": 2015
+    },
+    {
+      "raw_line": "B.Sc Mathematics \u2014 Bharathiar University (2013)",
+      "degree_raw": "B.Sc",
+      "degree_normalized": "B.Sc",
+      "field_of_study": "Mathematics",
+      "institution": "Bharathiar University",
+      "graduation_year": 2013
+    }
+  ],
+  "certifications": [],
+  "extracted_at": "2026-10-07T06:40:54.471732+00:00"
+}

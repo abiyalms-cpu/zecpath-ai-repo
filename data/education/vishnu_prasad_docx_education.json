@@ -1,0 +1,23 @@
+{
+  "source_file": "vishnu_prasad.docx",
+  "method": "heading",
+  "education": [
+    {
+      "raw_line": "B.Tech, Mechanical Engineering \u2014 Cochin University of Science and Technology (2020)",
+      "degree_raw": "B.Tech",
+      "degree_normalized": "B.Tech",
+      "field_of_study": "Mechanical Engineering",
+      "institution": "Cochin University of Science and Technology",
+      "graduation_year": 2020
+    }
+  ],
+  "certifications": [
+    {
+      "raw_line": "- Certified SolidWorks Associate (CSWA)",
+      "certification_name": "Certified SolidWorks Associate (CSWA)",
+      "year": null,
+      "category": "Engineering"
+    }
+  ],
+  "extracted_at": "2026-10-07T06:40:54.530013+00:00"
+}

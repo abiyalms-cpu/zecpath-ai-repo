@@ -1,0 +1,14 @@
+{
+  "source_file": "no_headings_vikram.docx",
+  "method": "heuristic",
+  "education": [],
+  "certifications": [
+    {
+      "raw_line": "Six Sigma Green Belt certified in 2022. Completed an SAP ERP fundamentals course in 2020.",
+      "certification_name": "Six Sigma Green Belt certified in . Completed an SAP ERP fundamentals course in 2020",
+      "year": 2022,
+      "category": "Technology"
+    }
+  ],
+  "extracted_at": "2026-10-07T06:40:54.509517+00:00"
+}

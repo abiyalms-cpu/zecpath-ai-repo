@@ -1,0 +1,16 @@
+{
+  "source_file": "ishaan_kapoor_photo.docx",
+  "method": "heading",
+  "education": [
+    {
+      "raw_line": "MBA, Operations \u2014 Delhi University (2019)",
+      "degree_raw": "MBA",
+      "degree_normalized": "MBA",
+      "field_of_study": "Operations",
+      "institution": "Delhi University",
+      "graduation_year": 2019
+    }
+  ],
+  "certifications": [],
+  "extracted_at": "2026-10-07T06:40:54.492110+00:00"
+}

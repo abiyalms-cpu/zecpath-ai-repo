@@ -1,0 +1,16 @@
+{
+  "source_file": "priya_nair.pdf",
+  "method": "heading",
+  "education": [
+    {
+      "raw_line": "BBA, Marketing \u2014 Mahatma Gandhi University (2019)",
+      "degree_raw": "BBA",
+      "degree_normalized": "BBA",
+      "field_of_study": "Marketing",
+      "institution": "Mahatma Gandhi University",
+      "graduation_year": 2019
+    }
+  ],
+  "certifications": [],
+  "extracted_at": "2026-10-07T06:40:54.515570+00:00"
+}

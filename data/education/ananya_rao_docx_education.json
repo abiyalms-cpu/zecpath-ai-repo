@@ -1,0 +1,23 @@
+{
+  "source_file": "ananya_rao.docx",
+  "method": "heading",
+  "education": [
+    {
+      "raw_line": "B.Tech, Information Technology \u2014 Pune Institute of Computer Technology (2023)",
+      "degree_raw": "B.Tech",
+      "degree_normalized": "B.Tech",
+      "field_of_study": "Information Technology",
+      "institution": "Pune Institute of Computer Technology",
+      "graduation_year": 2023
+    }
+  ],
+  "certifications": [
+    {
+      "raw_line": "- Meta Front-End Developer Certificate",
+      "certification_name": "Meta Front-End Developer Certificate",
+      "year": null,
+      "category": "Technology"
+    }
+  ],
+  "extracted_at": "2026-10-07T06:40:54.457948+00:00"
+}

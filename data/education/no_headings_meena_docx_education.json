@@ -1,0 +1,14 @@
+{
+  "source_file": "no_headings_meena.docx",
+  "method": "heuristic",
+  "education": [],
+  "certifications": [
+    {
+      "raw_line": "Google UX Design Certificate, completed 2020.",
+      "certification_name": "Google UX Design Certificate, completed",
+      "year": 2020,
+      "category": "Design"
+    }
+  ],
+  "extracted_at": "2026-10-07T06:40:54.508000+00:00"
+}
