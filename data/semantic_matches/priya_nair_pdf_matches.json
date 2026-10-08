@@ -1,0 +1,77 @@
+{
+  "resume": "priya_nair.pdf",
+  "matches": [
+    {
+      "resume": "priya_nair.pdf",
+      "jd_file": "sales_executive",
+      "jd_title": "Sales Executive",
+      "skills_similarity": 0.3967646370133919,
+      "experience_similarity": 0.3060619749143254,
+      "projects_similarity": null,
+      "overall_similarity": 0.3514
+    },
+    {
+      "resume": "priya_nair.pdf",
+      "jd_file": "financial_analyst",
+      "jd_title": "Financial Analyst",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.05053529163197115,
+      "projects_similarity": null,
+      "overall_similarity": 0.0253
+    },
+    {
+      "resume": "priya_nair.pdf",
+      "jd_file": "digital_marketing",
+      "jd_title": "Digital Marketing Specialist",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.03331137413866325,
+      "projects_similarity": null,
+      "overall_similarity": 0.0167
+    },
+    {
+      "resume": "priya_nair.pdf",
+      "jd_file": "mechanical_engineer",
+      "jd_title": "Mechanical Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.02235914135483724,
+      "projects_similarity": null,
+      "overall_similarity": 0.0112
+    },
+    {
+      "resume": "priya_nair.pdf",
+      "jd_file": "software_developer",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.02045105848249361,
+      "projects_similarity": null,
+      "overall_similarity": 0.0102
+    },
+    {
+      "resume": "priya_nair.pdf",
+      "jd_file": "sde_ii",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.017310765884738195,
+      "projects_similarity": null,
+      "overall_similarity": 0.0087
+    },
+    {
+      "resume": "priya_nair.pdf",
+      "jd_file": "customer_support",
+      "jd_title": "Customer Support Executive",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.015456667582085023,
+      "projects_similarity": null,
+      "overall_similarity": 0.0077
+    },
+    {
+      "resume": "priya_nair.pdf",
+      "jd_file": "hr_manager",
+      "jd_title": "HR Manager",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.011075281984203695,
+      "projects_similarity": null,
+      "overall_similarity": 0.0055
+    }
+  ]
+}

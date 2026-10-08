@@ -1,0 +1,77 @@
+{
+  "resume": "anjali_suresh.docx",
+  "matches": [
+    {
+      "resume": "anjali_suresh.docx",
+      "jd_file": "hr_manager",
+      "jd_title": "HR Manager",
+      "skills_similarity": 0.2924112825704823,
+      "experience_similarity": 0.23734157281421608,
+      "projects_similarity": null,
+      "overall_similarity": 0.2649
+    },
+    {
+      "resume": "anjali_suresh.docx",
+      "jd_file": "financial_analyst",
+      "jd_title": "Financial Analyst",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.04817782723652103,
+      "projects_similarity": null,
+      "overall_similarity": 0.0241
+    },
+    {
+      "resume": "anjali_suresh.docx",
+      "jd_file": "sales_executive",
+      "jd_title": "Sales Executive",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.046085520807256954,
+      "projects_similarity": null,
+      "overall_similarity": 0.023
+    },
+    {
+      "resume": "anjali_suresh.docx",
+      "jd_file": "mechanical_engineer",
+      "jd_title": "Mechanical Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.0372841574771648,
+      "projects_similarity": null,
+      "overall_similarity": 0.0186
+    },
+    {
+      "resume": "anjali_suresh.docx",
+      "jd_file": "digital_marketing",
+      "jd_title": "Digital Marketing Specialist",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.03495260481836956,
+      "projects_similarity": null,
+      "overall_similarity": 0.0175
+    },
+    {
+      "resume": "anjali_suresh.docx",
+      "jd_file": "software_developer",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.026492472049626473,
+      "projects_similarity": null,
+      "overall_similarity": 0.0132
+    },
+    {
+      "resume": "anjali_suresh.docx",
+      "jd_file": "customer_support",
+      "jd_title": "Customer Support Executive",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.023677339714072904,
+      "projects_similarity": null,
+      "overall_similarity": 0.0118
+    },
+    {
+      "resume": "anjali_suresh.docx",
+      "jd_file": "sde_ii",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.018324933350220934,
+      "projects_similarity": null,
+      "overall_similarity": 0.0092
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "resume": "arun_kumar.pdf",
+  "matches": [
+    {
+      "resume": "arun_kumar.pdf",
+      "jd_file": "sde_ii",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.04568934877655285,
+      "projects_similarity": null,
+      "overall_similarity": 0.0228
+    },
+    {
+      "resume": "arun_kumar.pdf",
+      "jd_file": "hr_manager",
+      "jd_title": "HR Manager",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.022576994383416347,
+      "projects_similarity": null,
+      "overall_similarity": 0.0113
+    },
+    {
+      "resume": "arun_kumar.pdf",
+      "jd_file": "sales_executive",
+      "jd_title": "Sales Executive",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.0224768508412081,
+      "projects_similarity": null,
+      "overall_similarity": 0.0112
+    },
+    {
+      "resume": "arun_kumar.pdf",
+      "jd_file": "financial_analyst",
+      "jd_title": "Financial Analyst",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.013530327716950046,
+      "projects_similarity": null,
+      "overall_similarity": 0.0068
+    },
+    {
+      "resume": "arun_kumar.pdf",
+      "jd_file": "mechanical_engineer",
+      "jd_title": "Mechanical Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.012271551662132042,
+      "projects_similarity": null,
+      "overall_similarity": 0.0061
+    },
+    {
+      "resume": "arun_kumar.pdf",
+      "jd_file": "digital_marketing",
+      "jd_title": "Digital Marketing Specialist",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.011119193919069794,
+      "projects_similarity": null,
+      "overall_similarity": 0.0056
+    },
+    {
+      "resume": "arun_kumar.pdf",
+      "jd_file": "customer_support",
+      "jd_title": "Customer Support Executive",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.006851503952150391,
+      "projects_similarity": null,
+      "overall_similarity": 0.0034
+    },
+    {
+      "resume": "arun_kumar.pdf",
+      "jd_file": "software_developer",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.004348193217115919,
+      "projects_similarity": null,
+      "overall_similarity": 0.0022
+    }
+  ]
+}

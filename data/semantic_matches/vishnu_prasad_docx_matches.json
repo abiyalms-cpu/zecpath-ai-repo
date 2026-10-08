@@ -1,0 +1,77 @@
+{
+  "resume": "vishnu_prasad.docx",
+  "matches": [
+    {
+      "resume": "vishnu_prasad.docx",
+      "jd_file": "mechanical_engineer",
+      "jd_title": "Mechanical Engineer",
+      "skills_similarity": 0.7643714770058697,
+      "experience_similarity": 0.3806481412996938,
+      "projects_similarity": null,
+      "overall_similarity": 0.5725
+    },
+    {
+      "resume": "vishnu_prasad.docx",
+      "jd_file": "software_developer",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.11398438819999308,
+      "projects_similarity": null,
+      "overall_similarity": 0.057
+    },
+    {
+      "resume": "vishnu_prasad.docx",
+      "jd_file": "sde_ii",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.10261289877067002,
+      "projects_similarity": null,
+      "overall_similarity": 0.0513
+    },
+    {
+      "resume": "vishnu_prasad.docx",
+      "jd_file": "hr_manager",
+      "jd_title": "HR Manager",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.09087981812669654,
+      "projects_similarity": null,
+      "overall_similarity": 0.0454
+    },
+    {
+      "resume": "vishnu_prasad.docx",
+      "jd_file": "sales_executive",
+      "jd_title": "Sales Executive",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.06026118746233298,
+      "projects_similarity": null,
+      "overall_similarity": 0.0301
+    },
+    {
+      "resume": "vishnu_prasad.docx",
+      "jd_file": "digital_marketing",
+      "jd_title": "Digital Marketing Specialist",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.05271074724171117,
+      "projects_similarity": null,
+      "overall_similarity": 0.0264
+    },
+    {
+      "resume": "vishnu_prasad.docx",
+      "jd_file": "financial_analyst",
+      "jd_title": "Financial Analyst",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.02746348181973062,
+      "projects_similarity": null,
+      "overall_similarity": 0.0137
+    },
+    {
+      "resume": "vishnu_prasad.docx",
+      "jd_file": "customer_support",
+      "jd_title": "Customer Support Executive",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.027241990954038925,
+      "projects_similarity": null,
+      "overall_similarity": 0.0136
+    }
+  ]
+}

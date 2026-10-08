@@ -1,0 +1,77 @@
+{
+  "resume": "nikhil_verma_two_column.pdf",
+  "matches": [
+    {
+      "resume": "nikhil_verma_two_column.pdf",
+      "jd_file": "sde_ii",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.3657896502296809,
+      "experience_similarity": 0.07069875544748722,
+      "projects_similarity": null,
+      "overall_similarity": 0.2182
+    },
+    {
+      "resume": "nikhil_verma_two_column.pdf",
+      "jd_file": "software_developer",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.26568143615603534,
+      "experience_similarity": 0.01099467328884166,
+      "projects_similarity": null,
+      "overall_similarity": 0.1383
+    },
+    {
+      "resume": "nikhil_verma_two_column.pdf",
+      "jd_file": "hr_manager",
+      "jd_title": "HR Manager",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.022642410182738538,
+      "projects_similarity": null,
+      "overall_similarity": 0.0113
+    },
+    {
+      "resume": "nikhil_verma_two_column.pdf",
+      "jd_file": "digital_marketing",
+      "jd_title": "Digital Marketing Specialist",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.012750824211417447,
+      "projects_similarity": null,
+      "overall_similarity": 0.0064
+    },
+    {
+      "resume": "nikhil_verma_two_column.pdf",
+      "jd_file": "financial_analyst",
+      "jd_title": "Financial Analyst",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.009591279094321893,
+      "projects_similarity": null,
+      "overall_similarity": 0.0048
+    },
+    {
+      "resume": "nikhil_verma_two_column.pdf",
+      "jd_file": "customer_support",
+      "jd_title": "Customer Support Executive",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.007958273513717739,
+      "projects_similarity": null,
+      "overall_similarity": 0.004
+    },
+    {
+      "resume": "nikhil_verma_two_column.pdf",
+      "jd_file": "sales_executive",
+      "jd_title": "Sales Executive",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.007896579191701074,
+      "projects_similarity": null,
+      "overall_similarity": 0.0039
+    },
+    {
+      "resume": "nikhil_verma_two_column.pdf",
+      "jd_file": "mechanical_engineer",
+      "jd_title": "Mechanical Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.004349483596189996,
+      "projects_similarity": null,
+      "overall_similarity": 0.0022
+    }
+  ]
+}

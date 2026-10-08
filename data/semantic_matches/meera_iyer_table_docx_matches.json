@@ -1,0 +1,77 @@
+{
+  "resume": "meera_iyer_table.docx",
+  "matches": [
+    {
+      "resume": "meera_iyer_table.docx",
+      "jd_file": "financial_analyst",
+      "jd_title": "Financial Analyst",
+      "skills_similarity": 0.29560607579125947,
+      "experience_similarity": 0.021110913816059878,
+      "projects_similarity": null,
+      "overall_similarity": 0.1584
+    },
+    {
+      "resume": "meera_iyer_table.docx",
+      "jd_file": "software_developer",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.16627230554634634,
+      "experience_similarity": 0.0,
+      "projects_similarity": null,
+      "overall_similarity": 0.0831
+    },
+    {
+      "resume": "meera_iyer_table.docx",
+      "jd_file": "sales_executive",
+      "jd_title": "Sales Executive",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.098702469410829,
+      "projects_similarity": null,
+      "overall_similarity": 0.0494
+    },
+    {
+      "resume": "meera_iyer_table.docx",
+      "jd_file": "digital_marketing",
+      "jd_title": "Digital Marketing Specialist",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.06722319950805689,
+      "projects_similarity": null,
+      "overall_similarity": 0.0336
+    },
+    {
+      "resume": "meera_iyer_table.docx",
+      "jd_file": "sde_ii",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.046757629651081836,
+      "projects_similarity": null,
+      "overall_similarity": 0.0234
+    },
+    {
+      "resume": "meera_iyer_table.docx",
+      "jd_file": "hr_manager",
+      "jd_title": "HR Manager",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.011675304730600513,
+      "projects_similarity": null,
+      "overall_similarity": 0.0058
+    },
+    {
+      "resume": "meera_iyer_table.docx",
+      "jd_file": "customer_support",
+      "jd_title": "Customer Support Executive",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.0,
+      "projects_similarity": null,
+      "overall_similarity": 0.0
+    },
+    {
+      "resume": "meera_iyer_table.docx",
+      "jd_file": "mechanical_engineer",
+      "jd_title": "Mechanical Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.0,
+      "projects_similarity": null,
+      "overall_similarity": 0.0
+    }
+  ]
+}

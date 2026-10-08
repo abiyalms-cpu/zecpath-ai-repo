@@ -1,0 +1,77 @@
+{
+  "resume": "rohan_mehta.pdf",
+  "matches": [
+    {
+      "resume": "rohan_mehta.pdf",
+      "jd_file": "software_developer",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.5523158257793049,
+      "experience_similarity": 0.040625863796100156,
+      "projects_similarity": null,
+      "overall_similarity": 0.2965
+    },
+    {
+      "resume": "rohan_mehta.pdf",
+      "jd_file": "sde_ii",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.08693111339701437,
+      "experience_similarity": 0.1082314003505762,
+      "projects_similarity": null,
+      "overall_similarity": 0.0976
+    },
+    {
+      "resume": "rohan_mehta.pdf",
+      "jd_file": "hr_manager",
+      "jd_title": "HR Manager",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.06091816129597806,
+      "projects_similarity": null,
+      "overall_similarity": 0.0305
+    },
+    {
+      "resume": "rohan_mehta.pdf",
+      "jd_file": "customer_support",
+      "jd_title": "Customer Support Executive",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.04875831080363738,
+      "projects_similarity": null,
+      "overall_similarity": 0.0244
+    },
+    {
+      "resume": "rohan_mehta.pdf",
+      "jd_file": "financial_analyst",
+      "jd_title": "Financial Analyst",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.04593876558108614,
+      "projects_similarity": null,
+      "overall_similarity": 0.023
+    },
+    {
+      "resume": "rohan_mehta.pdf",
+      "jd_file": "digital_marketing",
+      "jd_title": "Digital Marketing Specialist",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.045589333122091305,
+      "projects_similarity": null,
+      "overall_similarity": 0.0228
+    },
+    {
+      "resume": "rohan_mehta.pdf",
+      "jd_file": "sales_executive",
+      "jd_title": "Sales Executive",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.03613668859241221,
+      "projects_similarity": null,
+      "overall_similarity": 0.0181
+    },
+    {
+      "resume": "rohan_mehta.pdf",
+      "jd_file": "mechanical_engineer",
+      "jd_title": "Mechanical Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.02559335570380859,
+      "projects_similarity": null,
+      "overall_similarity": 0.0128
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "resume": "zoya_khan_scanned.pdf",
+  "matches": [
+    {
+      "resume": "zoya_khan_scanned.pdf",
+      "jd_file": "customer_support",
+      "jd_title": "Customer Support Executive",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.0,
+      "projects_similarity": null,
+      "overall_similarity": 0.0
+    },
+    {
+      "resume": "zoya_khan_scanned.pdf",
+      "jd_file": "digital_marketing",
+      "jd_title": "Digital Marketing Specialist",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.0,
+      "projects_similarity": null,
+      "overall_similarity": 0.0
+    },
+    {
+      "resume": "zoya_khan_scanned.pdf",
+      "jd_file": "financial_analyst",
+      "jd_title": "Financial Analyst",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.0,
+      "projects_similarity": null,
+      "overall_similarity": 0.0
+    },
+    {
+      "resume": "zoya_khan_scanned.pdf",
+      "jd_file": "hr_manager",
+      "jd_title": "HR Manager",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.0,
+      "projects_similarity": null,
+      "overall_similarity": 0.0
+    },
+    {
+      "resume": "zoya_khan_scanned.pdf",
+      "jd_file": "mechanical_engineer",
+      "jd_title": "Mechanical Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.0,
+      "projects_similarity": null,
+      "overall_similarity": 0.0
+    },
+    {
+      "resume": "zoya_khan_scanned.pdf",
+      "jd_file": "sales_executive",
+      "jd_title": "Sales Executive",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.0,
+      "projects_similarity": null,
+      "overall_similarity": 0.0
+    },
+    {
+      "resume": "zoya_khan_scanned.pdf",
+      "jd_file": "sde_ii",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.0,
+      "projects_similarity": null,
+      "overall_similarity": 0.0
+    },
+    {
+      "resume": "zoya_khan_scanned.pdf",
+      "jd_file": "software_developer",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.0,
+      "projects_similarity": null,
+      "overall_similarity": 0.0
+    }
+  ]
+}

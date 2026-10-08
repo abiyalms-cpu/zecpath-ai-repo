@@ -1,0 +1,77 @@
+{
+  "resume": "sneha_thomas.docx",
+  "matches": [
+    {
+      "resume": "sneha_thomas.docx",
+      "jd_file": "digital_marketing",
+      "jd_title": "Digital Marketing Specialist",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.047804755213065826,
+      "projects_similarity": null,
+      "overall_similarity": 0.0239
+    },
+    {
+      "resume": "sneha_thomas.docx",
+      "jd_file": "hr_manager",
+      "jd_title": "HR Manager",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.038838995701088196,
+      "projects_similarity": null,
+      "overall_similarity": 0.0194
+    },
+    {
+      "resume": "sneha_thomas.docx",
+      "jd_file": "mechanical_engineer",
+      "jd_title": "Mechanical Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.038628022506504704,
+      "projects_similarity": null,
+      "overall_similarity": 0.0193
+    },
+    {
+      "resume": "sneha_thomas.docx",
+      "jd_file": "software_developer",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.027412336355330406,
+      "projects_similarity": null,
+      "overall_similarity": 0.0137
+    },
+    {
+      "resume": "sneha_thomas.docx",
+      "jd_file": "sde_ii",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.02639337341167433,
+      "projects_similarity": null,
+      "overall_similarity": 0.0132
+    },
+    {
+      "resume": "sneha_thomas.docx",
+      "jd_file": "financial_analyst",
+      "jd_title": "Financial Analyst",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.02328350750442733,
+      "projects_similarity": null,
+      "overall_similarity": 0.0116
+    },
+    {
+      "resume": "sneha_thomas.docx",
+      "jd_file": "customer_support",
+      "jd_title": "Customer Support Executive",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.012131694937841997,
+      "projects_similarity": null,
+      "overall_similarity": 0.0061
+    },
+    {
+      "resume": "sneha_thomas.docx",
+      "jd_file": "sales_executive",
+      "jd_title": "Sales Executive",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.01203764731648128,
+      "projects_similarity": null,
+      "overall_similarity": 0.006
+    }
+  ]
+}

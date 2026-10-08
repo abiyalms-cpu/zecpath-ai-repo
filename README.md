@@ -135,3 +135,32 @@ Run it:
 python -c "from education_engine.education_tagger import tag_folder; tag_folder('data/segmented', 'data/education')"
 python run_tests.py
 ```
+## Semantic matching engine
+
+Day 12 moves beyond Day 9's exact/fuzzy keyword matching to compare the actual meaning-bearing text of a resume against a job description.
+
+**A deliberate design choice, stated plainly:** "embeddings" usually implies a neural model (e.g. sentence-transformers), which would mean a new dependency and a model download. To keep this stdlib-only like every other engine, Day 12 uses a from-scratch **TF-IDF vector space model with cosine similarity** instead — a classic, well-understood information-retrieval technique. It's simpler than real embeddings and that's acknowledged here rather than oversold.
+
+- `semantic_engine/text_vectorizer.py` — a from-scratch TF-IDF implementation (`re`, `math`, `collections.Counter` only). `fit()` learns term weights from a corpus of real resume + JD text; `transform()` turns any text into a sparse weighted vector.
+- `semantic_engine/similarity_scorer.py` — cosine similarity between two vectors.
+- `semantic_engine/semantic_matcher.py` — builds a shared vectorizer across all real resume and JD text, then compares a resume's SKILLS/EXPERIENCE/PROJECTS text against a JD's required skills, responsibilities, and full text (JDs have no dedicated "project description" field, so the full JD text is the closest honest proxy for that comparison).
+- `semantic_engine/matching_report.py` — scores every resume against every JD, saves one ranked file per resume, and builds the matching accuracy report.
+
+**Two real bugs found while validating against real data:**
+1. **Duplicate JD titles collapsed two different jobs into one.** `sde_ii.json` and `software_developer.json` are both titled "Software Engineer." Filtering matches by title merged their results together, so a "top match" couldn't be traced to a specific JD. Fixed by keying every match on the JD's filename instead of its title.
+2. **`.docx` and `.pdf` versions of the same resume overwrote each other's output.** `Path("alice.docx").stem` and `Path("alice.pdf").stem` both evaluate to `"alice"`, so the tagger silently wrote both to the same output file — 27 resumes went in, only 17 files came out before this was caught. Fixed by keeping the extension in the output filename (`alice_docx_matches.json` vs `alice_pdf_matches.json`).
+
+**Threshold, chosen from real data, not guessed:** across all 216 resume×JD pairs, the score distribution is mean 0.049, median 0.017 — most pairs are genuinely unrelated. Real matches (verified by hand) cluster from ~0.10 up to 0.6. **0.10** is used as the "good match" cutoff.
+
+**Validation across job types** (real results): Divya Menon (MBA in Marketing, Google Ads/HubSpot certified) scores highest of all 216 pairs — 0.6 — against the Digital Marketing JD. Anjali Suresh (MBA in Human Resources) ranks first against the HR Manager JD. Ananya Rao (React/JS/TypeScript skills) outranks Rohan Mehta (Java/Spring Boot) against a JavaScript-stack Software Engineer JD, correctly reflecting the closer stack match.
+
+**Known limits:**
+- TF-IDF is a bag-of-words model — it has no notion of synonyms or paraphrasing beyond shared vocabulary. "Built web applications" and "Developed online software" would score lower than their actual meaning overlap deserves.
+- Only 2 of 27 resumes have a PROJECTS section, so the projects-similarity comparison is validated on a small sample.
+- The vectorizer is fit once on the current 27 resumes + 8 JDs. Adding new resumes or JDs later would need a re-fit to stay consistent, not an incremental update.
+
+Run it:
+```
+python -c "from semantic_engine.matching_report import compute_all_matches, tag_folder, build_accuracy_report; import json; tag_folder('data/segmented', 'data/parsed_jds', 'data/semantic_matches'); matches = compute_all_matches('data/segmented', 'data/parsed_jds'); json.dump(build_accuracy_report(matches), open('data/semantic_matches/_accuracy_report.json', 'w', encoding='utf-8'), indent=2)"
+python run_tests.py
+```

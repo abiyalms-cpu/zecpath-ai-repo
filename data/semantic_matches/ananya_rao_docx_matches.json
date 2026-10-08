@@ -1,0 +1,77 @@
+{
+  "resume": "ananya_rao.docx",
+  "matches": [
+    {
+      "resume": "ananya_rao.docx",
+      "jd_file": "sde_ii",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.27334054846531475,
+      "experience_similarity": 0.06636385294611696,
+      "projects_similarity": 0.12172674359575153,
+      "overall_similarity": 0.1538
+    },
+    {
+      "resume": "ananya_rao.docx",
+      "jd_file": "software_developer",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.0669011961104824,
+      "projects_similarity": 0.0919677432750017,
+      "overall_similarity": 0.053
+    },
+    {
+      "resume": "ananya_rao.docx",
+      "jd_file": "financial_analyst",
+      "jd_title": "Financial Analyst",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.014362395828244997,
+      "projects_similarity": 0.11977483774888077,
+      "overall_similarity": 0.0447
+    },
+    {
+      "resume": "ananya_rao.docx",
+      "jd_file": "hr_manager",
+      "jd_title": "HR Manager",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.02254215061715041,
+      "projects_similarity": 0.0992071537028632,
+      "overall_similarity": 0.0406
+    },
+    {
+      "resume": "ananya_rao.docx",
+      "jd_file": "digital_marketing",
+      "jd_title": "Digital Marketing Specialist",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.012970622048725034,
+      "projects_similarity": 0.04848175810427023,
+      "overall_similarity": 0.0205
+    },
+    {
+      "resume": "ananya_rao.docx",
+      "jd_file": "sales_executive",
+      "jd_title": "Sales Executive",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.02310448762268514,
+      "projects_similarity": 0.03501026620219482,
+      "overall_similarity": 0.0194
+    },
+    {
+      "resume": "ananya_rao.docx",
+      "jd_file": "mechanical_engineer",
+      "jd_title": "Mechanical Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.006513104711333168,
+      "projects_similarity": 0.04013967116391656,
+      "overall_similarity": 0.0156
+    },
+    {
+      "resume": "ananya_rao.docx",
+      "jd_file": "customer_support",
+      "jd_title": "Customer Support Executive",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.011917062697207787,
+      "projects_similarity": 0.02363121015562354,
+      "overall_similarity": 0.0118
+    }
+  ]
+}
