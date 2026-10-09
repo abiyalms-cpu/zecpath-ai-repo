@@ -164,3 +164,28 @@ Run it:
 python -c "from semantic_engine.matching_report import compute_all_matches, tag_folder, build_accuracy_report; import json; tag_folder('data/segmented', 'data/parsed_jds', 'data/semantic_matches'); matches = compute_all_matches('data/segmented', 'data/parsed_jds'); json.dump(build_accuracy_report(matches), open('data/semantic_matches/_accuracy_report.json', 'w', encoding='utf-8'), indent=2)"
 python run_tests.py
 ```
+## ATS scoring engine
+
+Combines everything built so far into one explainable, weighted candidate score — the capstone of Days 9–12, not a parallel engine.
+
+- `scoring_engine/score_components.py` — four 0–1 component scores, each reusing an earlier engine's real output directly rather than reimplementing logic: skill match (Day 9's skill profile vs. a JD's required skills, mandatory skills weighted fully, nice-to-haves at half), experience relevance (Day 10's `role_similarity` + skill-overlap scorer, reused as-is), education alignment (Day 11's field-of-study relevance), semantic similarity (Day 12's precomputed TF-IDF score, looked up rather than recomputed).
+- `scoring_engine/weight_profiles.py` — three weight profiles (technical / education-heavy / default) mapped to the 8 real JDs by role category, each summing to 1.0.
+- `scoring_engine/scoring_engine.py` — combines the four components using the right profile, and handles missing data honestly: a component that can't be computed (e.g. no parsed work history) is excluded entirely, and its weight is redistributed proportionally across whatever components are available — never silently treated as a zero. Also produces a plain-English explanation of exactly how a score was reached.
+- `scoring_engine/candidate_score_generator.py` — scores every resume against every JD and saves one ranked file per resume.
+
+**A deliberate scope decision:** Day 3's `ats_engine/ats_scorer.py` is a simple early scaffold (flat skill lists, plain containment match) whose input shape doesn't match what Days 9–12 actually produce now. Rather than force today's real data into that old shape, Day 13 is a new, separate `scoring_engine/` module. The old file is left in place as historical scaffold.
+
+**A scope boundary, stated honestly:** education alignment uses only field-of-study relevance. Matching a certification's domain to a role's domain was considered but left out — it would need a hand-built role-to-category mapping with too little real data (27 resumes) to validate it confidently. A certification like "AWS Certified" already contributes indirectly anyway, since Day 9's skill dictionary picks up "AWS" as a skill in its own right.
+
+**Validated against real data, not just hand-checked math:** Rohan Mehta's final score vs. the SDE II JD comes to exactly 0.2606 — hand-calculated from the four real component scores (0.2, 0.625, 0.0, 0.0976) and confirmed by the test suite. Divya Menon's score against the Digital Marketing JD (0.3366) is nearly 100x every other JD she was scored against — the whole pipeline agreeing clearly on one obviously-correct answer.
+
+**Known limits:**
+- Certification-to-role-domain relevance isn't factored into education alignment (see above).
+- Weight profiles are assigned per JD by hand, based on role category judgment — not learned or tuned against labeled outcome data, since none exists.
+- A component scoring a real 0.0 (e.g. "Computer Science" vs. "Software Engineer" under Day 11's word-overlap limit) is treated as an available, meaningful score — not missing data — which is correct behavior, but means a genuine word-overlap gap still drags the final score down rather than being excluded.
+
+Run it:
+```
+python -c "from scoring_engine.candidate_score_generator import score_all_resumes; score_all_resumes('data/segmented', 'data/skills', 'data/experience', 'data/education', 'data/semantic_matches', 'data/parsed_jds', 'data/candidate_scores')"
+python run_tests.py
+```
