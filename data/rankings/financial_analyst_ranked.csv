@@ -1,0 +1,28 @@
+Rank,Candidate,Final Score,Zone,Matched Skills,Skill Match,Experience Relevance,Education Alignment,Semantic Similarity
+1,no_headings_vikram.docx,0.4005,shortlist,"Excel, Power BI",0.6667,0.334,,0.201
+2,karthik_subramaniam.docx,0.3994,shortlist,"Excel, Power BI",0.6667,0.834,0.0,0.4966
+3,karthik_subramaniam.pdf,0.3994,shortlist,"Excel, Power BI",0.6667,0.834,0.0,0.4966
+4,meera_iyer_table.docx,0.265,shortlist,"Excel, Power BI",0.6667,0.5,0.0,0.1584
+5,ishaan_kapoor_photo.docx,0.012,auto_reject,,0.0,0.0,0.0,0.06
+6,ananya_rao.docx,0.0089,auto_reject,,0.0,0.0,0.0,0.0447
+7,fathima_rasheed.docx,0.0079,auto_reject,,0.0,0.0,0.0,0.0395
+8,fathima_rasheed.pdf,0.0079,auto_reject,,0.0,0.0,0.0,0.0395
+9,priya_nair.docx,0.0051,auto_reject,,0.0,0.0,0.0,0.0253
+10,priya_nair.pdf,0.0051,auto_reject,,0.0,0.0,0.0,0.0253
+11,anjali_suresh.docx,0.0048,auto_reject,,0.0,0.0,0.0,0.0241
+12,anjali_suresh.pdf,0.0048,auto_reject,,0.0,0.0,0.0,0.0241
+13,rohan_mehta.docx,0.0046,auto_reject,,0.0,0.0,0.0,0.023
+14,rohan_mehta.pdf,0.0046,auto_reject,,0.0,0.0,0.0,0.023
+15,divya_menon.docx,0.0029,auto_reject,,0.0,0.0,0.0,0.0146
+16,divya_menon.pdf,0.0029,auto_reject,,0.0,0.0,0.0,0.0146
+17,vishnu_prasad.docx,0.0027,auto_reject,,0.0,0.0,0.0,0.0137
+18,vishnu_prasad.pdf,0.0027,auto_reject,,0.0,0.0,0.0,0.0137
+19,aditya_rao.docx,0.0025,auto_reject,,0.0,0.0,0.0,0.0126
+20,aditya_rao.pdf,0.0025,auto_reject,,0.0,0.0,0.0,0.0126
+21,sneha_thomas.docx,0.0023,auto_reject,,0.0,0.0,0.0,0.0116
+22,sneha_thomas.pdf,0.0023,auto_reject,,0.0,0.0,0.0,0.0116
+23,nikhil_verma_two_column.pdf,0.0016,auto_reject,,0.0,0.0,,0.0048
+24,arun_kumar.docx,0.0014,auto_reject,,0.0,0.0,0.0,0.0068
+25,arun_kumar.pdf,0.0014,auto_reject,,0.0,0.0,0.0,0.0068
+26,no_headings_meena.docx,0.0013,auto_reject,,0.0,0.0,,0.0039
+27,zoya_khan_scanned.pdf,0.0,auto_reject,,0.0,,,0.0

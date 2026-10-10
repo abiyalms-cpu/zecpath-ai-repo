@@ -1,0 +1,28 @@
+Rank,Candidate,Final Score,Zone,Matched Skills,Skill Match,Experience Relevance,Education Alignment,Semantic Similarity
+1,rohan_mehta.docx,0.4734,shortlist,"Python, MySQL, Java",0.5294,0.75,0.0,0.2965
+2,rohan_mehta.pdf,0.4734,shortlist,"Python, MySQL, Java",0.5294,0.75,0.0,0.2965
+3,nikhil_verma_two_column.pdf,0.2038,shortlist,"PostgreSQL, AWS, Docker",0.2941,0.125,,0.1383
+4,meera_iyer_table.docx,0.1461,review,"SQL, Python",0.2353,0.125,0.0,0.0831
+5,vishnu_prasad.docx,0.0561,review,,0.0,0.167,0.0,0.057
+6,vishnu_prasad.pdf,0.0561,review,,0.0,0.167,0.0,0.057
+7,ananya_rao.docx,0.0132,auto_reject,,0.0,0.0,0.0,0.053
+8,no_headings_meena.docx,0.0085,auto_reject,,0.0,0.0,,0.0306
+9,fathima_rasheed.docx,0.0061,auto_reject,,0.0,0.0,0.0,0.0245
+10,fathima_rasheed.pdf,0.0061,auto_reject,,0.0,0.0,0.0,0.0245
+11,aditya_rao.docx,0.0039,auto_reject,,0.0,0.0,0.0,0.0155
+12,aditya_rao.pdf,0.0039,auto_reject,,0.0,0.0,0.0,0.0155
+13,divya_menon.docx,0.0037,auto_reject,,0.0,0.0,0.0,0.0146
+14,divya_menon.pdf,0.0037,auto_reject,,0.0,0.0,0.0,0.0146
+15,karthik_subramaniam.docx,0.0034,auto_reject,,0.0,0.0,0.0,0.0138
+16,karthik_subramaniam.pdf,0.0034,auto_reject,,0.0,0.0,0.0,0.0138
+17,sneha_thomas.docx,0.0034,auto_reject,,0.0,0.0,0.0,0.0137
+18,sneha_thomas.pdf,0.0034,auto_reject,,0.0,0.0,0.0,0.0137
+19,anjali_suresh.docx,0.0033,auto_reject,,0.0,0.0,0.0,0.0132
+20,anjali_suresh.pdf,0.0033,auto_reject,,0.0,0.0,0.0,0.0132
+21,no_headings_vikram.docx,0.003,auto_reject,,0.0,0.0,,0.0109
+22,priya_nair.docx,0.0026,auto_reject,,0.0,0.0,0.0,0.0102
+23,priya_nair.pdf,0.0026,auto_reject,,0.0,0.0,0.0,0.0102
+24,arun_kumar.docx,0.0006,auto_reject,,0.0,0.0,0.0,0.0022
+25,arun_kumar.pdf,0.0006,auto_reject,,0.0,0.0,0.0,0.0022
+26,ishaan_kapoor_photo.docx,0.0,auto_reject,,0.0,0.0,0.0,0.0
+27,zoya_khan_scanned.pdf,0.0,auto_reject,,0.0,,,0.0

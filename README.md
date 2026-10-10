@@ -189,3 +189,28 @@ Run it:
 python -c "from scoring_engine.candidate_score_generator import score_all_resumes; score_all_resumes('data/segmented', 'data/skills', 'data/experience', 'data/education', 'data/semantic_matches', 'data/parsed_jds', 'data/candidate_scores')"
 python run_tests.py
 ```
+## Candidate ranking & shortlisting
+
+Day 14 turns Day 13's scores into something a recruiter would actually act on: a sorted, zoned, recruiter-readable shortlist per JD.
+
+- `ranking_engine/ranking.py` — sorts every candidate's Day 13 score for a specific JD, descending.
+- `ranking_engine/shortlisting.py` — classifies each candidate into shortlist / review / auto-reject using thresholds chosen from the real score distribution (checked across two JDs with different weight profiles — both showed the same shape: a cluster of genuine matches, a mid-tier partial match, then a long tail of noise). Nothing is filtered out — every candidate stays visible with a zone label, so a recruiter sees the full picture rather than a silently pruned list.
+- `ranking_engine/top_candidates.py` — the top-N ranked, zoned list for one role.
+- `ranking_engine/recruiter_output.py` — exports one CSV per JD (not another JSON file) with rank, candidate, final score, zone, matched skill names, and all four Day 13 component scores.
+
+**Thresholds, grounded in real data:** Shortlist ≥ 0.15, Review 0.03–0.15, Auto-reject < 0.03. Verified against two real JDs (`digital_marketing`, `sde_ii`) — both showed Divya Menon / the top 3 SDE candidates clustering well above 0.15, a clear secondary match (Priya Nair, Vishnu Prasad) in the 0.05–0.07 range, then a sharp drop to noise below 0.015.
+
+**A real, worthwhile finding — not a bug:** the "Matched Skills" column came back blank for Divya Menon against the Digital Marketing JD, even though she's clearly the right candidate. Day 9's 55-skill dictionary doesn't include granular marketing tool names ("Google Ads", "Google Analytics 4", "Mailchimp", "Meta Ads", "SEO") — only the generic "Digital Marketing" skill — so there's genuinely zero exact-name overlap. Rather than hide this, the CSV now also includes all four Day 13 component scores (skill match 0.0, experience relevance 0.5, education alignment 0.333, semantic similarity 0.6), so a recruiter can see she ranked #1 for real reasons even with an empty skills column — exactly the kind of case Day 13's multi-signal design exists for.
+
+**Validated against real data:** all 8 JDs exported, 27 candidates each. SDE II's top 4 (Nikhil, Ananya, Rohan ×2) land in "shortlist," Vishnu Prasad lands in "review," the remaining 23 land in "auto-reject" — matching hand-verified rankings exactly.
+
+**Known limits:**
+- Thresholds are global (same for every JD), not JD-specific, chosen for simplicity after confirming they generalize across two different weight profiles — not guaranteed to be ideal for a JD type not yet seen.
+- The "Matched Skills" column depends entirely on Day 9's skill dictionary scope — a real but incomplete catalog, as shown above.
+- "Review" zone candidates aren't ranked by anything beyond final score — no secondary tie-breaking logic.
+
+Run it:
+```
+python -c "from ranking_engine.recruiter_output import export_all_jds; export_all_jds('data/candidate_scores', 'data/skills', 'data/parsed_jds', 'data/rankings')"
+python run_tests.py
+```
