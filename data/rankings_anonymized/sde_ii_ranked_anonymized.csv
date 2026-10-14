@@ -1,0 +1,28 @@
+Rank,Candidate ID,Final Score,Zone,Matched Skills,Skill Match,Experience Relevance,Education Alignment,Semantic Similarity
+1,CAND-016,0.3078,shortlist,"React, Node.js",0.4,0.25,,0.2182
+2,CAND-003,0.2609,shortlist,"JavaScript, React",0.4,0.25,0.0,0.1538
+3,CAND-021,0.2606,shortlist,MongoDB,0.2,0.625,0.0,0.0976
+4,CAND-022,0.2606,shortlist,MongoDB,0.2,0.625,0.0,0.0976
+5,CAND-025,0.0546,review,,0.0,0.167,0.0,0.0513
+6,CAND-026,0.0546,review,,0.0,0.167,0.0,0.0513
+7,CAND-010,0.0148,auto_reject,,0.0,0.0,0.0,0.0593
+8,CAND-011,0.0148,auto_reject,,0.0,0.0,0.0,0.0593
+9,CAND-018,0.0129,auto_reject,,0.0,0.0,,0.0465
+10,CAND-017,0.0103,auto_reject,,0.0,0.0,,0.037
+11,CAND-001,0.0089,auto_reject,,0.0,0.0,0.0,0.0354
+12,CAND-002,0.0089,auto_reject,,0.0,0.0,0.0,0.0354
+13,CAND-015,0.0059,auto_reject,,0.0,0.0,0.0,0.0234
+14,CAND-006,0.0057,auto_reject,,0.0,0.0,0.0,0.0228
+15,CAND-007,0.0057,auto_reject,,0.0,0.0,0.0,0.0228
+16,CAND-008,0.0043,auto_reject,,0.0,0.0,0.0,0.017
+17,CAND-009,0.0043,auto_reject,,0.0,0.0,0.0,0.017
+18,CAND-023,0.0033,auto_reject,,0.0,0.0,0.0,0.0132
+19,CAND-024,0.0033,auto_reject,,0.0,0.0,0.0,0.0132
+20,CAND-004,0.0023,auto_reject,,0.0,0.0,0.0,0.0092
+21,CAND-005,0.0023,auto_reject,,0.0,0.0,0.0,0.0092
+22,CAND-019,0.0022,auto_reject,,0.0,0.0,0.0,0.0087
+23,CAND-020,0.0022,auto_reject,,0.0,0.0,0.0,0.0087
+24,CAND-013,0.0019,auto_reject,,0.0,0.0,0.0,0.0075
+25,CAND-014,0.0019,auto_reject,,0.0,0.0,0.0,0.0075
+26,CAND-012,0.0,auto_reject,,0.0,0.0,0.0,0.0
+27,CAND-027,0.0,auto_reject,,0.0,,,0.0

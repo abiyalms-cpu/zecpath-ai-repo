@@ -1,0 +1,28 @@
+Rank,Candidate ID,Final Score,Zone,Matched Skills,Skill Match,Experience Relevance,Education Alignment,Semantic Similarity
+1,CAND-021,0.4734,shortlist,"Python, MySQL, Java",0.5294,0.75,0.0,0.2965
+2,CAND-022,0.4734,shortlist,"Python, MySQL, Java",0.5294,0.75,0.0,0.2965
+3,CAND-016,0.2038,shortlist,"PostgreSQL, AWS, Docker",0.2941,0.125,,0.1383
+4,CAND-015,0.1461,review,"SQL, Python",0.2353,0.125,0.0,0.0831
+5,CAND-025,0.0561,review,,0.0,0.167,0.0,0.057
+6,CAND-026,0.0561,review,,0.0,0.167,0.0,0.057
+7,CAND-003,0.0132,auto_reject,,0.0,0.0,0.0,0.053
+8,CAND-017,0.0085,auto_reject,,0.0,0.0,,0.0306
+9,CAND-010,0.0061,auto_reject,,0.0,0.0,0.0,0.0245
+10,CAND-011,0.0061,auto_reject,,0.0,0.0,0.0,0.0245
+11,CAND-001,0.0039,auto_reject,,0.0,0.0,0.0,0.0155
+12,CAND-002,0.0039,auto_reject,,0.0,0.0,0.0,0.0155
+13,CAND-008,0.0037,auto_reject,,0.0,0.0,0.0,0.0146
+14,CAND-009,0.0037,auto_reject,,0.0,0.0,0.0,0.0146
+15,CAND-013,0.0034,auto_reject,,0.0,0.0,0.0,0.0138
+16,CAND-014,0.0034,auto_reject,,0.0,0.0,0.0,0.0138
+17,CAND-023,0.0034,auto_reject,,0.0,0.0,0.0,0.0137
+18,CAND-024,0.0034,auto_reject,,0.0,0.0,0.0,0.0137
+19,CAND-004,0.0033,auto_reject,,0.0,0.0,0.0,0.0132
+20,CAND-005,0.0033,auto_reject,,0.0,0.0,0.0,0.0132
+21,CAND-018,0.003,auto_reject,,0.0,0.0,,0.0109
+22,CAND-019,0.0026,auto_reject,,0.0,0.0,0.0,0.0102
+23,CAND-020,0.0026,auto_reject,,0.0,0.0,0.0,0.0102
+24,CAND-006,0.0006,auto_reject,,0.0,0.0,0.0,0.0022
+25,CAND-007,0.0006,auto_reject,,0.0,0.0,0.0,0.0022
+26,CAND-012,0.0,auto_reject,,0.0,0.0,0.0,0.0
+27,CAND-027,0.0,auto_reject,,0.0,,,0.0

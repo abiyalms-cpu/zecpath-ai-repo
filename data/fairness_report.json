@@ -1,0 +1,38 @@
+{
+  "header_independence": {
+    "component_source_references_header": false,
+    "verdict": "PASS \u2014 no score component reads HEADER/name/contact data"
+  },
+  "format_bias": {
+    "heading_method_count": 24,
+    "heuristic_method_count": 2,
+    "avg_skills_found_heading": 2.75,
+    "avg_skills_found_heuristic": 3.5,
+    "avg_jobs_parsed_heading": 1.88,
+    "avg_jobs_parsed_heuristic": 2.0
+  },
+  "keyword_dependence_sde_ii": {
+    "jd_file": "sde_ii",
+    "top_n": 5,
+    "skill_match_only_top": [
+      "ananya_rao.docx",
+      "nikhil_verma_two_column.pdf",
+      "rohan_mehta.docx",
+      "rohan_mehta.pdf",
+      "aditya_rao.docx"
+    ],
+    "blended_top": [
+      "nikhil_verma_two_column.pdf",
+      "ananya_rao.docx",
+      "rohan_mehta.docx",
+      "rohan_mehta.pdf",
+      "vishnu_prasad.docx"
+    ],
+    "promoted_by_blending": [
+      "vishnu_prasad.docx"
+    ],
+    "dropped_by_blending": [
+      "aditya_rao.docx"
+    ]
+  }
+}

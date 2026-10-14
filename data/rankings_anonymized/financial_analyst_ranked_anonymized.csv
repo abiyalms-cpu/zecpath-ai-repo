@@ -1,0 +1,28 @@
+Rank,Candidate ID,Final Score,Zone,Matched Skills,Skill Match,Experience Relevance,Education Alignment,Semantic Similarity
+1,CAND-018,0.4005,shortlist,"Excel, Power BI",0.6667,0.334,,0.201
+2,CAND-013,0.3994,shortlist,"Excel, Power BI",0.6667,0.834,0.0,0.4966
+3,CAND-014,0.3994,shortlist,"Excel, Power BI",0.6667,0.834,0.0,0.4966
+4,CAND-015,0.265,shortlist,"Excel, Power BI",0.6667,0.5,0.0,0.1584
+5,CAND-012,0.012,auto_reject,,0.0,0.0,0.0,0.06
+6,CAND-003,0.0089,auto_reject,,0.0,0.0,0.0,0.0447
+7,CAND-010,0.0079,auto_reject,,0.0,0.0,0.0,0.0395
+8,CAND-011,0.0079,auto_reject,,0.0,0.0,0.0,0.0395
+9,CAND-019,0.0051,auto_reject,,0.0,0.0,0.0,0.0253
+10,CAND-020,0.0051,auto_reject,,0.0,0.0,0.0,0.0253
+11,CAND-004,0.0048,auto_reject,,0.0,0.0,0.0,0.0241
+12,CAND-005,0.0048,auto_reject,,0.0,0.0,0.0,0.0241
+13,CAND-021,0.0046,auto_reject,,0.0,0.0,0.0,0.023
+14,CAND-022,0.0046,auto_reject,,0.0,0.0,0.0,0.023
+15,CAND-008,0.0029,auto_reject,,0.0,0.0,0.0,0.0146
+16,CAND-009,0.0029,auto_reject,,0.0,0.0,0.0,0.0146
+17,CAND-025,0.0027,auto_reject,,0.0,0.0,0.0,0.0137
+18,CAND-026,0.0027,auto_reject,,0.0,0.0,0.0,0.0137
+19,CAND-001,0.0025,auto_reject,,0.0,0.0,0.0,0.0126
+20,CAND-002,0.0025,auto_reject,,0.0,0.0,0.0,0.0126
+21,CAND-023,0.0023,auto_reject,,0.0,0.0,0.0,0.0116
+22,CAND-024,0.0023,auto_reject,,0.0,0.0,0.0,0.0116
+23,CAND-016,0.0016,auto_reject,,0.0,0.0,,0.0048
+24,CAND-006,0.0014,auto_reject,,0.0,0.0,0.0,0.0068
+25,CAND-007,0.0014,auto_reject,,0.0,0.0,0.0,0.0068
+26,CAND-017,0.0013,auto_reject,,0.0,0.0,,0.0039
+27,CAND-027,0.0,auto_reject,,0.0,,,0.0
