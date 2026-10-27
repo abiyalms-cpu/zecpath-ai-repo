@@ -45,6 +45,14 @@ def _build_lookup():
 
 
 EXACT_LOOKUP, VARIANT_LOOKUP = _build_lookup()
+# Fuzzy matching only ever accepts a candidate whose first letter matches the
+# word's first letter (see _find_fuzzy_matches). Bucketing candidates by first
+# letter up front means difflib only has to compare each word against the
+# handful of candidates that could ever actually pass that filter, instead of
+# every candidate in the dictionary -- same result, far less work.
+CANDIDATES_BY_FIRST_LETTER = {}
+for _candidate in EXACT_LOOKUP:
+    CANDIDATES_BY_FIRST_LETTER.setdefault(_candidate[0], []).append(_candidate)
 
 # All known surface forms, longest first, so a multi-word skill is checked
 # before a shorter one that happens to be a substring of it.
@@ -143,18 +151,18 @@ def _find_fuzzy_matches(text, already_found):
     """
     matches = {}
     words = re.findall(r"[A-Za-z][A-Za-z.+#]*", text)
-    candidates = list(EXACT_LOOKUP.keys())
 
     for word in set(w.lower().rstrip(".") for w in words):
         if len(word) < 4:
             continue  # too short to fuzzy-match safely
+        candidates = CANDIDATES_BY_FIRST_LETTER.get(word[0], [])
+        if not candidates:
+            continue  # nothing in the dictionary starts with this letter
         close = difflib.get_close_matches(word, candidates, n=1, cutoff=FUZZY_CUTOFF)
         if not close or close[0] == word:
             continue  # no close hit, or an exact hit already handled above
 
         candidate = close[0]
-        if word[0] != candidate[0]:
-            continue  # different first letter: not how real typos behave
         if _is_inflection_not_typo(word, candidate):
             continue
 

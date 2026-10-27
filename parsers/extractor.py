@@ -47,7 +47,12 @@ def extract_resume_text(file_path: str) -> dict:
 
 
 def extract_folder(input_dir: str, output_dir: str) -> list:
-    """Extract every PDF/DOCX in a folder and save each one as a JSON file."""
+    """Extract every PDF/DOCX in a folder and save each one as a JSON file.
+
+    A resume whose output JSON is already newer than the source file is
+    skipped and its existing result reused instead of re-extracted — at real
+    scale, re-running this over a folder that's mostly unchanged shouldn't
+    re-parse every PDF and DOCX from scratch every time."""
     os.makedirs(output_dir, exist_ok=True)
     results = []
 
@@ -55,15 +60,25 @@ def extract_folder(input_dir: str, output_dir: str) -> list:
         ext = os.path.splitext(name)[1].lower()
         if ext not in READERS:
             continue
+
+        in_path = os.path.join(input_dir, name)
+        out_name = os.path.splitext(name)[0] + "_" + ext.lstrip(".") + ".json"
+        out_path = os.path.join(output_dir, out_name)
+
+        if os.path.exists(out_path) and os.path.getmtime(out_path) >= os.path.getmtime(in_path):
+            with open(out_path, encoding="utf-8") as f:
+                results.append(json.load(f))
+            logger.info(f"Unchanged, skipped: {name}")
+            continue
+
         try:
-            result = extract_resume_text(os.path.join(input_dir, name))
+            result = extract_resume_text(in_path)
         except Exception as error:
             # One bad file should not stop the rest of the batch
             logger.error(f"Failed to extract {name}: {error}")
             continue
 
-        out_name = os.path.splitext(name)[0] + "_" + ext.lstrip(".") + ".json"
-        with open(os.path.join(output_dir, out_name), "w", encoding="utf-8") as f:
+        with open(out_path, "w", encoding="utf-8") as f:
             json.dump(result, f, indent=2, ensure_ascii=False)
         logger.info(f"Saved {out_name}")
         results.append(result)
