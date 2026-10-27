@@ -1,0 +1,77 @@
+{
+  "resume": "abiyal_ms_fresher_docx.docx",
+  "matches": [
+    {
+      "resume": "abiyal_ms_fresher_docx.docx",
+      "jd_file": "financial_analyst",
+      "jd_title": "Financial Analyst",
+      "skills_similarity": 0.10135368101147514,
+      "experience_similarity": 0.0,
+      "projects_similarity": 0.030329074995635998,
+      "overall_similarity": 0.0439
+    },
+    {
+      "resume": "abiyal_ms_fresher_docx.docx",
+      "jd_file": "software_developer",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.07144948473251407,
+      "experience_similarity": 0.0,
+      "projects_similarity": 0.034029531706064466,
+      "overall_similarity": 0.0352
+    },
+    {
+      "resume": "abiyal_ms_fresher_docx.docx",
+      "jd_file": "customer_support",
+      "jd_title": "Customer Support Executive",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.0,
+      "projects_similarity": 0.03861527281611889,
+      "overall_similarity": 0.0129
+    },
+    {
+      "resume": "abiyal_ms_fresher_docx.docx",
+      "jd_file": "hr_manager",
+      "jd_title": "HR Manager",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.0,
+      "projects_similarity": 0.037507174757337836,
+      "overall_similarity": 0.0125
+    },
+    {
+      "resume": "abiyal_ms_fresher_docx.docx",
+      "jd_file": "digital_marketing",
+      "jd_title": "Digital Marketing Specialist",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.0,
+      "projects_similarity": 0.026520029467376336,
+      "overall_similarity": 0.0088
+    },
+    {
+      "resume": "abiyal_ms_fresher_docx.docx",
+      "jd_file": "mechanical_engineer",
+      "jd_title": "Mechanical Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.0,
+      "projects_similarity": 0.02610928277904302,
+      "overall_similarity": 0.0087
+    },
+    {
+      "resume": "abiyal_ms_fresher_docx.docx",
+      "jd_file": "sde_ii",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.0,
+      "projects_similarity": 0.02495565444361247,
+      "overall_similarity": 0.0083
+    },
+    {
+      "resume": "abiyal_ms_fresher_docx.docx",
+      "jd_file": "sales_executive",
+      "jd_title": "Sales Executive",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.0,
+      "projects_similarity": 0.023501254785116533,
+      "overall_similarity": 0.0078
+    }
+  ]
+}

@@ -5,73 +5,73 @@
       "resume": "priya_nair.pdf",
       "jd_file": "sales_executive",
       "jd_title": "Sales Executive",
-      "skills_similarity": 0.3967646370133919,
-      "experience_similarity": 0.3060619749143254,
+      "skills_similarity": 0.3882009209718443,
+      "experience_similarity": 0.30137369430284244,
       "projects_similarity": null,
-      "overall_similarity": 0.3514
+      "overall_similarity": 0.3448
     },
     {
       "resume": "priya_nair.pdf",
       "jd_file": "financial_analyst",
       "jd_title": "Financial Analyst",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.05053529163197115,
+      "experience_similarity": 0.051868207134166885,
       "projects_similarity": null,
-      "overall_similarity": 0.0253
+      "overall_similarity": 0.0259
     },
     {
       "resume": "priya_nair.pdf",
       "jd_file": "digital_marketing",
       "jd_title": "Digital Marketing Specialist",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.03331137413866325,
+      "experience_similarity": 0.03706481174610517,
       "projects_similarity": null,
-      "overall_similarity": 0.0167
+      "overall_similarity": 0.0185
     },
     {
       "resume": "priya_nair.pdf",
       "jd_file": "mechanical_engineer",
       "jd_title": "Mechanical Engineer",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.02235914135483724,
+      "experience_similarity": 0.021987176491141572,
       "projects_similarity": null,
-      "overall_similarity": 0.0112
+      "overall_similarity": 0.011
     },
     {
       "resume": "priya_nair.pdf",
       "jd_file": "software_developer",
       "jd_title": "Software Engineer",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.02045105848249361,
+      "experience_similarity": 0.019838503404242508,
       "projects_similarity": null,
-      "overall_similarity": 0.0102
+      "overall_similarity": 0.0099
     },
     {
       "resume": "priya_nair.pdf",
       "jd_file": "sde_ii",
       "jd_title": "Software Engineer",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.017310765884738195,
+      "experience_similarity": 0.01824312132670081,
       "projects_similarity": null,
-      "overall_similarity": 0.0087
+      "overall_similarity": 0.0091
     },
     {
       "resume": "priya_nair.pdf",
       "jd_file": "customer_support",
       "jd_title": "Customer Support Executive",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.015456667582085023,
+      "experience_similarity": 0.015979348706971014,
       "projects_similarity": null,
-      "overall_similarity": 0.0077
+      "overall_similarity": 0.008
     },
     {
       "resume": "priya_nair.pdf",
       "jd_file": "hr_manager",
       "jd_title": "HR Manager",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.011075281984203695,
+      "experience_similarity": 0.010579567230250372,
       "projects_similarity": null,
-      "overall_similarity": 0.0055
+      "overall_similarity": 0.0053
     }
   ]
 }

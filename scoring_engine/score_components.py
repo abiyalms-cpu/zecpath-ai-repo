@@ -33,7 +33,7 @@ def experience_relevance_score(experience_record, jd_record, skill_profile_recor
         return None  # no parsed work history — not guessed at as zero
 
     skills = skill_profile_record.get("skills") if skill_profile_record else None
-    result = score_candidate_relevance(jobs, jd_record, skill_profile=skills)
+    result = score_candidate_relevance(jobs, jd_record, skill_profile=skills, total_months=experience_record.get("total_experience_months"))
     return result["overall_relevance"]
 
 

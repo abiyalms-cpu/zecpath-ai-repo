@@ -1,0 +1,77 @@
+{
+  "resume": "kunal_bhatia_fresher_docx.docx",
+  "matches": [
+    {
+      "resume": "kunal_bhatia_fresher_docx.docx",
+      "jd_file": "digital_marketing",
+      "jd_title": "Digital Marketing Specialist",
+      "skills_similarity": 0.3092305626452426,
+      "experience_similarity": 0.1392828470120352,
+      "projects_similarity": null,
+      "overall_similarity": 0.2243
+    },
+    {
+      "resume": "kunal_bhatia_fresher_docx.docx",
+      "jd_file": "hr_manager",
+      "jd_title": "HR Manager",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.03498656695326861,
+      "projects_similarity": null,
+      "overall_similarity": 0.0175
+    },
+    {
+      "resume": "kunal_bhatia_fresher_docx.docx",
+      "jd_file": "financial_analyst",
+      "jd_title": "Financial Analyst",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.03345670146645627,
+      "projects_similarity": null,
+      "overall_similarity": 0.0167
+    },
+    {
+      "resume": "kunal_bhatia_fresher_docx.docx",
+      "jd_file": "software_developer",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.02975896154013864,
+      "projects_similarity": null,
+      "overall_similarity": 0.0149
+    },
+    {
+      "resume": "kunal_bhatia_fresher_docx.docx",
+      "jd_file": "sde_ii",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.029109371596628783,
+      "projects_similarity": null,
+      "overall_similarity": 0.0146
+    },
+    {
+      "resume": "kunal_bhatia_fresher_docx.docx",
+      "jd_file": "customer_support",
+      "jd_title": "Customer Support Executive",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.021442809452174773,
+      "projects_similarity": null,
+      "overall_similarity": 0.0107
+    },
+    {
+      "resume": "kunal_bhatia_fresher_docx.docx",
+      "jd_file": "sales_executive",
+      "jd_title": "Sales Executive",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.021372882691039017,
+      "projects_similarity": null,
+      "overall_similarity": 0.0107
+    },
+    {
+      "resume": "kunal_bhatia_fresher_docx.docx",
+      "jd_file": "mechanical_engineer",
+      "jd_title": "Mechanical Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.018783750785087434,
+      "projects_similarity": null,
+      "overall_similarity": 0.0094
+    }
+  ]
+}

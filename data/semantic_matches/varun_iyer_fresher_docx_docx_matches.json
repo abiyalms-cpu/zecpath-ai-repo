@@ -1,0 +1,77 @@
+{
+  "resume": "varun_iyer_fresher_docx.docx",
+  "matches": [
+    {
+      "resume": "varun_iyer_fresher_docx.docx",
+      "jd_file": "hr_manager",
+      "jd_title": "HR Manager",
+      "skills_similarity": 0.16366680500301983,
+      "experience_similarity": 0.06258544635302837,
+      "projects_similarity": null,
+      "overall_similarity": 0.1131
+    },
+    {
+      "resume": "varun_iyer_fresher_docx.docx",
+      "jd_file": "financial_analyst",
+      "jd_title": "Financial Analyst",
+      "skills_similarity": 0.11320285426297724,
+      "experience_similarity": 0.030797016272222717,
+      "projects_similarity": null,
+      "overall_similarity": 0.072
+    },
+    {
+      "resume": "varun_iyer_fresher_docx.docx",
+      "jd_file": "mechanical_engineer",
+      "jd_title": "Mechanical Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.04415838750770368,
+      "projects_similarity": null,
+      "overall_similarity": 0.0221
+    },
+    {
+      "resume": "varun_iyer_fresher_docx.docx",
+      "jd_file": "sales_executive",
+      "jd_title": "Sales Executive",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.03210330314884948,
+      "projects_similarity": null,
+      "overall_similarity": 0.0161
+    },
+    {
+      "resume": "varun_iyer_fresher_docx.docx",
+      "jd_file": "sde_ii",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.025773068126957226,
+      "projects_similarity": null,
+      "overall_similarity": 0.0129
+    },
+    {
+      "resume": "varun_iyer_fresher_docx.docx",
+      "jd_file": "software_developer",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.016125688446099,
+      "projects_similarity": null,
+      "overall_similarity": 0.0081
+    },
+    {
+      "resume": "varun_iyer_fresher_docx.docx",
+      "jd_file": "customer_support",
+      "jd_title": "Customer Support Executive",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.01161935923632456,
+      "projects_similarity": null,
+      "overall_similarity": 0.0058
+    },
+    {
+      "resume": "varun_iyer_fresher_docx.docx",
+      "jd_file": "digital_marketing",
+      "jd_title": "Digital Marketing Specialist",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.006695791568499924,
+      "projects_similarity": null,
+      "overall_similarity": 0.0033
+    }
+  ]
+}

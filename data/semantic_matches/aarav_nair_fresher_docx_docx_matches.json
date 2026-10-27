@@ -1,0 +1,77 @@
+{
+  "resume": "aarav_nair_fresher_docx.docx",
+  "matches": [
+    {
+      "resume": "aarav_nair_fresher_docx.docx",
+      "jd_file": "sde_ii",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.34590833735179,
+      "experience_similarity": 0.04417812472085701,
+      "projects_similarity": null,
+      "overall_similarity": 0.195
+    },
+    {
+      "resume": "aarav_nair_fresher_docx.docx",
+      "jd_file": "software_developer",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.249234259050589,
+      "experience_similarity": 0.1144650461177594,
+      "projects_similarity": null,
+      "overall_similarity": 0.1818
+    },
+    {
+      "resume": "aarav_nair_fresher_docx.docx",
+      "jd_file": "sales_executive",
+      "jd_title": "Sales Executive",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.08461626217253318,
+      "projects_similarity": null,
+      "overall_similarity": 0.0423
+    },
+    {
+      "resume": "aarav_nair_fresher_docx.docx",
+      "jd_file": "hr_manager",
+      "jd_title": "HR Manager",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.0311342555141059,
+      "projects_similarity": null,
+      "overall_similarity": 0.0156
+    },
+    {
+      "resume": "aarav_nair_fresher_docx.docx",
+      "jd_file": "financial_analyst",
+      "jd_title": "Financial Analyst",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.02977284091654769,
+      "projects_similarity": null,
+      "overall_similarity": 0.0149
+    },
+    {
+      "resume": "aarav_nair_fresher_docx.docx",
+      "jd_file": "customer_support",
+      "jd_title": "Customer Support Executive",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.019081778138335566,
+      "projects_similarity": null,
+      "overall_similarity": 0.0095
+    },
+    {
+      "resume": "aarav_nair_fresher_docx.docx",
+      "jd_file": "mechanical_engineer",
+      "jd_title": "Mechanical Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.01671550390289331,
+      "projects_similarity": null,
+      "overall_similarity": 0.0084
+    },
+    {
+      "resume": "aarav_nair_fresher_docx.docx",
+      "jd_file": "digital_marketing",
+      "jd_title": "Digital Marketing Specialist",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.010996097682497418,
+      "projects_similarity": null,
+      "overall_similarity": 0.0055
+    }
+  ]
+}

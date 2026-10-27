@@ -20,8 +20,10 @@ def _month_index(year, month):
 
 
 def _job_range(job, reference_date):
+    if "start_year" not in job or "start_month" not in job:
+        return None
     start_idx = _month_index(job["start_year"], job["start_month"])
-    if job["is_current"] or job["end_year"] is None:
+    if job.get("is_current") or job.get("end_year") is None:
         end_idx = _month_index(reference_date.year, reference_date.month)
     else:
         end_idx = _month_index(job["end_year"], job["end_month"])
@@ -32,24 +34,26 @@ def total_experience_months(jobs, reference_date=None):
     """
     Total experience across all jobs, in months, with overlapping date
     ranges merged first so time spent in two roles at once isn't counted
-    twice.
+    twice. A job with no usable start date is honestly skipped, not
+    guessed at as zero duration or crashed on.
     """
     if not jobs:
         return 0
     if reference_date is None:
         reference_date = datetime.now()
 
-    ranges = sorted(_job_range(job, reference_date) for job in jobs)
+    ranges = sorted(r for r in (_job_range(job, reference_date) for job in jobs) if r is not None)
+    if not ranges:
+        return 0
     merged = [ranges[0]]
     for start, end in ranges[1:]:
         last_start, last_end = merged[-1]
-        if start <= last_end:  # overlaps (or touches) the previous range
+        if start <= last_end:
             merged[-1] = (last_start, max(last_end, end))
         else:
             merged.append((start, end))
 
     return sum(end - start + 1 for start, end in merged)
-
 
 def format_duration(total_months):
     """123 -> (10, 3) meaning 10 years, 3 months."""

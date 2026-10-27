@@ -1,28 +1,34 @@
 Rank,Candidate,Final Score,Zone,Matched Skills,Skill Match,Experience Relevance,Education Alignment,Semantic Similarity
-1,rohan_mehta.docx,0.4734,shortlist,"Python, MySQL, Java",0.5294,0.75,0.0,0.2965
-2,rohan_mehta.pdf,0.4734,shortlist,"Python, MySQL, Java",0.5294,0.75,0.0,0.2965
-3,nikhil_verma_two_column.pdf,0.2038,shortlist,"PostgreSQL, AWS, Docker",0.2941,0.125,,0.1383
-4,meera_iyer_table.docx,0.1461,review,"SQL, Python",0.2353,0.125,0.0,0.0831
-5,vishnu_prasad.docx,0.0561,review,,0.0,0.167,0.0,0.057
-6,vishnu_prasad.pdf,0.0561,review,,0.0,0.167,0.0,0.057
-7,ananya_rao.docx,0.0132,auto_reject,,0.0,0.0,0.0,0.053
-8,no_headings_meena.docx,0.0085,auto_reject,,0.0,0.0,,0.0306
-9,fathima_rasheed.docx,0.0061,auto_reject,,0.0,0.0,0.0,0.0245
-10,fathima_rasheed.pdf,0.0061,auto_reject,,0.0,0.0,0.0,0.0245
-11,aditya_rao.docx,0.0039,auto_reject,,0.0,0.0,0.0,0.0155
-12,aditya_rao.pdf,0.0039,auto_reject,,0.0,0.0,0.0,0.0155
-13,divya_menon.docx,0.0037,auto_reject,,0.0,0.0,0.0,0.0146
-14,divya_menon.pdf,0.0037,auto_reject,,0.0,0.0,0.0,0.0146
-15,karthik_subramaniam.docx,0.0034,auto_reject,,0.0,0.0,0.0,0.0138
-16,karthik_subramaniam.pdf,0.0034,auto_reject,,0.0,0.0,0.0,0.0138
-17,sneha_thomas.docx,0.0034,auto_reject,,0.0,0.0,0.0,0.0137
-18,sneha_thomas.pdf,0.0034,auto_reject,,0.0,0.0,0.0,0.0137
-19,anjali_suresh.docx,0.0033,auto_reject,,0.0,0.0,0.0,0.0132
-20,anjali_suresh.pdf,0.0033,auto_reject,,0.0,0.0,0.0,0.0132
-21,no_headings_vikram.docx,0.003,auto_reject,,0.0,0.0,,0.0109
-22,priya_nair.docx,0.0026,auto_reject,,0.0,0.0,0.0,0.0102
-23,priya_nair.pdf,0.0026,auto_reject,,0.0,0.0,0.0,0.0102
-24,arun_kumar.docx,0.0006,auto_reject,,0.0,0.0,0.0,0.0022
-25,arun_kumar.pdf,0.0006,auto_reject,,0.0,0.0,0.0,0.0022
-26,ishaan_kapoor_photo.docx,0.0,auto_reject,,0.0,0.0,0.0,0.0
-27,zoya_khan_scanned.pdf,0.0,auto_reject,,0.0,,,0.0
+1,rohan_mehta.docx,0.4933,shortlist,"Python, MySQL, Java",0.5294,0.833,0.0,0.2934
+2,rohan_mehta.pdf,0.4933,shortlist,"Python, MySQL, Java",0.5294,0.833,0.0,0.2934
+3,aarav_nair_fresher_docx.docx,0.3004,shortlist,"SQL, Python, Java",0.4706,0.267,0.0,0.1818
+4,nikhil_verma_two_column.pdf,0.288,shortlist,"PostgreSQL, AWS, Docker",0.2941,0.417,,0.1493
+5,meera_iyer_table.docx,0.2125,shortlist,"SQL, Python",0.2353,0.406,0.0,0.0677
+6,abiyal_ms_fresher_docx.docx,0.1583,shortlist,"SQL, Python",0.2353,,,0.0352
+7,vishnu_prasad.docx,0.1253,review,,0.0,0.444,0.0,0.057
+8,vishnu_prasad.pdf,0.1253,review,,0.0,0.444,0.0,0.057
+9,no_headings_meena.docx,0.1013,review,,0.0,0.333,,0.0316
+10,no_headings_vikram.docx,0.0955,review,,0.0,0.333,,0.0107
+11,fathima_rasheed.docx,0.0895,review,,0.0,0.333,0.0,0.0247
+12,fathima_rasheed.pdf,0.0895,review,,0.0,0.333,0.0,0.0247
+13,aditya_rao.docx,0.0873,review,,0.0,0.333,0.0,0.0161
+14,aditya_rao.pdf,0.0873,review,,0.0,0.333,0.0,0.0161
+15,divya_menon.docx,0.0868,review,,0.0,0.333,0.0,0.0141
+16,divya_menon.pdf,0.0868,review,,0.0,0.333,0.0,0.0141
+17,sneha_thomas.docx,0.0867,review,,0.0,0.333,0.0,0.0134
+18,sneha_thomas.pdf,0.0867,review,,0.0,0.333,0.0,0.0134
+19,anjali_suresh.docx,0.0865,review,,0.0,0.333,0.0,0.0128
+20,anjali_suresh.pdf,0.0865,review,,0.0,0.333,0.0,0.0128
+21,karthik_subramaniam.docx,0.0865,review,,0.0,0.333,0.0,0.013
+22,karthik_subramaniam.pdf,0.0865,review,,0.0,0.333,0.0,0.013
+23,priya_nair.docx,0.0858,review,,0.0,0.333,0.0,0.0099
+24,priya_nair.pdf,0.0858,review,,0.0,0.333,0.0,0.0099
+25,arun_kumar.docx,0.0838,review,,0.0,0.333,0.0,0.0021
+26,arun_kumar.pdf,0.0838,review,,0.0,0.333,0.0,0.0021
+27,ishaan_kapoor_photo.docx,0.0833,review,,0.0,0.333,0.0,0.0
+28,ananya_rao.docx,0.0599,review,,0.0,0.189,0.0,0.0503
+29,riya_deshmukh_fresher_docx.docx,0.0097,auto_reject,,0.0,0.022,0.0,0.0166
+30,neha_choudhary_fresher_docx.docx,0.0088,auto_reject,,0.0,0.017,0.0,0.0181
+31,kunal_bhatia_fresher_docx.docx,0.008,auto_reject,,0.0,0.017,0.0,0.0149
+32,varun_iyer_fresher_docx.docx,0.0075,auto_reject,,0.0,0.022,0.0,0.0081
+33,zoya_khan_scanned.pdf,0.0,auto_reject,,0.0,,,0.0

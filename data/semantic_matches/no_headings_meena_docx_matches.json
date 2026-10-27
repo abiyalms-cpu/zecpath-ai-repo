@@ -6,72 +6,72 @@
       "jd_file": "sde_ii",
       "jd_title": "Software Engineer",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.07407427537330487,
+      "experience_similarity": 0.06593818842252043,
       "projects_similarity": null,
-      "overall_similarity": 0.037
+      "overall_similarity": 0.033
     },
     {
       "resume": "no_headings_meena.docx",
       "jd_file": "hr_manager",
       "jd_title": "HR Manager",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.067416183319572,
+      "experience_similarity": 0.06344996163424714,
       "projects_similarity": null,
-      "overall_similarity": 0.0337
+      "overall_similarity": 0.0317
     },
     {
       "resume": "no_headings_meena.docx",
       "jd_file": "software_developer",
       "jd_title": "Software Engineer",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.06124807458481424,
+      "experience_similarity": 0.06327521748748127,
       "projects_similarity": null,
-      "overall_similarity": 0.0306
+      "overall_similarity": 0.0316
     },
     {
       "resume": "no_headings_meena.docx",
       "jd_file": "mechanical_engineer",
       "jd_title": "Mechanical Engineer",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.06017415714343371,
+      "experience_similarity": 0.06266359168970252,
       "projects_similarity": null,
-      "overall_similarity": 0.0301
+      "overall_similarity": 0.0313
     },
     {
       "resume": "no_headings_meena.docx",
       "jd_file": "customer_support",
       "jd_title": "Customer Support Executive",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.037345110840813205,
+      "experience_similarity": 0.03913535951996401,
       "projects_similarity": null,
-      "overall_similarity": 0.0187
-    },
-    {
-      "resume": "no_headings_meena.docx",
-      "jd_file": "sales_executive",
-      "jd_title": "Sales Executive",
-      "skills_similarity": 0.0,
-      "experience_similarity": 0.01890474550114975,
-      "projects_similarity": null,
-      "overall_similarity": 0.0095
+      "overall_similarity": 0.0196
     },
     {
       "resume": "no_headings_meena.docx",
       "jd_file": "digital_marketing",
       "jd_title": "Digital Marketing Specialist",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.018665474972488924,
+      "experience_similarity": 0.020731358202949392,
       "projects_similarity": null,
-      "overall_similarity": 0.0093
+      "overall_similarity": 0.0104
+    },
+    {
+      "resume": "no_headings_meena.docx",
+      "jd_file": "sales_executive",
+      "jd_title": "Sales Executive",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.01786617905127983,
+      "projects_similarity": null,
+      "overall_similarity": 0.0089
     },
     {
       "resume": "no_headings_meena.docx",
       "jd_file": "financial_analyst",
       "jd_title": "Financial Analyst",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.007896553578183281,
+      "experience_similarity": 0.007329358992096001,
       "projects_similarity": null,
-      "overall_similarity": 0.0039
+      "overall_similarity": 0.0037
     }
   ]
 }

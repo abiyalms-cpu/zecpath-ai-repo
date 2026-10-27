@@ -1,0 +1,18 @@
+{
+  "source_file": "riya_deshmukh_fresher_docx.docx",
+  "method": "heading",
+  "skills": [
+    {
+      "skill": "Excel",
+      "category": "technical",
+      "confidence": 0.93,
+      "match_type": "exact_synonym",
+      "matched_text": "ms excel",
+      "found_in": [
+        "SKILLS"
+      ]
+    }
+  ],
+  "total_skills_found": 1,
+  "extracted_at": "2026-10-24T14:06:28.135672+00:00"
+}

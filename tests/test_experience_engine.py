@@ -124,7 +124,11 @@ def test_relevance_combines_role_and_skill_scores_when_skill_profile_given():
     result = score_candidate_relevance(jobs, jd, skill_profile=skill_profile)
     assert result["role_relevance"] == 1.0
     assert result["skill_overlap"] == 0.5
-    assert result["overall_relevance"] == 0.75
+    # No start/end date on this synthetic job, so experience_depth is honestly 0.0
+    # (nothing to verify tenure from), not guessed at. overall_relevance is now a
+    # three-way average: (1.0 + 0.5 + 0.0) / 3 = 0.5
+    assert result["experience_depth"] == 0.0
+    assert result["overall_relevance"] == 0.5
 
 
 def test_relevance_uses_role_score_only_when_no_skill_profile_given():
@@ -132,8 +136,10 @@ def test_relevance_uses_role_score_only_when_no_skill_profile_given():
     jd = {"title": "Software Developer", "required_skills": []}
     result = score_candidate_relevance(jobs, jd)
     assert result["skill_overlap"] is None
-    assert result["overall_relevance"] == result["role_relevance"] == 1.0
-
+    # No skill_profile and no date info on this job -- overall_relevance is now
+    # role_relevance averaged with the honest 0.0 depth factor: (1.0 + 0.0) / 2 = 0.5
+    assert result["experience_depth"] == 0.0
+    assert result["overall_relevance"] == 0.5
 
 def test_resume_with_no_text_gets_an_honest_empty_record():
     record = build_experience_record({"source_file": "blank.pdf", "method": "skipped", "sections": {}})

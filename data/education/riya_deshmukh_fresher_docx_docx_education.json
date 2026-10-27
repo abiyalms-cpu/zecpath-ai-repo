@@ -1,0 +1,16 @@
+{
+  "source_file": "riya_deshmukh_fresher_docx.docx",
+  "method": "heading",
+  "education": [
+    {
+      "raw_line": "B.E, Mechanical Engineering \u2014 College of Engineering Pune (2026)",
+      "degree_raw": "B.E",
+      "degree_normalized": "B.E.",
+      "field_of_study": "Mechanical Engineering",
+      "institution": "College of Engineering Pune",
+      "graduation_year": 2026
+    }
+  ],
+  "certifications": [],
+  "extracted_at": "2026-10-24T14:07:07.312703+00:00"
+}

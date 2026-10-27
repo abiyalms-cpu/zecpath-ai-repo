@@ -1,28 +1,34 @@
 Rank,Candidate,Final Score,Zone,Matched Skills,Skill Match,Experience Relevance,Education Alignment,Semantic Similarity
-1,no_headings_vikram.docx,0.4005,shortlist,"Excel, Power BI",0.6667,0.334,,0.201
-2,karthik_subramaniam.docx,0.3994,shortlist,"Excel, Power BI",0.6667,0.834,0.0,0.4966
-3,karthik_subramaniam.pdf,0.3994,shortlist,"Excel, Power BI",0.6667,0.834,0.0,0.4966
-4,meera_iyer_table.docx,0.265,shortlist,"Excel, Power BI",0.6667,0.5,0.0,0.1584
-5,ishaan_kapoor_photo.docx,0.012,auto_reject,,0.0,0.0,0.0,0.06
-6,ananya_rao.docx,0.0089,auto_reject,,0.0,0.0,0.0,0.0447
-7,fathima_rasheed.docx,0.0079,auto_reject,,0.0,0.0,0.0,0.0395
-8,fathima_rasheed.pdf,0.0079,auto_reject,,0.0,0.0,0.0,0.0395
-9,priya_nair.docx,0.0051,auto_reject,,0.0,0.0,0.0,0.0253
-10,priya_nair.pdf,0.0051,auto_reject,,0.0,0.0,0.0,0.0253
-11,anjali_suresh.docx,0.0048,auto_reject,,0.0,0.0,0.0,0.0241
-12,anjali_suresh.pdf,0.0048,auto_reject,,0.0,0.0,0.0,0.0241
-13,rohan_mehta.docx,0.0046,auto_reject,,0.0,0.0,0.0,0.023
-14,rohan_mehta.pdf,0.0046,auto_reject,,0.0,0.0,0.0,0.023
-15,divya_menon.docx,0.0029,auto_reject,,0.0,0.0,0.0,0.0146
-16,divya_menon.pdf,0.0029,auto_reject,,0.0,0.0,0.0,0.0146
-17,vishnu_prasad.docx,0.0027,auto_reject,,0.0,0.0,0.0,0.0137
-18,vishnu_prasad.pdf,0.0027,auto_reject,,0.0,0.0,0.0,0.0137
-19,aditya_rao.docx,0.0025,auto_reject,,0.0,0.0,0.0,0.0126
-20,aditya_rao.pdf,0.0025,auto_reject,,0.0,0.0,0.0,0.0126
-21,sneha_thomas.docx,0.0023,auto_reject,,0.0,0.0,0.0,0.0116
-22,sneha_thomas.pdf,0.0023,auto_reject,,0.0,0.0,0.0,0.0116
-23,nikhil_verma_two_column.pdf,0.0016,auto_reject,,0.0,0.0,,0.0048
-24,arun_kumar.docx,0.0014,auto_reject,,0.0,0.0,0.0,0.0068
-25,arun_kumar.pdf,0.0014,auto_reject,,0.0,0.0,0.0,0.0068
-26,no_headings_meena.docx,0.0013,auto_reject,,0.0,0.0,,0.0039
-27,zoya_khan_scanned.pdf,0.0,auto_reject,,0.0,,,0.0
+1,no_headings_vikram.docx,0.4716,shortlist,"Excel, Power BI",0.6667,0.556,,0.1922
+2,karthik_subramaniam.docx,0.4086,shortlist,"Excel, Power BI",0.6667,0.889,0.0,0.4877
+3,karthik_subramaniam.pdf,0.4086,shortlist,"Excel, Power BI",0.6667,0.889,0.0,0.4877
+4,meera_iyer_table.docx,0.2939,shortlist,"Excel, Power BI",0.6667,0.656,0.0,0.1472
+5,abiyal_ms_fresher_docx.docx,0.1886,shortlist,Power BI,0.3333,,,0.0439
+6,nikhil_verma_two_column.pdf,0.1125,review,,0.0,0.333,,0.0045
+7,no_headings_meena.docx,0.1122,review,,0.0,0.333,,0.0037
+8,riya_deshmukh_fresher_docx.docx,0.109,review,Excel,0.3333,0.133,0.0,0.0784
+9,varun_iyer_fresher_docx.docx,0.1077,review,Excel,0.3333,0.133,0.0,0.072
+10,neha_choudhary_fresher_docx.docx,0.104,review,Excel,0.3333,0.128,0.0,0.0586
+11,ishaan_kapoor_photo.docx,0.0794,review,,0.0,0.333,0.0,0.0639
+12,fathima_rasheed.docx,0.0745,review,,0.0,0.333,0.0,0.0394
+13,fathima_rasheed.pdf,0.0745,review,,0.0,0.333,0.0,0.0394
+14,priya_nair.docx,0.0718,review,,0.0,0.333,0.0,0.0259
+15,priya_nair.pdf,0.0718,review,,0.0,0.333,0.0,0.0259
+16,anjali_suresh.docx,0.0714,review,,0.0,0.333,0.0,0.0239
+17,anjali_suresh.pdf,0.0714,review,,0.0,0.333,0.0,0.0239
+18,rohan_mehta.docx,0.0709,review,,0.0,0.333,0.0,0.0216
+19,rohan_mehta.pdf,0.0709,review,,0.0,0.333,0.0,0.0216
+20,divya_menon.docx,0.0695,review,,0.0,0.333,0.0,0.0146
+21,divya_menon.pdf,0.0695,review,,0.0,0.333,0.0,0.0146
+22,vishnu_prasad.docx,0.0692,review,,0.0,0.333,0.0,0.013
+23,vishnu_prasad.pdf,0.0692,review,,0.0,0.333,0.0,0.013
+24,aditya_rao.docx,0.069,review,,0.0,0.333,0.0,0.0119
+25,aditya_rao.pdf,0.069,review,,0.0,0.333,0.0,0.0119
+26,sneha_thomas.docx,0.0688,review,,0.0,0.333,0.0,0.0109
+27,sneha_thomas.pdf,0.0688,review,,0.0,0.333,0.0,0.0109
+28,arun_kumar.docx,0.0679,review,,0.0,0.333,0.0,0.0064
+29,arun_kumar.pdf,0.0679,review,,0.0,0.333,0.0,0.0064
+30,ananya_rao.docx,0.0469,review,,0.0,0.189,0.0,0.0453
+31,kunal_bhatia_fresher_docx.docx,0.0067,auto_reject,,0.0,0.017,0.0,0.0167
+32,aarav_nair_fresher_docx.docx,0.0064,auto_reject,,0.0,0.017,0.0,0.0149
+33,zoya_khan_scanned.pdf,0.0,auto_reject,,0.0,,,0.0

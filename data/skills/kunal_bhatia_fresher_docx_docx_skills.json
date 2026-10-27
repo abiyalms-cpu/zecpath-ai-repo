@@ -1,0 +1,39 @@
+{
+  "source_file": "kunal_bhatia_fresher_docx.docx",
+  "method": "heading",
+  "skills": [
+    {
+      "skill": "Social Media Marketing",
+      "category": "creative",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "social media marketing",
+      "found_in": [
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "Content Writing",
+      "category": "creative",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "content writing",
+      "found_in": [
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "Digital Marketing",
+      "category": "creative",
+      "confidence": 0.873,
+      "match_type": "exact_canonical",
+      "matched_text": "digital marketing",
+      "found_in": [
+        "SUMMARY",
+        "EXPERIENCE"
+      ]
+    }
+  ],
+  "total_skills_found": 3,
+  "extracted_at": "2026-10-24T14:06:28.036301+00:00"
+}

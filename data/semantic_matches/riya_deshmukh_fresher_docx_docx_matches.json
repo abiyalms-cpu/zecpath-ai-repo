@@ -1,0 +1,77 @@
+{
+  "resume": "riya_deshmukh_fresher_docx.docx",
+  "matches": [
+    {
+      "resume": "riya_deshmukh_fresher_docx.docx",
+      "jd_file": "mechanical_engineer",
+      "jd_title": "Mechanical Engineer",
+      "skills_similarity": 0.2435517784626443,
+      "experience_similarity": 0.06857517747319555,
+      "projects_similarity": null,
+      "overall_similarity": 0.1561
+    },
+    {
+      "resume": "riya_deshmukh_fresher_docx.docx",
+      "jd_file": "financial_analyst",
+      "jd_title": "Financial Analyst",
+      "skills_similarity": 0.10601913498034449,
+      "experience_similarity": 0.0508729971727102,
+      "projects_similarity": null,
+      "overall_similarity": 0.0784
+    },
+    {
+      "resume": "riya_deshmukh_fresher_docx.docx",
+      "jd_file": "sde_ii",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.06437044581882073,
+      "projects_similarity": null,
+      "overall_similarity": 0.0322
+    },
+    {
+      "resume": "riya_deshmukh_fresher_docx.docx",
+      "jd_file": "software_developer",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.03321783954237875,
+      "projects_similarity": null,
+      "overall_similarity": 0.0166
+    },
+    {
+      "resume": "riya_deshmukh_fresher_docx.docx",
+      "jd_file": "hr_manager",
+      "jd_title": "HR Manager",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.032916485327662386,
+      "projects_similarity": null,
+      "overall_similarity": 0.0165
+    },
+    {
+      "resume": "riya_deshmukh_fresher_docx.docx",
+      "jd_file": "sales_executive",
+      "jd_title": "Sales Executive",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.009536692061666177,
+      "projects_similarity": null,
+      "overall_similarity": 0.0048
+    },
+    {
+      "resume": "riya_deshmukh_fresher_docx.docx",
+      "jd_file": "customer_support",
+      "jd_title": "Customer Support Executive",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.0,
+      "projects_similarity": null,
+      "overall_similarity": 0.0
+    },
+    {
+      "resume": "riya_deshmukh_fresher_docx.docx",
+      "jd_file": "digital_marketing",
+      "jd_title": "Digital Marketing Specialist",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.0,
+      "projects_similarity": null,
+      "overall_similarity": 0.0
+    }
+  ]
+}

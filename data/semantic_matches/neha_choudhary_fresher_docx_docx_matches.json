@@ -1,0 +1,77 @@
+{
+  "resume": "neha_choudhary_fresher_docx.docx",
+  "matches": [
+    {
+      "resume": "neha_choudhary_fresher_docx.docx",
+      "jd_file": "sales_executive",
+      "jd_title": "Sales Executive",
+      "skills_similarity": 0.24984451473717698,
+      "experience_similarity": 0.10762554600324337,
+      "projects_similarity": null,
+      "overall_similarity": 0.1787
+    },
+    {
+      "resume": "neha_choudhary_fresher_docx.docx",
+      "jd_file": "financial_analyst",
+      "jd_title": "Financial Analyst",
+      "skills_similarity": 0.09247925239032316,
+      "experience_similarity": 0.02475285684246165,
+      "projects_similarity": null,
+      "overall_similarity": 0.0586
+    },
+    {
+      "resume": "neha_choudhary_fresher_docx.docx",
+      "jd_file": "sde_ii",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.04788136304613813,
+      "projects_similarity": null,
+      "overall_similarity": 0.0239
+    },
+    {
+      "resume": "neha_choudhary_fresher_docx.docx",
+      "jd_file": "software_developer",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.03616778241331781,
+      "projects_similarity": null,
+      "overall_similarity": 0.0181
+    },
+    {
+      "resume": "neha_choudhary_fresher_docx.docx",
+      "jd_file": "hr_manager",
+      "jd_title": "HR Manager",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.02784407251871956,
+      "projects_similarity": null,
+      "overall_similarity": 0.0139
+    },
+    {
+      "resume": "neha_choudhary_fresher_docx.docx",
+      "jd_file": "customer_support",
+      "jd_title": "Customer Support Executive",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.020681311223157393,
+      "projects_similarity": null,
+      "overall_similarity": 0.0103
+    },
+    {
+      "resume": "neha_choudhary_fresher_docx.docx",
+      "jd_file": "digital_marketing",
+      "jd_title": "Digital Marketing Specialist",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.011917847318174787,
+      "projects_similarity": null,
+      "overall_similarity": 0.006
+    },
+    {
+      "resume": "neha_choudhary_fresher_docx.docx",
+      "jd_file": "mechanical_engineer",
+      "jd_title": "Mechanical Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.01127178879939066,
+      "projects_similarity": null,
+      "overall_similarity": 0.0056
+    }
+  ]
+}

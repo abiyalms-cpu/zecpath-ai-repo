@@ -22,6 +22,7 @@ def main() -> int:
         capture_output=True,
         text=True,
         encoding="utf-8",
+        errors="replace",
     )
     output = completed.stdout + completed.stderr
 

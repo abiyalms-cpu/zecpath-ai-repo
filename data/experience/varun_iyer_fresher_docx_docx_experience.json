@@ -1,0 +1,21 @@
+{
+  "source_file": "varun_iyer_fresher_docx.docx",
+  "jobs": [
+    {
+      "raw_line": "HR Intern, Coral Consulting \u2014 Jan 2026 to Apr 2026",
+      "title": "HR Intern",
+      "company": "Coral Consulting",
+      "start_month": 1,
+      "start_year": 2026,
+      "end_month": 4,
+      "end_year": 2026,
+      "is_current": false
+    }
+  ],
+  "total_experience_months": 4,
+  "total_experience_display": "0y 4m",
+  "gaps": [],
+  "overlaps": [],
+  "relevance": null,
+  "extracted_at": "2026-10-24T14:06:49.370312+00:00"
+}

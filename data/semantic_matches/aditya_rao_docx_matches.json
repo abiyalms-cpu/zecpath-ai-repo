@@ -6,72 +6,72 @@
       "jd_file": "digital_marketing",
       "jd_title": "Digital Marketing Specialist",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.09839994445901463,
+      "experience_similarity": 0.09915224176336697,
       "projects_similarity": null,
-      "overall_similarity": 0.0492
+      "overall_similarity": 0.0496
     },
     {
       "resume": "aditya_rao.docx",
       "jd_file": "sde_ii",
       "jd_title": "Software Engineer",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.07081160023405637,
+      "experience_similarity": 0.07220517035859077,
       "projects_similarity": null,
-      "overall_similarity": 0.0354
+      "overall_similarity": 0.0361
     },
     {
       "resume": "aditya_rao.docx",
       "jd_file": "mechanical_engineer",
       "jd_title": "Mechanical Engineer",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.05356749889159034,
+      "experience_similarity": 0.05529929340738968,
       "projects_similarity": null,
-      "overall_similarity": 0.0268
+      "overall_similarity": 0.0276
     },
     {
       "resume": "aditya_rao.docx",
       "jd_file": "hr_manager",
       "jd_title": "HR Manager",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.03670111564527224,
+      "experience_similarity": 0.03735400121835077,
       "projects_similarity": null,
-      "overall_similarity": 0.0184
+      "overall_similarity": 0.0187
     },
     {
       "resume": "aditya_rao.docx",
       "jd_file": "software_developer",
       "jd_title": "Software Engineer",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.03108874779206528,
+      "experience_similarity": 0.03210542411767106,
       "projects_similarity": null,
-      "overall_similarity": 0.0155
+      "overall_similarity": 0.0161
     },
     {
       "resume": "aditya_rao.docx",
       "jd_file": "customer_support",
       "jd_title": "Customer Support Executive",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.029413199256466082,
+      "experience_similarity": 0.03060309115476283,
       "projects_similarity": null,
-      "overall_similarity": 0.0147
+      "overall_similarity": 0.0153
     },
     {
       "resume": "aditya_rao.docx",
       "jd_file": "financial_analyst",
       "jd_title": "Financial Analyst",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.025295245166074617,
+      "experience_similarity": 0.02383767331674619,
       "projects_similarity": null,
-      "overall_similarity": 0.0126
+      "overall_similarity": 0.0119
     },
     {
       "resume": "aditya_rao.docx",
       "jd_file": "sales_executive",
       "jd_title": "Sales Executive",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.014651152700020747,
+      "experience_similarity": 0.013813788917004894,
       "projects_similarity": null,
-      "overall_similarity": 0.0073
+      "overall_similarity": 0.0069
     }
   ]
 }

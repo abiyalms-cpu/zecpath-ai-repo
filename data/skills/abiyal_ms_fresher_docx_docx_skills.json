@@ -1,0 +1,41 @@
+{
+  "source_file": "abiyal_ms_fresher_docx.docx",
+  "method": "heading",
+  "skills": [
+    {
+      "skill": "Power BI",
+      "category": "technical",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "power bi",
+      "found_in": [
+        "CERTIFICATIONS",
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "Python",
+      "category": "technical",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "python",
+      "found_in": [
+        "CERTIFICATIONS",
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "SQL",
+      "category": "technical",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "sql",
+      "found_in": [
+        "CERTIFICATIONS",
+        "SKILLS"
+      ]
+    }
+  ],
+  "total_skills_found": 3,
+  "extracted_at": "2026-10-24T14:06:27.835343+00:00"
+}

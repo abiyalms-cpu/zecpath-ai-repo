@@ -1,0 +1,21 @@
+{
+  "source_file": "neha_choudhary_fresher_docx.docx",
+  "jobs": [
+    {
+      "raw_line": "Sales Intern, Zenith Retail Pvt Ltd \u2014 Mar 2026 to May 2026",
+      "title": "Sales Intern",
+      "company": "Zenith Retail Pvt Ltd",
+      "start_month": 3,
+      "start_year": 2026,
+      "end_month": 5,
+      "end_year": 2026,
+      "is_current": false
+    }
+  ],
+  "total_experience_months": 3,
+  "total_experience_display": "0y 3m",
+  "gaps": [],
+  "overlaps": [],
+  "relevance": null,
+  "extracted_at": "2026-10-24T14:06:49.335698+00:00"
+}

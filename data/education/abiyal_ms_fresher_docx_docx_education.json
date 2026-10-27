@@ -1,0 +1,20 @@
+{
+  "source_file": "abiyal_ms_fresher_docx.docx",
+  "method": "heading",
+  "education": [],
+  "certifications": [
+    {
+      "raw_line": "- - Data Science Course",
+      "certification_name": "Data Science Course",
+      "year": null,
+      "category": "Uncategorized"
+    },
+    {
+      "raw_line": "Core topics: Python, Machine Learning, Deep Learning, Generative AI, Statistics, SQL, Power BI. Building hands-on familiarity with data analysis and visualization tools.",
+      "certification_name": "Core topics: Python, Machine Learning, Deep Learning, Generative AI, Statistics, SQL, Power BI. Building hands-on familiarity with data analysis and visualization tools",
+      "year": null,
+      "category": "Uncategorized"
+    }
+  ],
+  "extracted_at": "2026-10-24T14:07:07.234646+00:00"
+}

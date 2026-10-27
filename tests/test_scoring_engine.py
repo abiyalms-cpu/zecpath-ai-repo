@@ -99,8 +99,9 @@ def test_available_components_weights_sum_to_one_after_redistribution():
 
 
 def test_final_score_matches_hand_calculated_weighted_sum():
-    # Rohan vs sde_ii — all four components real and available, verified by hand:
-    # 0.2*0.40 + 0.625*0.25 + 0.0*0.10 + 0.0976*0.25 = 0.2606
+    # Rohan vs sde_ii -- all four components real and available, verified by hand
+    # after Day 17's experience-depth fix and the 33-resume semantic re-fit:
+    # 0.2*0.40 + 0.75*0.25 + 0.0*0.10 + 0.1*0.25 = 0.2925
     skills = json.load(open('data/skills/rohan_mehta_docx_skills.json', encoding='utf-8'))
     experience = json.load(open('data/experience/rohan_mehta_docx_experience.json', encoding='utf-8'))
     education = json.load(open('data/education/rohan_mehta_docx_education.json', encoding='utf-8'))
@@ -108,7 +109,7 @@ def test_final_score_matches_hand_calculated_weighted_sum():
     jd = json.load(open('data/parsed_jds/sde_ii.json', encoding='utf-8'))
 
     result = compute_candidate_score(skills, experience, education, semantic, jd, 'sde_ii')
-    assert result["final_score"] == 0.2606
+    assert result["final_score"] == 0.2925
 
 
 def test_all_missing_components_gives_an_honest_zero_not_a_crash():

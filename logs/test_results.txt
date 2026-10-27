@@ -1,4 +1,4 @@
-Test run: 2026-10-14 08:10:16
+Test run: 2026-10-24 19:47:37
 
 ============================= test session starts =============================
 platform win32 -- Python 3.13.14, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\ABHI\OneDrive\Desktop\zecpath-ai-repo\venv\Scripts\python.exe
@@ -172,4 +172,4 @@ tests/test_skill_extractor.py::test_category_is_attached_from_the_dictionary PAS
 tests/test_skill_extractor.py::test_resume_with_no_text_is_skipped_not_guessed PASSED [ 99%]
 tests/test_skill_extractor.py::test_tag_folder_saves_one_json_per_resume PASSED [100%]
 
-============================= 163 passed in 2.88s =============================
+============================= 163 passed in 2.43s =============================

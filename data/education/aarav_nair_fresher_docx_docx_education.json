@@ -1,0 +1,23 @@
+{
+  "source_file": "aarav_nair_fresher_docx.docx",
+  "method": "heading",
+  "education": [
+    {
+      "raw_line": "B.Tech, Computer Science \u2014 Dayananda Sagar College of Engineering (2026)",
+      "degree_raw": "B.Tech",
+      "degree_normalized": "B.Tech",
+      "field_of_study": "Computer Science",
+      "institution": "Dayananda Sagar College of Engineering",
+      "graduation_year": 2026
+    }
+  ],
+  "certifications": [
+    {
+      "raw_line": "- AWS Certified Cloud Practitioner (2026)",
+      "certification_name": "AWS Certified Cloud Practitioner",
+      "year": 2026,
+      "category": "Technology"
+    }
+  ],
+  "extracted_at": "2026-10-24T14:07:07.230600+00:00"
+}

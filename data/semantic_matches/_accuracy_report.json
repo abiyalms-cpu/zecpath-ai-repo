@@ -2,9 +2,9 @@
   "threshold": 0.1,
   "distribution": {
     "min": 0.0,
-    "max": 0.6,
-    "mean": 0.0493,
-    "median": 0.017
+    "max": 0.6028,
+    "mean": 0.0467,
+    "median": 0.0163
   },
   "per_jd": [
     {
@@ -13,15 +13,15 @@
       "top_matches": [
         {
           "resume": "fathima_rasheed.docx",
-          "overall_similarity": 0.2885
+          "overall_similarity": 0.2877
         },
         {
           "resume": "fathima_rasheed.pdf",
-          "overall_similarity": 0.2885
+          "overall_similarity": 0.2877
         },
         {
           "resume": "rohan_mehta.docx",
-          "overall_similarity": 0.0244
+          "overall_similarity": 0.024
         }
       ],
       "resumes_above_threshold": 2
@@ -32,18 +32,18 @@
       "top_matches": [
         {
           "resume": "divya_menon.docx",
-          "overall_similarity": 0.6
+          "overall_similarity": 0.6028
         },
         {
           "resume": "divya_menon.pdf",
-          "overall_similarity": 0.6
+          "overall_similarity": 0.6028
         },
         {
-          "resume": "aditya_rao.docx",
-          "overall_similarity": 0.0492
+          "resume": "kunal_bhatia_fresher_docx.docx",
+          "overall_similarity": 0.2243
         }
       ],
-      "resumes_above_threshold": 2
+      "resumes_above_threshold": 3
     },
     {
       "jd_file": "financial_analyst",
@@ -51,15 +51,15 @@
       "top_matches": [
         {
           "resume": "karthik_subramaniam.docx",
-          "overall_similarity": 0.4966
+          "overall_similarity": 0.4877
         },
         {
           "resume": "karthik_subramaniam.pdf",
-          "overall_similarity": 0.4966
+          "overall_similarity": 0.4877
         },
         {
           "resume": "no_headings_vikram.docx",
-          "overall_similarity": 0.201
+          "overall_similarity": 0.1922
         }
       ],
       "resumes_above_threshold": 4
@@ -70,18 +70,18 @@
       "top_matches": [
         {
           "resume": "anjali_suresh.docx",
-          "overall_similarity": 0.2649
+          "overall_similarity": 0.2567
         },
         {
           "resume": "anjali_suresh.pdf",
-          "overall_similarity": 0.2649
+          "overall_similarity": 0.2567
         },
         {
-          "resume": "no_headings_vikram.docx",
-          "overall_similarity": 0.0754
+          "resume": "varun_iyer_fresher_docx.docx",
+          "overall_similarity": 0.1131
         }
       ],
-      "resumes_above_threshold": 2
+      "resumes_above_threshold": 3
     },
     {
       "jd_file": "mechanical_engineer",
@@ -89,18 +89,18 @@
       "top_matches": [
         {
           "resume": "vishnu_prasad.docx",
-          "overall_similarity": 0.5725
+          "overall_similarity": 0.5692
         },
         {
           "resume": "vishnu_prasad.pdf",
-          "overall_similarity": 0.5725
+          "overall_similarity": 0.5692
         },
         {
-          "resume": "no_headings_vikram.docx",
-          "overall_similarity": 0.0387
+          "resume": "riya_deshmukh_fresher_docx.docx",
+          "overall_similarity": 0.1561
         }
       ],
-      "resumes_above_threshold": 2
+      "resumes_above_threshold": 3
     },
     {
       "jd_file": "sales_executive",
@@ -108,18 +108,18 @@
       "top_matches": [
         {
           "resume": "priya_nair.docx",
-          "overall_similarity": 0.3514
+          "overall_similarity": 0.3448
         },
         {
           "resume": "priya_nair.pdf",
-          "overall_similarity": 0.3514
+          "overall_similarity": 0.3448
         },
         {
-          "resume": "no_headings_vikram.docx",
-          "overall_similarity": 0.0686
+          "resume": "neha_choudhary_fresher_docx.docx",
+          "overall_similarity": 0.1787
         }
       ],
-      "resumes_above_threshold": 2
+      "resumes_above_threshold": 3
     },
     {
       "jd_file": "sde_ii",
@@ -127,18 +127,18 @@
       "top_matches": [
         {
           "resume": "nikhil_verma_two_column.pdf",
-          "overall_similarity": 0.2182
+          "overall_similarity": 0.1961
+        },
+        {
+          "resume": "aarav_nair_fresher_docx.docx",
+          "overall_similarity": 0.195
         },
         {
           "resume": "ananya_rao.docx",
-          "overall_similarity": 0.1538
-        },
-        {
-          "resume": "rohan_mehta.docx",
-          "overall_similarity": 0.0976
+          "overall_similarity": 0.1431
         }
       ],
-      "resumes_above_threshold": 2
+      "resumes_above_threshold": 5
     },
     {
       "jd_file": "software_developer",
@@ -146,18 +146,18 @@
       "top_matches": [
         {
           "resume": "rohan_mehta.docx",
-          "overall_similarity": 0.2965
+          "overall_similarity": 0.2934
         },
         {
           "resume": "rohan_mehta.pdf",
-          "overall_similarity": 0.2965
+          "overall_similarity": 0.2934
         },
         {
-          "resume": "nikhil_verma_two_column.pdf",
-          "overall_similarity": 0.1383
+          "resume": "aarav_nair_fresher_docx.docx",
+          "overall_similarity": 0.1818
         }
       ],
-      "resumes_above_threshold": 3
+      "resumes_above_threshold": 4
     }
   ]
 }

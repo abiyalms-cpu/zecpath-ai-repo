@@ -5,35 +5,35 @@
       "resume": "no_headings_vikram.docx",
       "jd_file": "financial_analyst",
       "jd_title": "Financial Analyst",
-      "skills_similarity": 0.38420610178232945,
-      "experience_similarity": 0.017789491005453396,
+      "skills_similarity": 0.36784840936282615,
+      "experience_similarity": 0.016573637408411737,
       "projects_similarity": null,
-      "overall_similarity": 0.201
+      "overall_similarity": 0.1922
     },
     {
       "resume": "no_headings_vikram.docx",
       "jd_file": "hr_manager",
       "jd_title": "HR Manager",
-      "skills_similarity": 0.08603219743723081,
-      "experience_similarity": 0.06480813935661785,
+      "skills_similarity": 0.09162516378299178,
+      "experience_similarity": 0.06124201223798396,
       "projects_similarity": null,
-      "overall_similarity": 0.0754
+      "overall_similarity": 0.0764
     },
     {
       "resume": "no_headings_vikram.docx",
       "jd_file": "sales_executive",
       "jd_title": "Sales Executive",
-      "skills_similarity": 0.1070322290808545,
-      "experience_similarity": 0.030128468176326008,
+      "skills_similarity": 0.10103850202461488,
+      "experience_similarity": 0.029348366862446993,
       "projects_similarity": null,
-      "overall_similarity": 0.0686
+      "overall_similarity": 0.0652
     },
     {
       "resume": "no_headings_vikram.docx",
       "jd_file": "sde_ii",
       "jd_title": "Software Engineer",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.09299020054098053,
+      "experience_similarity": 0.09296972330276852,
       "projects_similarity": null,
       "overall_similarity": 0.0465
     },
@@ -42,36 +42,36 @@
       "jd_file": "mechanical_engineer",
       "jd_title": "Mechanical Engineer",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.0773856986653997,
+      "experience_similarity": 0.0757519995666198,
       "projects_similarity": null,
-      "overall_similarity": 0.0387
+      "overall_similarity": 0.0379
     },
     {
       "resume": "no_headings_vikram.docx",
       "jd_file": "digital_marketing",
       "jd_title": "Digital Marketing Specialist",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.05782018404899994,
+      "experience_similarity": 0.06360944438740573,
       "projects_similarity": null,
-      "overall_similarity": 0.0289
+      "overall_similarity": 0.0318
     },
     {
       "resume": "no_headings_vikram.docx",
       "jd_file": "customer_support",
       "jd_title": "Customer Support Executive",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.032551366404010094,
+      "experience_similarity": 0.032963044905174016,
       "projects_similarity": null,
-      "overall_similarity": 0.0163
+      "overall_similarity": 0.0165
     },
     {
       "resume": "no_headings_vikram.docx",
       "jd_file": "software_developer",
       "jd_title": "Software Engineer",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.02181095351230775,
+      "experience_similarity": 0.021431745222683988,
       "projects_similarity": null,
-      "overall_similarity": 0.0109
+      "overall_similarity": 0.0107
     }
   ]
 }

@@ -5,44 +5,35 @@
       "resume": "divya_menon.pdf",
       "jd_file": "digital_marketing",
       "jd_title": "Digital Marketing Specialist",
-      "skills_similarity": 0.8111252766901679,
-      "experience_similarity": 0.38878997474553967,
+      "skills_similarity": 0.8081975737833539,
+      "experience_similarity": 0.39742761144215155,
       "projects_similarity": null,
-      "overall_similarity": 0.6
+      "overall_similarity": 0.6028
     },
     {
       "resume": "divya_menon.pdf",
       "jd_file": "sde_ii",
       "jd_title": "Software Engineer",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.03390391781858806,
+      "experience_similarity": 0.03733536936261361,
       "projects_similarity": null,
-      "overall_similarity": 0.017
+      "overall_similarity": 0.0187
     },
     {
       "resume": "divya_menon.pdf",
       "jd_file": "hr_manager",
       "jd_title": "HR Manager",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.029721090028875508,
+      "experience_similarity": 0.03069139650296707,
       "projects_similarity": null,
-      "overall_similarity": 0.0149
+      "overall_similarity": 0.0153
     },
     {
       "resume": "divya_menon.pdf",
       "jd_file": "financial_analyst",
       "jd_title": "Financial Analyst",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.029230025677578615,
-      "projects_similarity": null,
-      "overall_similarity": 0.0146
-    },
-    {
-      "resume": "divya_menon.pdf",
-      "jd_file": "software_developer",
-      "jd_title": "Software Engineer",
-      "skills_similarity": 0.0,
-      "experience_similarity": 0.029267489298110124,
+      "experience_similarity": 0.02915404105106675,
       "projects_similarity": null,
       "overall_similarity": 0.0146
     },
@@ -51,25 +42,34 @@
       "jd_file": "mechanical_engineer",
       "jd_title": "Mechanical Engineer",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.02690585202772633,
+      "experience_similarity": 0.028338319603496403,
       "projects_similarity": null,
-      "overall_similarity": 0.0135
+      "overall_similarity": 0.0142
+    },
+    {
+      "resume": "divya_menon.pdf",
+      "jd_file": "software_developer",
+      "jd_title": "Software Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.028135626993412263,
+      "projects_similarity": null,
+      "overall_similarity": 0.0141
     },
     {
       "resume": "divya_menon.pdf",
       "jd_file": "sales_executive",
       "jd_title": "Sales Executive",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.02406532124324282,
+      "experience_similarity": 0.024279118609197223,
       "projects_similarity": null,
-      "overall_similarity": 0.012
+      "overall_similarity": 0.0121
     },
     {
       "resume": "divya_menon.pdf",
       "jd_file": "customer_support",
       "jd_title": "Customer Support Executive",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.021807885412073066,
+      "experience_similarity": 0.021876593242887897,
       "projects_similarity": null,
       "overall_similarity": 0.0109
     }

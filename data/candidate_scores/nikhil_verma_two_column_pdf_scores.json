@@ -4,7 +4,7 @@
     {
       "jd_file": "sde_ii",
       "jd_title": "Software Engineer",
-      "final_score": 0.3078,
+      "final_score": 0.3712,
       "breakdown": [
         {
           "component": "skill_match",
@@ -16,10 +16,10 @@
         },
         {
           "component": "experience_relevance",
-          "raw_score": 0.25,
+          "raw_score": 0.5,
           "original_weight": 0.25,
           "normalized_weight": 0.2778,
-          "contribution": 0.0694,
+          "contribution": 0.1389,
           "available": true
         },
         {
@@ -32,10 +32,10 @@
         },
         {
           "component": "semantic_similarity",
-          "raw_score": 0.2182,
+          "raw_score": 0.1961,
           "original_weight": 0.25,
           "normalized_weight": 0.2778,
-          "contribution": 0.0606,
+          "contribution": 0.0545,
           "available": true
         }
       ]
@@ -43,7 +43,7 @@
     {
       "jd_file": "software_developer",
       "jd_title": "Software Engineer",
-      "final_score": 0.2038,
+      "final_score": 0.288,
       "breakdown": [
         {
           "component": "skill_match",
@@ -55,10 +55,10 @@
         },
         {
           "component": "experience_relevance",
-          "raw_score": 0.125,
+          "raw_score": 0.417,
           "original_weight": 0.25,
           "normalized_weight": 0.2778,
-          "contribution": 0.0347,
+          "contribution": 0.1158,
           "available": true
         },
         {
@@ -71,49 +71,10 @@
         },
         {
           "component": "semantic_similarity",
-          "raw_score": 0.1383,
+          "raw_score": 0.1493,
           "original_weight": 0.25,
           "normalized_weight": 0.2778,
-          "contribution": 0.0384,
-          "available": true
-        }
-      ]
-    },
-    {
-      "jd_file": "hr_manager",
-      "jd_title": "HR Manager",
-      "final_score": 0.0038,
-      "breakdown": [
-        {
-          "component": "skill_match",
-          "raw_score": 0.0,
-          "original_weight": 0.2,
-          "normalized_weight": 0.3333,
-          "contribution": 0.0,
-          "available": true
-        },
-        {
-          "component": "experience_relevance",
-          "raw_score": 0.0,
-          "original_weight": 0.2,
-          "normalized_weight": 0.3333,
-          "contribution": 0.0,
-          "available": true
-        },
-        {
-          "component": "education_alignment",
-          "raw_score": null,
-          "original_weight": 0.4,
-          "normalized_weight": 0.0,
-          "contribution": 0.0,
-          "available": false
-        },
-        {
-          "component": "semantic_similarity",
-          "raw_score": 0.0113,
-          "original_weight": 0.2,
-          "normalized_weight": 0.3333,
-          "contribution": 0.0038,
+          "contribution": 0.0415,
           "available": true
         }
       ]
@@ -121,7 +82,7 @@
     {
       "jd_file": "digital_marketing",
       "jd_title": "Digital Marketing Specialist",
-      "final_score": 0.0016,
+      "final_score": 0.1267,
       "breakdown": [
         {
           "component": "skill_match",
@@ -133,10 +94,10 @@
         },
         {
           "component": "experience_relevance",
-          "raw_score": 0.0,
+          "raw_score": 0.333,
           "original_weight": 0.3,
           "normalized_weight": 0.375,
-          "contribution": 0.0,
+          "contribution": 0.1249,
           "available": true
         },
         {
@@ -149,18 +110,96 @@
         },
         {
           "component": "semantic_similarity",
-          "raw_score": 0.0064,
+          "raw_score": 0.0071,
           "original_weight": 0.2,
           "normalized_weight": 0.25,
-          "contribution": 0.0016,
+          "contribution": 0.0018,
           "available": true
         }
       ]
     },
     {
-      "jd_file": "financial_analyst",
-      "jd_title": "Financial Analyst",
-      "final_score": 0.0016,
+      "jd_file": "customer_support",
+      "jd_title": "Customer Support Executive",
+      "final_score": 0.1258,
+      "breakdown": [
+        {
+          "component": "skill_match",
+          "raw_score": 0.0,
+          "original_weight": 0.3,
+          "normalized_weight": 0.375,
+          "contribution": 0.0,
+          "available": true
+        },
+        {
+          "component": "experience_relevance",
+          "raw_score": 0.333,
+          "original_weight": 0.3,
+          "normalized_weight": 0.375,
+          "contribution": 0.1249,
+          "available": true
+        },
+        {
+          "component": "education_alignment",
+          "raw_score": null,
+          "original_weight": 0.2,
+          "normalized_weight": 0.0,
+          "contribution": 0.0,
+          "available": false
+        },
+        {
+          "component": "semantic_similarity",
+          "raw_score": 0.0037,
+          "original_weight": 0.2,
+          "normalized_weight": 0.25,
+          "contribution": 0.0009,
+          "available": true
+        }
+      ]
+    },
+    {
+      "jd_file": "sales_executive",
+      "jd_title": "Sales Executive",
+      "final_score": 0.1258,
+      "breakdown": [
+        {
+          "component": "skill_match",
+          "raw_score": 0.0,
+          "original_weight": 0.3,
+          "normalized_weight": 0.375,
+          "contribution": 0.0,
+          "available": true
+        },
+        {
+          "component": "experience_relevance",
+          "raw_score": 0.333,
+          "original_weight": 0.3,
+          "normalized_weight": 0.375,
+          "contribution": 0.1249,
+          "available": true
+        },
+        {
+          "component": "education_alignment",
+          "raw_score": null,
+          "original_weight": 0.2,
+          "normalized_weight": 0.0,
+          "contribution": 0.0,
+          "available": false
+        },
+        {
+          "component": "semantic_similarity",
+          "raw_score": 0.0037,
+          "original_weight": 0.2,
+          "normalized_weight": 0.25,
+          "contribution": 0.0009,
+          "available": true
+        }
+      ]
+    },
+    {
+      "jd_file": "hr_manager",
+      "jd_title": "HR Manager",
+      "final_score": 0.1142,
       "breakdown": [
         {
           "component": "skill_match",
@@ -172,10 +211,10 @@
         },
         {
           "component": "experience_relevance",
-          "raw_score": 0.0,
+          "raw_score": 0.333,
           "original_weight": 0.2,
           "normalized_weight": 0.3333,
-          "contribution": 0.0,
+          "contribution": 0.111,
           "available": true
         },
         {
@@ -188,88 +227,49 @@
         },
         {
           "component": "semantic_similarity",
-          "raw_score": 0.0048,
+          "raw_score": 0.0096,
           "original_weight": 0.2,
           "normalized_weight": 0.3333,
-          "contribution": 0.0016,
+          "contribution": 0.0032,
           "available": true
         }
       ]
     },
     {
-      "jd_file": "customer_support",
-      "jd_title": "Customer Support Executive",
-      "final_score": 0.001,
+      "jd_file": "financial_analyst",
+      "jd_title": "Financial Analyst",
+      "final_score": 0.1125,
       "breakdown": [
         {
           "component": "skill_match",
           "raw_score": 0.0,
-          "original_weight": 0.3,
-          "normalized_weight": 0.375,
+          "original_weight": 0.2,
+          "normalized_weight": 0.3333,
           "contribution": 0.0,
           "available": true
         },
         {
           "component": "experience_relevance",
-          "raw_score": 0.0,
-          "original_weight": 0.3,
-          "normalized_weight": 0.375,
-          "contribution": 0.0,
+          "raw_score": 0.333,
+          "original_weight": 0.2,
+          "normalized_weight": 0.3333,
+          "contribution": 0.111,
           "available": true
         },
         {
           "component": "education_alignment",
           "raw_score": null,
-          "original_weight": 0.2,
+          "original_weight": 0.4,
           "normalized_weight": 0.0,
           "contribution": 0.0,
           "available": false
         },
         {
           "component": "semantic_similarity",
-          "raw_score": 0.004,
+          "raw_score": 0.0045,
           "original_weight": 0.2,
-          "normalized_weight": 0.25,
-          "contribution": 0.001,
-          "available": true
-        }
-      ]
-    },
-    {
-      "jd_file": "sales_executive",
-      "jd_title": "Sales Executive",
-      "final_score": 0.001,
-      "breakdown": [
-        {
-          "component": "skill_match",
-          "raw_score": 0.0,
-          "original_weight": 0.3,
-          "normalized_weight": 0.375,
-          "contribution": 0.0,
-          "available": true
-        },
-        {
-          "component": "experience_relevance",
-          "raw_score": 0.0,
-          "original_weight": 0.3,
-          "normalized_weight": 0.375,
-          "contribution": 0.0,
-          "available": true
-        },
-        {
-          "component": "education_alignment",
-          "raw_score": null,
-          "original_weight": 0.2,
-          "normalized_weight": 0.0,
-          "contribution": 0.0,
-          "available": false
-        },
-        {
-          "component": "semantic_similarity",
-          "raw_score": 0.0039,
-          "original_weight": 0.2,
-          "normalized_weight": 0.25,
-          "contribution": 0.001,
+          "normalized_weight": 0.3333,
+          "contribution": 0.0015,
           "available": true
         }
       ]
@@ -277,7 +277,7 @@
     {
       "jd_file": "mechanical_engineer",
       "jd_title": "Mechanical Engineer",
-      "final_score": 0.0006,
+      "final_score": 0.0931,
       "breakdown": [
         {
           "component": "skill_match",
@@ -289,10 +289,10 @@
         },
         {
           "component": "experience_relevance",
-          "raw_score": 0.0,
+          "raw_score": 0.333,
           "original_weight": 0.25,
           "normalized_weight": 0.2778,
-          "contribution": 0.0,
+          "contribution": 0.0925,
           "available": true
         },
         {
@@ -305,7 +305,7 @@
         },
         {
           "component": "semantic_similarity",
-          "raw_score": 0.0022,
+          "raw_score": 0.002,
           "original_weight": 0.25,
           "normalized_weight": 0.2778,
           "contribution": 0.0006,

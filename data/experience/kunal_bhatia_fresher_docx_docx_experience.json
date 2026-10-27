@@ -1,0 +1,21 @@
+{
+  "source_file": "kunal_bhatia_fresher_docx.docx",
+  "jobs": [
+    {
+      "raw_line": "Digital Marketing Intern, BrightWave Media \u2014 Feb 2026 to Apr 2026",
+      "title": "Digital Marketing Intern",
+      "company": "BrightWave Media",
+      "start_month": 2,
+      "start_year": 2026,
+      "end_month": 4,
+      "end_year": 2026,
+      "is_current": false
+    }
+  ],
+  "total_experience_months": 3,
+  "total_experience_display": "0y 3m",
+  "gaps": [],
+  "overlaps": [],
+  "relevance": null,
+  "extracted_at": "2026-10-24T14:06:49.329068+00:00"
+}

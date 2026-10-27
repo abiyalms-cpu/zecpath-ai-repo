@@ -6,72 +6,72 @@
       "jd_file": "sde_ii",
       "jd_title": "Software Engineer",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.04568934877655285,
+      "experience_similarity": 0.041386836083204454,
       "projects_similarity": null,
-      "overall_similarity": 0.0228
-    },
-    {
-      "resume": "arun_kumar.docx",
-      "jd_file": "hr_manager",
-      "jd_title": "HR Manager",
-      "skills_similarity": 0.0,
-      "experience_similarity": 0.022576994383416347,
-      "projects_similarity": null,
-      "overall_similarity": 0.0113
+      "overall_similarity": 0.0207
     },
     {
       "resume": "arun_kumar.docx",
       "jd_file": "sales_executive",
       "jd_title": "Sales Executive",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.0224768508412081,
+      "experience_similarity": 0.021256870707742615,
       "projects_similarity": null,
-      "overall_similarity": 0.0112
+      "overall_similarity": 0.0106
+    },
+    {
+      "resume": "arun_kumar.docx",
+      "jd_file": "hr_manager",
+      "jd_title": "HR Manager",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.019691992570615557,
+      "projects_similarity": null,
+      "overall_similarity": 0.0098
     },
     {
       "resume": "arun_kumar.docx",
       "jd_file": "financial_analyst",
       "jd_title": "Financial Analyst",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.013530327716950046,
+      "experience_similarity": 0.012860190528621479,
       "projects_similarity": null,
-      "overall_similarity": 0.0068
-    },
-    {
-      "resume": "arun_kumar.docx",
-      "jd_file": "mechanical_engineer",
-      "jd_title": "Mechanical Engineer",
-      "skills_similarity": 0.0,
-      "experience_similarity": 0.012271551662132042,
-      "projects_similarity": null,
-      "overall_similarity": 0.0061
+      "overall_similarity": 0.0064
     },
     {
       "resume": "arun_kumar.docx",
       "jd_file": "digital_marketing",
       "jd_title": "Digital Marketing Specialist",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.011119193919069794,
+      "experience_similarity": 0.012637680002639344,
       "projects_similarity": null,
-      "overall_similarity": 0.0056
+      "overall_similarity": 0.0063
+    },
+    {
+      "resume": "arun_kumar.docx",
+      "jd_file": "mechanical_engineer",
+      "jd_title": "Mechanical Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.011712373442881317,
+      "projects_similarity": null,
+      "overall_similarity": 0.0059
     },
     {
       "resume": "arun_kumar.docx",
       "jd_file": "customer_support",
       "jd_title": "Customer Support Executive",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.006851503952150391,
+      "experience_similarity": 0.0075548141272731234,
       "projects_similarity": null,
-      "overall_similarity": 0.0034
+      "overall_similarity": 0.0038
     },
     {
       "resume": "arun_kumar.docx",
       "jd_file": "software_developer",
       "jd_title": "Software Engineer",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.004348193217115919,
+      "experience_similarity": 0.004258185034824611,
       "projects_similarity": null,
-      "overall_similarity": 0.0022
+      "overall_similarity": 0.0021
     }
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "source_file": "kunal_bhatia_fresher_docx.docx",
+  "method": "heading",
+  "education": [
+    {
+      "raw_line": "BBA, Marketing \u2014 Delhi University (2026)",
+      "degree_raw": "BBA",
+      "degree_normalized": "BBA",
+      "field_of_study": "Marketing",
+      "institution": "Delhi University",
+      "graduation_year": 2026
+    }
+  ],
+  "certifications": [
+    {
+      "raw_line": "- Google Analytics Certified (2026)",
+      "certification_name": "Google Analytics Certified",
+      "year": 2026,
+      "category": "Uncategorized"
+    }
+  ],
+  "extracted_at": "2026-10-24T14:07:07.283895+00:00"
+}

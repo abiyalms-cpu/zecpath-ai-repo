@@ -5,73 +5,73 @@
       "resume": "fathima_rasheed.docx",
       "jd_file": "customer_support",
       "jd_title": "Customer Support Executive",
-      "skills_similarity": 0.28065014937439786,
-      "experience_similarity": 0.29625475894450254,
+      "skills_similarity": 0.2870543436167837,
+      "experience_similarity": 0.2884281848837907,
       "projects_similarity": null,
-      "overall_similarity": 0.2885
+      "overall_similarity": 0.2877
     },
     {
       "resume": "fathima_rasheed.docx",
       "jd_file": "sde_ii",
       "jd_title": "Software Engineer",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.11864538090326969,
+      "experience_similarity": 0.11227384110326838,
       "projects_similarity": null,
-      "overall_similarity": 0.0593
+      "overall_similarity": 0.0561
     },
     {
       "resume": "fathima_rasheed.docx",
       "jd_file": "financial_analyst",
       "jd_title": "Financial Analyst",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.07905374647272402,
+      "experience_similarity": 0.07876168289887574,
       "projects_similarity": null,
-      "overall_similarity": 0.0395
+      "overall_similarity": 0.0394
     },
     {
       "resume": "fathima_rasheed.docx",
       "jd_file": "hr_manager",
       "jd_title": "HR Manager",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.06196405504895155,
+      "experience_similarity": 0.061850612492864394,
       "projects_similarity": null,
-      "overall_similarity": 0.031
+      "overall_similarity": 0.0309
     },
     {
       "resume": "fathima_rasheed.docx",
       "jd_file": "sales_executive",
       "jd_title": "Sales Executive",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.049871636027956565,
+      "experience_similarity": 0.049642938927374994,
       "projects_similarity": null,
-      "overall_similarity": 0.0249
+      "overall_similarity": 0.0248
     },
     {
       "resume": "fathima_rasheed.docx",
       "jd_file": "software_developer",
       "jd_title": "Software Engineer",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.04909080095784341,
+      "experience_similarity": 0.049449659521151615,
       "projects_similarity": null,
-      "overall_similarity": 0.0245
+      "overall_similarity": 0.0247
     },
     {
       "resume": "fathima_rasheed.docx",
       "jd_file": "mechanical_engineer",
       "jd_title": "Mechanical Engineer",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.045373252786043275,
+      "experience_similarity": 0.04616902957895585,
       "projects_similarity": null,
-      "overall_similarity": 0.0227
+      "overall_similarity": 0.0231
     },
     {
       "resume": "fathima_rasheed.docx",
       "jd_file": "digital_marketing",
       "jd_title": "Digital Marketing Specialist",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.04166926529357757,
+      "experience_similarity": 0.04550427397561145,
       "projects_similarity": null,
-      "overall_similarity": 0.0208
+      "overall_similarity": 0.0228
     }
   ]
 }

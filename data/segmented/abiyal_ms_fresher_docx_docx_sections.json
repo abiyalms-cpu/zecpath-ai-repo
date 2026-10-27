@@ -1,0 +1,30 @@
+{
+  "source_file": "abiyal_ms_fresher_docx.docx",
+  "method": "heading",
+  "sections": {
+    "HEADER": [
+      "Abiyal M S",
+      "Aspiring Data Scientist",
+      "North Paravur, Ernakulam, Kerala | +91 8138983950 | abiyalms@gmail.com"
+    ],
+    "SUMMARY": [
+      "M.Sc. Physics graduate with a strong analytical and research background, driven to build a career in data science. Detail-oriented and eager to apply analytical thinking, statistical knowledge, and problem-solving skills to real-world, data-driven challenges."
+    ],
+    "EDUCATION": [
+      "M.Sc. Physics — St. Paul's College, Kalamassery (affiliated to MG University, Kottayam)",
+      "B.Sc. Physics — St. Albert's College, Ernakulam (affiliated to MG University, Kottayam)"
+    ],
+    "CERTIFICATIONS": [
+      "- - Data Science Course",
+      "Core topics: Python, Machine Learning, Deep Learning, Generative AI, Statistics, SQL, Power BI. Building hands-on familiarity with data analysis and visualization tools."
+    ],
+    "SKILLS": [
+      "Python (basics), Machine Learning (basics), Deep Learning (basics), Generative AI (basics), Statistics, SQL, Power BI, Data interpretation, Scientific research methodology, Report writing, Communication, Analytical thinking, Adaptability"
+    ],
+    "PROJECTS": [
+      "Black Hole Thermodynamics — M.Sc. Physics Dissertation. Studied thermodynamic properties and entropy behavior of black holes as part of postgraduate research; applied theoretical physics concepts to analyze complex astrophysical phenomena.",
+      "LANGUAGES",
+      "English (Fluent), Malayalam (Native), Hindi (Conversational), Tamil (Conversational)"
+    ]
+  }
+}

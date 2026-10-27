@@ -1,0 +1,16 @@
+{
+  "source_file": "varun_iyer_fresher_docx.docx",
+  "method": "heading",
+  "education": [
+    {
+      "raw_line": "BBA, Human Resources \u2014 Loyola College, Chennai (2026)",
+      "degree_raw": "BBA",
+      "degree_normalized": "BBA",
+      "field_of_study": "Human Resources",
+      "institution": "Loyola College, Chennai",
+      "graduation_year": 2026
+    }
+  ],
+  "certifications": [],
+  "extracted_at": "2026-10-24T14:07:07.330795+00:00"
+}

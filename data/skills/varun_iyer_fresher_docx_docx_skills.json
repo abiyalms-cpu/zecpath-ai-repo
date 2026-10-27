@@ -1,0 +1,39 @@
+{
+  "source_file": "varun_iyer_fresher_docx.docx",
+  "method": "heading",
+  "skills": [
+    {
+      "skill": "Recruitment",
+      "category": "business",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "recruitment",
+      "found_in": [
+        "SUMMARY",
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "HRIS",
+      "category": "technical",
+      "confidence": 0.97,
+      "match_type": "exact_canonical",
+      "matched_text": "hris",
+      "found_in": [
+        "SKILLS"
+      ]
+    },
+    {
+      "skill": "Excel",
+      "category": "technical",
+      "confidence": 0.93,
+      "match_type": "exact_synonym",
+      "matched_text": "ms excel",
+      "found_in": [
+        "SKILLS"
+      ]
+    }
+  ],
+  "total_skills_found": 3,
+  "extracted_at": "2026-10-24T14:06:28.219874+00:00"
+}

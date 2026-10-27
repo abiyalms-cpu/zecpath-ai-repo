@@ -1,28 +1,34 @@
 Rank,Candidate,Final Score,Zone,Matched Skills,Skill Match,Experience Relevance,Education Alignment,Semantic Similarity
-1,nikhil_verma_two_column.pdf,0.3078,shortlist,"React, Node.js",0.4,0.25,,0.2182
-2,ananya_rao.docx,0.2609,shortlist,"JavaScript, React",0.4,0.25,0.0,0.1538
-3,rohan_mehta.docx,0.2606,shortlist,MongoDB,0.2,0.625,0.0,0.0976
-4,rohan_mehta.pdf,0.2606,shortlist,MongoDB,0.2,0.625,0.0,0.0976
-5,vishnu_prasad.docx,0.0546,review,,0.0,0.167,0.0,0.0513
-6,vishnu_prasad.pdf,0.0546,review,,0.0,0.167,0.0,0.0513
-7,fathima_rasheed.docx,0.0148,auto_reject,,0.0,0.0,0.0,0.0593
-8,fathima_rasheed.pdf,0.0148,auto_reject,,0.0,0.0,0.0,0.0593
-9,no_headings_vikram.docx,0.0129,auto_reject,,0.0,0.0,,0.0465
-10,no_headings_meena.docx,0.0103,auto_reject,,0.0,0.0,,0.037
-11,aditya_rao.docx,0.0089,auto_reject,,0.0,0.0,0.0,0.0354
-12,aditya_rao.pdf,0.0089,auto_reject,,0.0,0.0,0.0,0.0354
-13,meera_iyer_table.docx,0.0059,auto_reject,,0.0,0.0,0.0,0.0234
-14,arun_kumar.docx,0.0057,auto_reject,,0.0,0.0,0.0,0.0228
-15,arun_kumar.pdf,0.0057,auto_reject,,0.0,0.0,0.0,0.0228
-16,divya_menon.docx,0.0043,auto_reject,,0.0,0.0,0.0,0.017
-17,divya_menon.pdf,0.0043,auto_reject,,0.0,0.0,0.0,0.017
-18,sneha_thomas.docx,0.0033,auto_reject,,0.0,0.0,0.0,0.0132
-19,sneha_thomas.pdf,0.0033,auto_reject,,0.0,0.0,0.0,0.0132
-20,anjali_suresh.docx,0.0023,auto_reject,,0.0,0.0,0.0,0.0092
-21,anjali_suresh.pdf,0.0023,auto_reject,,0.0,0.0,0.0,0.0092
-22,priya_nair.docx,0.0022,auto_reject,,0.0,0.0,0.0,0.0087
-23,priya_nair.pdf,0.0022,auto_reject,,0.0,0.0,0.0,0.0087
-24,karthik_subramaniam.docx,0.0019,auto_reject,,0.0,0.0,0.0,0.0075
-25,karthik_subramaniam.pdf,0.0019,auto_reject,,0.0,0.0,0.0,0.0075
-26,ishaan_kapoor_photo.docx,0.0,auto_reject,,0.0,0.0,0.0,0.0
-27,zoya_khan_scanned.pdf,0.0,auto_reject,,0.0,,,0.0
+1,aarav_nair_fresher_docx.docx,0.3763,shortlist,"JavaScript, React, Node.js",0.6,0.35,0.0,0.195
+2,nikhil_verma_two_column.pdf,0.3712,shortlist,"React, Node.js",0.4,0.5,,0.1961
+3,rohan_mehta.docx,0.2925,shortlist,MongoDB,0.2,0.75,0.0,0.1
+4,rohan_mehta.pdf,0.2925,shortlist,MongoDB,0.2,0.75,0.0,0.1
+5,ananya_rao.docx,0.2848,shortlist,"JavaScript, React",0.4,0.356,0.0,0.1431
+6,vishnu_prasad.docx,0.1239,review,,0.0,0.444,0.0,0.0518
+7,vishnu_prasad.pdf,0.1239,review,,0.0,0.444,0.0,0.0518
+8,no_headings_vikram.docx,0.1054,review,,0.0,0.333,,0.0465
+9,no_headings_meena.docx,0.1017,review,,0.0,0.333,,0.033
+10,fathima_rasheed.docx,0.0973,review,,0.0,0.333,0.0,0.0561
+11,fathima_rasheed.pdf,0.0973,review,,0.0,0.333,0.0,0.0561
+12,aditya_rao.docx,0.0923,review,,0.0,0.333,0.0,0.0361
+13,aditya_rao.pdf,0.0923,review,,0.0,0.333,0.0,0.0361
+14,arun_kumar.docx,0.0885,review,,0.0,0.333,0.0,0.0207
+15,arun_kumar.pdf,0.0885,review,,0.0,0.333,0.0,0.0207
+16,divya_menon.docx,0.088,review,,0.0,0.333,0.0,0.0187
+17,divya_menon.pdf,0.088,review,,0.0,0.333,0.0,0.0187
+18,sneha_thomas.docx,0.0869,review,,0.0,0.333,0.0,0.0142
+19,sneha_thomas.pdf,0.0869,review,,0.0,0.333,0.0,0.0142
+20,meera_iyer_table.docx,0.0859,review,,0.0,0.322,0.0,0.0217
+21,anjali_suresh.docx,0.0856,review,,0.0,0.333,0.0,0.0092
+22,anjali_suresh.pdf,0.0856,review,,0.0,0.333,0.0,0.0092
+23,priya_nair.docx,0.0856,review,,0.0,0.333,0.0,0.0091
+24,priya_nair.pdf,0.0856,review,,0.0,0.333,0.0,0.0091
+25,karthik_subramaniam.docx,0.0853,review,,0.0,0.333,0.0,0.008
+26,karthik_subramaniam.pdf,0.0853,review,,0.0,0.333,0.0,0.008
+27,ishaan_kapoor_photo.docx,0.0833,review,,0.0,0.333,0.0,0.0
+28,riya_deshmukh_fresher_docx.docx,0.0135,auto_reject,,0.0,0.022,0.0,0.0322
+29,neha_choudhary_fresher_docx.docx,0.0103,auto_reject,,0.0,0.017,0.0,0.0239
+30,varun_iyer_fresher_docx.docx,0.0087,auto_reject,,0.0,0.022,0.0,0.0129
+31,kunal_bhatia_fresher_docx.docx,0.008,auto_reject,,0.0,0.017,0.0,0.0146
+32,abiyal_ms_fresher_docx.docx,0.0032,auto_reject,,0.0,,,0.0083
+33,zoya_khan_scanned.pdf,0.0,auto_reject,,0.0,,,0.0

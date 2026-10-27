@@ -1,0 +1,16 @@
+{
+  "source_file": "neha_choudhary_fresher_docx.docx",
+  "method": "heading",
+  "education": [
+    {
+      "raw_line": "B.Com, Commerce \u2014 University of Rajasthan (2026)",
+      "degree_raw": "B.Com",
+      "degree_normalized": "B.Com",
+      "field_of_study": "Commerce",
+      "institution": "University of Rajasthan",
+      "graduation_year": 2026
+    }
+  ],
+  "certifications": [],
+  "extracted_at": "2026-10-24T14:07:07.290705+00:00"
+}

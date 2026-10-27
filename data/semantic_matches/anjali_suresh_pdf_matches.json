@@ -5,71 +5,71 @@
       "resume": "anjali_suresh.pdf",
       "jd_file": "hr_manager",
       "jd_title": "HR Manager",
-      "skills_similarity": 0.2924112825704823,
-      "experience_similarity": 0.23734157281421608,
+      "skills_similarity": 0.2817361177952308,
+      "experience_similarity": 0.2317611871949873,
       "projects_similarity": null,
-      "overall_similarity": 0.2649
+      "overall_similarity": 0.2567
     },
     {
       "resume": "anjali_suresh.pdf",
       "jd_file": "financial_analyst",
       "jd_title": "Financial Analyst",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.04817782723652103,
+      "experience_similarity": 0.04780024966682533,
       "projects_similarity": null,
-      "overall_similarity": 0.0241
+      "overall_similarity": 0.0239
     },
     {
       "resume": "anjali_suresh.pdf",
       "jd_file": "sales_executive",
       "jd_title": "Sales Executive",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.046085520807256954,
+      "experience_similarity": 0.046450901959831696,
       "projects_similarity": null,
-      "overall_similarity": 0.023
-    },
-    {
-      "resume": "anjali_suresh.pdf",
-      "jd_file": "mechanical_engineer",
-      "jd_title": "Mechanical Engineer",
-      "skills_similarity": 0.0,
-      "experience_similarity": 0.0372841574771648,
-      "projects_similarity": null,
-      "overall_similarity": 0.0186
+      "overall_similarity": 0.0232
     },
     {
       "resume": "anjali_suresh.pdf",
       "jd_file": "digital_marketing",
       "jd_title": "Digital Marketing Specialist",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.03495260481836956,
+      "experience_similarity": 0.03793598590681238,
       "projects_similarity": null,
-      "overall_similarity": 0.0175
+      "overall_similarity": 0.019
+    },
+    {
+      "resume": "anjali_suresh.pdf",
+      "jd_file": "mechanical_engineer",
+      "jd_title": "Mechanical Engineer",
+      "skills_similarity": 0.0,
+      "experience_similarity": 0.03652715319578978,
+      "projects_similarity": null,
+      "overall_similarity": 0.0183
     },
     {
       "resume": "anjali_suresh.pdf",
       "jd_file": "software_developer",
       "jd_title": "Software Engineer",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.026492472049626473,
+      "experience_similarity": 0.025514040965681623,
       "projects_similarity": null,
-      "overall_similarity": 0.0132
+      "overall_similarity": 0.0128
     },
     {
       "resume": "anjali_suresh.pdf",
       "jd_file": "customer_support",
       "jd_title": "Customer Support Executive",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.023677339714072904,
+      "experience_similarity": 0.023933148993939793,
       "projects_similarity": null,
-      "overall_similarity": 0.0118
+      "overall_similarity": 0.012
     },
     {
       "resume": "anjali_suresh.pdf",
       "jd_file": "sde_ii",
       "jd_title": "Software Engineer",
       "skills_similarity": 0.0,
-      "experience_similarity": 0.018324933350220934,
+      "experience_similarity": 0.01842843286653925,
       "projects_similarity": null,
       "overall_similarity": 0.0092
     }
