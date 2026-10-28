@@ -27,7 +27,18 @@ _DEGREE_LOOKUP = sorted(
 )
 
 YEAR_PATTERN = re.compile(r"(19|20)\d{2}")
-SEPARATOR_PATTERN = re.compile(r"\s*[—|]\s*")
+# "—"/"|" are the structured-line separators (e.g. "B.Tech — IIT Delhi — 2020").
+# The word "from" is just as unambiguous a marker in a plain sentence
+# ("B.Com from Madras University, completed in 2018") -- unlike a bare comma,
+# which is too ambiguous to split on (see test_prose_style_line_is_skipped).
+SEPARATOR_PATTERN = re.compile(r"\s*[—|]\s*|\s+from\s+", re.IGNORECASE)
+
+# Trailing filler a prose sentence leaves behind right before the year, once
+# the year itself has been stripped out -- e.g. "...University, completed in"
+# left over from "...University, completed in 2018."
+TRAILING_FILLER_PATTERN = re.compile(
+    r",?\s*(completed|graduated|passed(?:\s+out)?)\s+in\s*$", re.IGNORECASE
+)
 
 
 def _extract_year(text):
@@ -39,6 +50,7 @@ def _extract_year(text):
     cleaned = text[:match.start()] + text[match.end():]
     cleaned = re.sub(r"\(\s*\)", "", cleaned)
     cleaned = cleaned.strip()
+    cleaned = TRAILING_FILLER_PATTERN.sub("", cleaned)  # "...University, completed in" -> "...University"
     cleaned = cleaned.rstrip(" |—,")  # drop a dangling separator left behind (e.g. "A | B | 2020")
     return year, cleaned.strip()
 
@@ -48,12 +60,13 @@ def _split_degree_and_field(head):
     if "," in head:
         degree_raw, field = head.split(",", 1)
         return degree_raw.strip(), field.strip()
-    # no comma: see if a known degree abbreviation is a prefix, rest is the field
+     # no comma: see if a known degree abbreviation is a prefix, rest is the field
     for variant_lower, canonical in _DEGREE_LOOKUP:
         if head.lower().startswith(variant_lower):
             remainder = head[len(variant_lower):].strip()
+            remainder = re.sub(r"^in\s+", "", remainder, flags=re.IGNORECASE)  # "Diploma in X" -> field "X"
             return head[:len(variant_lower)].strip(), (remainder or None)
-    return head, None
+    return head, None  
 
 
 def _normalize_degree(degree_raw):
@@ -88,13 +101,30 @@ def parse_education_line(line):
     }
 
 
+# Splits "...2018. Diploma in..." into two sentences, only ever used below when a
+# single section entry turns out to hold more than one degree (see parse_education_section).
+_SENTENCE_SPLIT_PATTERN = re.compile(r"(?<=\.)\s+(?=[A-Z])")
+
+
 def parse_education_section(lines):
     results = []
     for line in lines or []:
-        parsed = parse_education_line(line)
-        if parsed is not None:
-            results.append(parsed)
+        if not line:
+            continue
+        candidates = [line]
+        if len(YEAR_PATTERN.findall(line)) > 1:
+            # A no-headings resume's section classifier sometimes joins several
+            # degree sentences into one array entry (two years in one string is
+            # the tell). Splitting on sentence boundaries only in that case keeps
+            # every ordinary one-degree-per-line resume completely untouched.
+            candidates = _SENTENCE_SPLIT_PATTERN.split(line.strip())
+        for candidate in candidates:
+            parsed = parse_education_line(candidate)
+            if parsed is not None:
+                results.append(parsed)
     return results
+
+
 BULLET_PREFIX_PATTERN = re.compile(r"^[\-\u2022]\s*")
 
 

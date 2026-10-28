@@ -6,6 +6,7 @@ document, so nothing inside a table is lost.
 """
 
 from docx import Document
+from docx.enum.style import WD_STYLE_TYPE
 from docx.table import Table
 from docx.text.paragraph import Paragraph
 
@@ -14,12 +15,25 @@ from utils.logger import get_logger
 logger = get_logger(__name__)
 
 
-def is_bullet(paragraph) -> bool:
-    """True if Word treats this paragraph as a bullet/list item."""
+def is_bullet(paragraph, default_style=None) -> bool:
+    """True if Word treats this paragraph as a bullet/list item.
+
+    `default_style` is the document's default paragraph style, looked up
+    once per document and passed in here. python-docx's own `paragraph.style`
+    re-scans every style in the document from scratch each time a paragraph
+    has no style of its own set directly on it -- for a resume with hundreds
+    or thousands of plain paragraphs (a style-free Word export, a copy-pasted
+    wall of text), that single avoidable rescan is what makes a big resume
+    take seconds instead of milliseconds to read."""
     pPr = paragraph._p.pPr
     if pPr is not None and pPr.numPr is not None:
         return True                      # bullet set directly on the paragraph
-    style = paragraph.style
+
+    style_id = paragraph._p.style
+    if style_id is not None:
+        style = paragraph.part.get_style(style_id, WD_STYLE_TYPE.PARAGRAPH)
+    else:
+        style = default_style            # no style of its own -> the document default
     return style is not None and style.name.startswith("List")   # bullet set by style
 
 
@@ -43,13 +57,15 @@ def read_docx(file_path: str) -> str:
     logger.info(f"Reading DOCX: {file_path}")
 
     doc = Document(file_path)
+    # Looked up once per document instead of once per paragraph -- see is_bullet.
+    default_style = doc.styles.default(WD_STYLE_TYPE.PARAGRAPH)
     lines = []
     # Walk the document body in order so tables stay where they belong
     for block in doc.element.body.iterchildren():
         if block.tag.endswith("}p"):
             paragraph = Paragraph(block, doc)
             text = paragraph.text
-            if is_bullet(paragraph) and text.strip():
+            if is_bullet(paragraph, default_style) and text.strip():
                 text = "● " + text
             lines.append(text)
         elif block.tag.endswith("}tbl"):
