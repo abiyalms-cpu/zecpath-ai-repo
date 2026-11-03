@@ -1,0 +1,1286 @@
+{
+  "jd_file": "digital_marketing",
+  "rules": {
+    "jd_file": "digital_marketing",
+    "min_score": 0.15,
+    "mandatory_skills": [
+      "Google Analytics 4",
+      "Google Ads",
+      "Mailchimp",
+      "Meta Ads",
+      "SEO"
+    ],
+    "experience_range": {
+      "min_years": 3,
+      "max_years": null
+    },
+    "location": {
+      "evaluated": false,
+      "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+    }
+  },
+  "candidates": [
+    {
+      "resume": "aarav_nair_fresher_docx.docx",
+      "jd_file": "digital_marketing",
+      "final_score": 0.0062,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0062,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 3,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO",
+        "Experience (3 months) outside required range {'min_years': 3, 'max_years': None}"
+      ]
+    },
+    {
+      "resume": "abiyal_ms_fresher_docx.docx",
+      "jd_file": "digital_marketing",
+      "final_score": 0.0035,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0035,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 0,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO",
+        "Experience (0 months) outside required range {'min_years': 3, 'max_years': None}"
+      ]
+    },
+    {
+      "resume": "aditya_rao.docx",
+      "jd_file": "digital_marketing",
+      "final_score": 0.1098,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1098,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 88,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO"
+      ]
+    },
+    {
+      "resume": "aditya_rao.pdf",
+      "jd_file": "digital_marketing",
+      "final_score": 0.1098,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1098,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 88,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO"
+      ]
+    },
+    {
+      "resume": "ananya_rao.docx",
+      "jd_file": "digital_marketing",
+      "final_score": 0.0609,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0609,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 34,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO",
+        "Experience (34 months) outside required range {'min_years': 3, 'max_years': None}"
+      ]
+    },
+    {
+      "resume": "anjali_suresh.docx",
+      "jd_file": "digital_marketing",
+      "final_score": 0.1037,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1037,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 101,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO"
+      ]
+    },
+    {
+      "resume": "anjali_suresh.pdf",
+      "jd_file": "digital_marketing",
+      "final_score": 0.1037,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1037,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 101,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO"
+      ]
+    },
+    {
+      "resume": "arun_kumar.docx",
+      "jd_file": "digital_marketing",
+      "final_score": 0.1012,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1012,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 137,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO"
+      ]
+    },
+    {
+      "resume": "arun_kumar.pdf",
+      "jd_file": "digital_marketing",
+      "final_score": 0.1012,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1012,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 137,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO"
+      ]
+    },
+    {
+      "resume": "divya_menon.docx",
+      "jd_file": "digital_marketing",
+      "final_score": 0.3873,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": true,
+          "value": 0.3873,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 70,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO"
+      ]
+    },
+    {
+      "resume": "divya_menon.pdf",
+      "jd_file": "digital_marketing",
+      "final_score": 0.3873,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": true,
+          "value": 0.3873,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 70,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO"
+      ]
+    },
+    {
+      "resume": "fathima_rasheed.docx",
+      "jd_file": "digital_marketing",
+      "final_score": 0.1045,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1045,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 69,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO"
+      ]
+    },
+    {
+      "resume": "fathima_rasheed.pdf",
+      "jd_file": "digital_marketing",
+      "final_score": 0.1045,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1045,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 69,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO"
+      ]
+    },
+    {
+      "resume": "ishaan_kapoor_photo.docx",
+      "jd_file": "digital_marketing",
+      "final_score": 0.1023,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1023,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 80,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO"
+      ]
+    },
+    {
+      "resume": "karthik_subramaniam.docx",
+      "jd_file": "digital_marketing",
+      "final_score": 0.1032,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1032,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 88,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO"
+      ]
+    },
+    {
+      "resume": "karthik_subramaniam.pdf",
+      "jd_file": "digital_marketing",
+      "final_score": 0.1032,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1032,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 88,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO"
+      ]
+    },
+    {
+      "resume": "kunal_bhatia_fresher_docx.docx",
+      "jd_file": "digital_marketing",
+      "final_score": 0.1664,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": true,
+          "value": 0.1664,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 3,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO",
+        "Experience (3 months) outside required range {'min_years': 3, 'max_years': None}"
+      ]
+    },
+    {
+      "resume": "meera_iyer_table.docx",
+      "jd_file": "digital_marketing",
+      "final_score": 0.1037,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1037,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 58,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO"
+      ]
+    },
+    {
+      "resume": "neha_choudhary_fresher_docx.docx",
+      "jd_file": "digital_marketing",
+      "final_score": 0.0063,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0063,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 3,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO",
+        "Experience (3 months) outside required range {'min_years': 3, 'max_years': None}"
+      ]
+    },
+    {
+      "resume": "nikhil_verma_two_column.pdf",
+      "jd_file": "digital_marketing",
+      "final_score": 0.1267,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1267,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 76,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO"
+      ]
+    },
+    {
+      "resume": "no_headings_meena.docx",
+      "jd_file": "digital_marketing",
+      "final_score": 0.1275,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1275,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 89,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO"
+      ]
+    },
+    {
+      "resume": "no_headings_vikram.docx",
+      "jd_file": "digital_marketing",
+      "final_score": 0.1329,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1329,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 101,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO"
+      ]
+    },
+    {
+      "resume": "priya_nair.docx",
+      "jd_file": "digital_marketing",
+      "final_score": 0.1702,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": true,
+          "value": 0.1702,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 82,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO"
+      ]
+    },
+    {
+      "resume": "priya_nair.pdf",
+      "jd_file": "digital_marketing",
+      "final_score": 0.1702,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": true,
+          "value": 0.1702,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 82,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO"
+      ]
+    },
+    {
+      "resume": "riya_deshmukh_fresher_docx.docx",
+      "jd_file": "digital_marketing",
+      "final_score": 0.0066,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0066,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 4,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO",
+        "Experience (4 months) outside required range {'min_years': 3, 'max_years': None}"
+      ]
+    },
+    {
+      "resume": "rohan_mehta.docx",
+      "jd_file": "digital_marketing",
+      "final_score": 0.1046,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1046,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 64,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO"
+      ]
+    },
+    {
+      "resume": "rohan_mehta.pdf",
+      "jd_file": "digital_marketing",
+      "final_score": 0.1046,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1046,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 64,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO"
+      ]
+    },
+    {
+      "resume": "sneha_thomas.docx",
+      "jd_file": "digital_marketing",
+      "final_score": 0.1051,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1051,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 89,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO"
+      ]
+    },
+    {
+      "resume": "sneha_thomas.pdf",
+      "jd_file": "digital_marketing",
+      "final_score": 0.1051,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1051,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 89,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO"
+      ]
+    },
+    {
+      "resume": "varun_iyer_fresher_docx.docx",
+      "jd_file": "digital_marketing",
+      "final_score": 0.0073,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0073,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 4,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO",
+        "Experience (4 months) outside required range {'min_years': 3, 'max_years': None}"
+      ]
+    },
+    {
+      "resume": "vishnu_prasad.docx",
+      "jd_file": "digital_marketing",
+      "final_score": 0.1056,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1056,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 77,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO"
+      ]
+    },
+    {
+      "resume": "vishnu_prasad.pdf",
+      "jd_file": "digital_marketing",
+      "final_score": 0.1056,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1056,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 77,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO"
+      ]
+    },
+    {
+      "resume": "zoya_khan_scanned.pdf",
+      "jd_file": "digital_marketing",
+      "final_score": 0.0,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Google Analytics 4",
+            "Google Ads",
+            "Mailchimp",
+            "Meta Ads",
+            "SEO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 0,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Google Analytics 4, Google Ads, Mailchimp, Meta Ads, SEO",
+        "Experience (0 months) outside required range {'min_years': 3, 'max_years': None}"
+      ]
+    }
+  ]
+}

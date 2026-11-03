@@ -1,0 +1,1216 @@
+{
+  "jd_file": "hr_manager",
+  "rules": {
+    "jd_file": "hr_manager",
+    "min_score": 0.15,
+    "mandatory_skills": [
+      "SAP SuccessFactors",
+      "Darwinbox",
+      "HRIS"
+    ],
+    "experience_range": {
+      "min_years": 5,
+      "max_years": null
+    },
+    "location": {
+      "evaluated": false,
+      "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+    }
+  },
+  "candidates": [
+    {
+      "resume": "aarav_nair_fresher_docx.docx",
+      "jd_file": "hr_manager",
+      "final_score": 0.0065,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0065,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox",
+            "HRIS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 3,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox, HRIS",
+        "Experience (3 months) outside required range {'min_years': 5, 'max_years': None}"
+      ]
+    },
+    {
+      "resume": "abiyal_ms_fresher_docx.docx",
+      "jd_file": "hr_manager",
+      "final_score": 0.0063,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0063,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox",
+            "HRIS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 0,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox, HRIS",
+        "Experience (0 months) outside required range {'min_years': 5, 'max_years': None}"
+      ]
+    },
+    {
+      "resume": "aditya_rao.docx",
+      "jd_file": "hr_manager",
+      "final_score": 0.0703,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0703,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox",
+            "HRIS"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 88,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox, HRIS"
+      ]
+    },
+    {
+      "resume": "aditya_rao.pdf",
+      "jd_file": "hr_manager",
+      "final_score": 0.0703,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0703,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox",
+            "HRIS"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 88,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox, HRIS"
+      ]
+    },
+    {
+      "resume": "ananya_rao.docx",
+      "jd_file": "hr_manager",
+      "final_score": 0.0459,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0459,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox",
+            "HRIS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 34,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox, HRIS",
+        "Experience (34 months) outside required range {'min_years': 5, 'max_years': None}"
+      ]
+    },
+    {
+      "resume": "anjali_suresh.docx",
+      "jd_file": "hr_manager",
+      "final_score": 0.2736,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": true,
+          "value": 0.2736,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 101,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox"
+      ]
+    },
+    {
+      "resume": "anjali_suresh.pdf",
+      "jd_file": "hr_manager",
+      "final_score": 0.2736,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": true,
+          "value": 0.2736,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 101,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox"
+      ]
+    },
+    {
+      "resume": "arun_kumar.docx",
+      "jd_file": "hr_manager",
+      "final_score": 0.0686,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0686,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox",
+            "HRIS"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 137,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox, HRIS"
+      ]
+    },
+    {
+      "resume": "arun_kumar.pdf",
+      "jd_file": "hr_manager",
+      "final_score": 0.0686,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0686,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox",
+            "HRIS"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 137,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox, HRIS"
+      ]
+    },
+    {
+      "resume": "divya_menon.docx",
+      "jd_file": "hr_manager",
+      "final_score": 0.0697,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0697,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox",
+            "HRIS"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 70,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox, HRIS"
+      ]
+    },
+    {
+      "resume": "divya_menon.pdf",
+      "jd_file": "hr_manager",
+      "final_score": 0.0697,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0697,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox",
+            "HRIS"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 70,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox, HRIS"
+      ]
+    },
+    {
+      "resume": "fathima_rasheed.docx",
+      "jd_file": "hr_manager",
+      "final_score": 0.0728,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0728,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox",
+            "HRIS"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 69,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox, HRIS"
+      ]
+    },
+    {
+      "resume": "fathima_rasheed.pdf",
+      "jd_file": "hr_manager",
+      "final_score": 0.0728,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0728,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox",
+            "HRIS"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 69,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox, HRIS"
+      ]
+    },
+    {
+      "resume": "ishaan_kapoor_photo.docx",
+      "jd_file": "hr_manager",
+      "final_score": 0.101,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.101,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox",
+            "HRIS"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 80,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox, HRIS"
+      ]
+    },
+    {
+      "resume": "karthik_subramaniam.docx",
+      "jd_file": "hr_manager",
+      "final_score": 0.0813,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0813,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox",
+            "HRIS"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 88,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox, HRIS"
+      ]
+    },
+    {
+      "resume": "karthik_subramaniam.pdf",
+      "jd_file": "hr_manager",
+      "final_score": 0.0813,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0813,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox",
+            "HRIS"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 88,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox, HRIS"
+      ]
+    },
+    {
+      "resume": "kunal_bhatia_fresher_docx.docx",
+      "jd_file": "hr_manager",
+      "final_score": 0.0069,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0069,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox",
+            "HRIS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 3,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox, HRIS",
+        "Experience (3 months) outside required range {'min_years': 5, 'max_years': None}"
+      ]
+    },
+    {
+      "resume": "meera_iyer_table.docx",
+      "jd_file": "hr_manager",
+      "final_score": 0.0653,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0653,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox",
+            "HRIS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 58,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox, HRIS",
+        "Experience (58 months) outside required range {'min_years': 5, 'max_years': None}"
+      ]
+    },
+    {
+      "resume": "neha_choudhary_fresher_docx.docx",
+      "jd_file": "hr_manager",
+      "final_score": 0.0062,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0062,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox",
+            "HRIS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 3,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox, HRIS",
+        "Experience (3 months) outside required range {'min_years': 5, 'max_years': None}"
+      ]
+    },
+    {
+      "resume": "nikhil_verma_two_column.pdf",
+      "jd_file": "hr_manager",
+      "final_score": 0.1142,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1142,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox",
+            "HRIS"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 76,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox, HRIS"
+      ]
+    },
+    {
+      "resume": "no_headings_meena.docx",
+      "jd_file": "hr_manager",
+      "final_score": 0.1216,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1216,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox",
+            "HRIS"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 89,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox, HRIS"
+      ]
+    },
+    {
+      "resume": "no_headings_vikram.docx",
+      "jd_file": "hr_manager",
+      "final_score": 0.1365,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1365,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox",
+            "HRIS"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 101,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox, HRIS"
+      ]
+    },
+    {
+      "resume": "priya_nair.docx",
+      "jd_file": "hr_manager",
+      "final_score": 0.0677,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0677,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox",
+            "HRIS"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 82,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox, HRIS"
+      ]
+    },
+    {
+      "resume": "priya_nair.pdf",
+      "jd_file": "hr_manager",
+      "final_score": 0.0677,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0677,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox",
+            "HRIS"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 82,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox, HRIS"
+      ]
+    },
+    {
+      "resume": "riya_deshmukh_fresher_docx.docx",
+      "jd_file": "hr_manager",
+      "final_score": 0.0077,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0077,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox",
+            "HRIS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 4,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox, HRIS",
+        "Experience (4 months) outside required range {'min_years': 5, 'max_years': None}"
+      ]
+    },
+    {
+      "resume": "rohan_mehta.docx",
+      "jd_file": "hr_manager",
+      "final_score": 0.0723,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0723,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox",
+            "HRIS"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 64,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox, HRIS"
+      ]
+    },
+    {
+      "resume": "rohan_mehta.pdf",
+      "jd_file": "hr_manager",
+      "final_score": 0.0723,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0723,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox",
+            "HRIS"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 64,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox, HRIS"
+      ]
+    },
+    {
+      "resume": "sneha_thomas.docx",
+      "jd_file": "hr_manager",
+      "final_score": 0.0706,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0706,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox",
+            "HRIS"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 89,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox, HRIS"
+      ]
+    },
+    {
+      "resume": "sneha_thomas.pdf",
+      "jd_file": "hr_manager",
+      "final_score": 0.0706,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0706,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox",
+            "HRIS"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 89,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox, HRIS"
+      ]
+    },
+    {
+      "resume": "varun_iyer_fresher_docx.docx",
+      "jd_file": "hr_manager",
+      "final_score": 0.1381,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1381,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 4,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox",
+        "Experience (4 months) outside required range {'min_years': 5, 'max_years': None}"
+      ]
+    },
+    {
+      "resume": "vishnu_prasad.docx",
+      "jd_file": "hr_manager",
+      "final_score": 0.0757,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0757,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox",
+            "HRIS"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 77,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox, HRIS"
+      ]
+    },
+    {
+      "resume": "vishnu_prasad.pdf",
+      "jd_file": "hr_manager",
+      "final_score": 0.0757,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0757,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox",
+            "HRIS"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 77,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox, HRIS"
+      ]
+    },
+    {
+      "resume": "zoya_khan_scanned.pdf",
+      "jd_file": "hr_manager",
+      "final_score": 0.0,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SAP SuccessFactors",
+            "Darwinbox",
+            "HRIS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 0,
+          "required": {
+            "min_years": 5,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SAP SuccessFactors, Darwinbox, HRIS",
+        "Experience (0 months) outside required range {'min_years': 5, 'max_years': None}"
+      ]
+    }
+  ]
+}

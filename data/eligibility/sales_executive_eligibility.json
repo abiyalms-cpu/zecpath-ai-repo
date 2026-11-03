@@ -1,0 +1,1247 @@
+{
+  "jd_file": "sales_executive",
+  "rules": {
+    "jd_file": "sales_executive",
+    "min_score": 0.15,
+    "mandatory_skills": [
+      "Negotiation",
+      "Salesforce",
+      "Zoho",
+      "CRM"
+    ],
+    "experience_range": {
+      "min_years": 2,
+      "max_years": null
+    },
+    "location": {
+      "evaluated": false,
+      "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+    }
+  },
+  "candidates": [
+    {
+      "resume": "aarav_nair_fresher_docx.docx",
+      "jd_file": "sales_executive",
+      "final_score": 0.0136,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0136,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Negotiation",
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 3,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Negotiation, Salesforce, Zoho, CRM",
+        "Experience (3 months) outside required range {'min_years': 2, 'max_years': None}"
+      ]
+    },
+    {
+      "resume": "abiyal_ms_fresher_docx.docx",
+      "jd_file": "sales_executive",
+      "final_score": 0.0031,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0031,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Negotiation",
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 0,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Negotiation, Salesforce, Zoho, CRM",
+        "Experience (0 months) outside required range {'min_years': 2, 'max_years': None}"
+      ]
+    },
+    {
+      "resume": "aditya_rao.docx",
+      "jd_file": "sales_executive",
+      "final_score": 0.1013,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1013,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Negotiation",
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 88,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Negotiation, Salesforce, Zoho, CRM"
+      ]
+    },
+    {
+      "resume": "aditya_rao.pdf",
+      "jd_file": "sales_executive",
+      "final_score": 0.1013,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1013,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Negotiation",
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 88,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Negotiation, Salesforce, Zoho, CRM"
+      ]
+    },
+    {
+      "resume": "ananya_rao.docx",
+      "jd_file": "sales_executive",
+      "final_score": 0.0604,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0604,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Negotiation",
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 34,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Negotiation, Salesforce, Zoho, CRM"
+      ]
+    },
+    {
+      "resume": "anjali_suresh.docx",
+      "jd_file": "sales_executive",
+      "final_score": 0.1378,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1378,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Negotiation",
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 101,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Negotiation, Salesforce, Zoho, CRM"
+      ]
+    },
+    {
+      "resume": "anjali_suresh.pdf",
+      "jd_file": "sales_executive",
+      "final_score": 0.1378,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1378,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Negotiation",
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 101,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Negotiation, Salesforce, Zoho, CRM"
+      ]
+    },
+    {
+      "resume": "arun_kumar.docx",
+      "jd_file": "sales_executive",
+      "final_score": 0.102,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.102,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Negotiation",
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 137,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Negotiation, Salesforce, Zoho, CRM"
+      ]
+    },
+    {
+      "resume": "arun_kumar.pdf",
+      "jd_file": "sales_executive",
+      "final_score": 0.102,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.102,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Negotiation",
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 137,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Negotiation, Salesforce, Zoho, CRM"
+      ]
+    },
+    {
+      "resume": "divya_menon.docx",
+      "jd_file": "sales_executive",
+      "final_score": 0.1023,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1023,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Negotiation",
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 70,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Negotiation, Salesforce, Zoho, CRM"
+      ]
+    },
+    {
+      "resume": "divya_menon.pdf",
+      "jd_file": "sales_executive",
+      "final_score": 0.1023,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1023,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Negotiation",
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 70,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Negotiation, Salesforce, Zoho, CRM"
+      ]
+    },
+    {
+      "resume": "fathima_rasheed.docx",
+      "jd_file": "sales_executive",
+      "final_score": 0.1301,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1301,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Negotiation",
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 69,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Negotiation, Salesforce, Zoho, CRM"
+      ]
+    },
+    {
+      "resume": "fathima_rasheed.pdf",
+      "jd_file": "sales_executive",
+      "final_score": 0.1301,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1301,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Negotiation",
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 69,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Negotiation, Salesforce, Zoho, CRM"
+      ]
+    },
+    {
+      "resume": "ishaan_kapoor_photo.docx",
+      "jd_file": "sales_executive",
+      "final_score": 0.0999,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0999,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Negotiation",
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 80,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Negotiation, Salesforce, Zoho, CRM"
+      ]
+    },
+    {
+      "resume": "karthik_subramaniam.docx",
+      "jd_file": "sales_executive",
+      "final_score": 0.1048,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1048,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Negotiation",
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 88,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Negotiation, Salesforce, Zoho, CRM"
+      ]
+    },
+    {
+      "resume": "karthik_subramaniam.pdf",
+      "jd_file": "sales_executive",
+      "final_score": 0.1048,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1048,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Negotiation",
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 88,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Negotiation, Salesforce, Zoho, CRM"
+      ]
+    },
+    {
+      "resume": "kunal_bhatia_fresher_docx.docx",
+      "jd_file": "sales_executive",
+      "final_score": 0.0072,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0072,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Negotiation",
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 3,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Negotiation, Salesforce, Zoho, CRM",
+        "Experience (3 months) outside required range {'min_years': 2, 'max_years': None}"
+      ]
+    },
+    {
+      "resume": "meera_iyer_table.docx",
+      "jd_file": "sales_executive",
+      "final_score": 0.106,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.106,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Negotiation",
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 58,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Negotiation, Salesforce, Zoho, CRM"
+      ]
+    },
+    {
+      "resume": "neha_choudhary_fresher_docx.docx",
+      "jd_file": "sales_executive",
+      "final_score": 0.174,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": true,
+          "value": 0.174,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 3,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Salesforce, Zoho, CRM",
+        "Experience (3 months) outside required range {'min_years': 2, 'max_years': None}"
+      ]
+    },
+    {
+      "resume": "nikhil_verma_two_column.pdf",
+      "jd_file": "sales_executive",
+      "final_score": 0.1258,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1258,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Negotiation",
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 76,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Negotiation, Salesforce, Zoho, CRM"
+      ]
+    },
+    {
+      "resume": "no_headings_meena.docx",
+      "jd_file": "sales_executive",
+      "final_score": 0.1271,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1271,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Negotiation",
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 89,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Negotiation, Salesforce, Zoho, CRM"
+      ]
+    },
+    {
+      "resume": "no_headings_vikram.docx",
+      "jd_file": "sales_executive",
+      "final_score": 0.2664,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": true,
+          "value": 0.2664,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 101,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Salesforce, Zoho, CRM"
+      ]
+    },
+    {
+      "resume": "priya_nair.docx",
+      "jd_file": "sales_executive",
+      "final_score": 0.369,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": true,
+          "value": 0.369,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 82,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Salesforce, Zoho, CRM"
+      ]
+    },
+    {
+      "resume": "priya_nair.pdf",
+      "jd_file": "sales_executive",
+      "final_score": 0.369,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": true,
+          "value": 0.369,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 82,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Salesforce, Zoho, CRM"
+      ]
+    },
+    {
+      "resume": "riya_deshmukh_fresher_docx.docx",
+      "jd_file": "sales_executive",
+      "final_score": 0.0076,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0076,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Negotiation",
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 4,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Negotiation, Salesforce, Zoho, CRM",
+        "Experience (4 months) outside required range {'min_years': 2, 'max_years': None}"
+      ]
+    },
+    {
+      "resume": "rohan_mehta.docx",
+      "jd_file": "sales_executive",
+      "final_score": 0.1033,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1033,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Negotiation",
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 64,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Negotiation, Salesforce, Zoho, CRM"
+      ]
+    },
+    {
+      "resume": "rohan_mehta.pdf",
+      "jd_file": "sales_executive",
+      "final_score": 0.1033,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1033,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Negotiation",
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 64,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Negotiation, Salesforce, Zoho, CRM"
+      ]
+    },
+    {
+      "resume": "sneha_thomas.docx",
+      "jd_file": "sales_executive",
+      "final_score": 0.101,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.101,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Negotiation",
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 89,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Negotiation, Salesforce, Zoho, CRM"
+      ]
+    },
+    {
+      "resume": "sneha_thomas.pdf",
+      "jd_file": "sales_executive",
+      "final_score": 0.101,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.101,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Negotiation",
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 89,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Negotiation, Salesforce, Zoho, CRM"
+      ]
+    },
+    {
+      "resume": "varun_iyer_fresher_docx.docx",
+      "jd_file": "sales_executive",
+      "final_score": 0.0098,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0098,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Negotiation",
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 4,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Negotiation, Salesforce, Zoho, CRM",
+        "Experience (4 months) outside required range {'min_years': 2, 'max_years': None}"
+      ]
+    },
+    {
+      "resume": "vishnu_prasad.docx",
+      "jd_file": "sales_executive",
+      "final_score": 0.1059,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1059,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Negotiation",
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 77,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Negotiation, Salesforce, Zoho, CRM"
+      ]
+    },
+    {
+      "resume": "vishnu_prasad.pdf",
+      "jd_file": "sales_executive",
+      "final_score": 0.1059,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1059,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Negotiation",
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 77,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Negotiation, Salesforce, Zoho, CRM"
+      ]
+    },
+    {
+      "resume": "zoya_khan_scanned.pdf",
+      "jd_file": "sales_executive",
+      "final_score": 0.0,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Negotiation",
+            "Salesforce",
+            "Zoho",
+            "CRM"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 0,
+          "required": {
+            "min_years": 2,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Negotiation, Salesforce, Zoho, CRM",
+        "Experience (0 months) outside required range {'min_years': 2, 'max_years': None}"
+      ]
+    }
+  ]
+}

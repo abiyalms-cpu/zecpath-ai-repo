@@ -1,0 +1,1241 @@
+{
+  "jd_file": "sde_ii",
+  "rules": {
+    "jd_file": "sde_ii",
+    "min_score": 0.15,
+    "mandatory_skills": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "MongoDB"
+    ],
+    "experience_range": {
+      "min_years": 3,
+      "max_years": null
+    },
+    "location": {
+      "evaluated": false,
+      "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+    }
+  },
+  "candidates": [
+    {
+      "resume": "aarav_nair_fresher_docx.docx",
+      "jd_file": "sde_ii",
+      "final_score": 0.3763,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": true,
+          "value": 0.3763,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": true,
+          "missing": [
+            "MongoDB"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 3,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Experience (3 months) outside required range {'min_years': 3, 'max_years': None}"
+      ]
+    },
+    {
+      "resume": "abiyal_ms_fresher_docx.docx",
+      "jd_file": "sde_ii",
+      "final_score": 0.0032,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0032,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 0,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: JavaScript, React, Node.js, MongoDB",
+        "Experience (0 months) outside required range {'min_years': 3, 'max_years': None}"
+      ]
+    },
+    {
+      "resume": "aditya_rao.docx",
+      "jd_file": "sde_ii",
+      "final_score": 0.0923,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0923,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 88,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: JavaScript, React, Node.js, MongoDB"
+      ]
+    },
+    {
+      "resume": "aditya_rao.pdf",
+      "jd_file": "sde_ii",
+      "final_score": 0.0923,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0923,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 88,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: JavaScript, React, Node.js, MongoDB"
+      ]
+    },
+    {
+      "resume": "ananya_rao.docx",
+      "jd_file": "sde_ii",
+      "final_score": 0.2848,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": true,
+          "value": 0.2848,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": true,
+          "missing": [
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 34,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Experience (34 months) outside required range {'min_years': 3, 'max_years': None}"
+      ]
+    },
+    {
+      "resume": "anjali_suresh.docx",
+      "jd_file": "sde_ii",
+      "final_score": 0.0856,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0856,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 101,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: JavaScript, React, Node.js, MongoDB"
+      ]
+    },
+    {
+      "resume": "anjali_suresh.pdf",
+      "jd_file": "sde_ii",
+      "final_score": 0.0856,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0856,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 101,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: JavaScript, React, Node.js, MongoDB"
+      ]
+    },
+    {
+      "resume": "arun_kumar.docx",
+      "jd_file": "sde_ii",
+      "final_score": 0.0885,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0885,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 137,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: JavaScript, React, Node.js, MongoDB"
+      ]
+    },
+    {
+      "resume": "arun_kumar.pdf",
+      "jd_file": "sde_ii",
+      "final_score": 0.0885,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0885,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 137,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: JavaScript, React, Node.js, MongoDB"
+      ]
+    },
+    {
+      "resume": "divya_menon.docx",
+      "jd_file": "sde_ii",
+      "final_score": 0.088,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.088,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 70,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: JavaScript, React, Node.js, MongoDB"
+      ]
+    },
+    {
+      "resume": "divya_menon.pdf",
+      "jd_file": "sde_ii",
+      "final_score": 0.088,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.088,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 70,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: JavaScript, React, Node.js, MongoDB"
+      ]
+    },
+    {
+      "resume": "fathima_rasheed.docx",
+      "jd_file": "sde_ii",
+      "final_score": 0.0973,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0973,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 69,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: JavaScript, React, Node.js, MongoDB"
+      ]
+    },
+    {
+      "resume": "fathima_rasheed.pdf",
+      "jd_file": "sde_ii",
+      "final_score": 0.0973,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0973,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 69,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: JavaScript, React, Node.js, MongoDB"
+      ]
+    },
+    {
+      "resume": "ishaan_kapoor_photo.docx",
+      "jd_file": "sde_ii",
+      "final_score": 0.0833,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0833,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 80,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: JavaScript, React, Node.js, MongoDB"
+      ]
+    },
+    {
+      "resume": "karthik_subramaniam.docx",
+      "jd_file": "sde_ii",
+      "final_score": 0.0853,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0853,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 88,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: JavaScript, React, Node.js, MongoDB"
+      ]
+    },
+    {
+      "resume": "karthik_subramaniam.pdf",
+      "jd_file": "sde_ii",
+      "final_score": 0.0853,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0853,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 88,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: JavaScript, React, Node.js, MongoDB"
+      ]
+    },
+    {
+      "resume": "kunal_bhatia_fresher_docx.docx",
+      "jd_file": "sde_ii",
+      "final_score": 0.008,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.008,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 3,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: JavaScript, React, Node.js, MongoDB",
+        "Experience (3 months) outside required range {'min_years': 3, 'max_years': None}"
+      ]
+    },
+    {
+      "resume": "meera_iyer_table.docx",
+      "jd_file": "sde_ii",
+      "final_score": 0.0859,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0859,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 58,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: JavaScript, React, Node.js, MongoDB"
+      ]
+    },
+    {
+      "resume": "neha_choudhary_fresher_docx.docx",
+      "jd_file": "sde_ii",
+      "final_score": 0.0103,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0103,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 3,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: JavaScript, React, Node.js, MongoDB",
+        "Experience (3 months) outside required range {'min_years': 3, 'max_years': None}"
+      ]
+    },
+    {
+      "resume": "nikhil_verma_two_column.pdf",
+      "jd_file": "sde_ii",
+      "final_score": 0.3712,
+      "status": "Eligible",
+      "checks": {
+        "score": {
+          "passed": true,
+          "value": 0.3712,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": true,
+          "missing": [
+            "JavaScript",
+            "MongoDB"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 76,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Score 0.3712 meets the 0.15 cutoff"
+      ]
+    },
+    {
+      "resume": "no_headings_meena.docx",
+      "jd_file": "sde_ii",
+      "final_score": 0.1017,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1017,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 89,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: JavaScript, React, Node.js, MongoDB"
+      ]
+    },
+    {
+      "resume": "no_headings_vikram.docx",
+      "jd_file": "sde_ii",
+      "final_score": 0.1054,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1054,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 101,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: JavaScript, React, Node.js, MongoDB"
+      ]
+    },
+    {
+      "resume": "priya_nair.docx",
+      "jd_file": "sde_ii",
+      "final_score": 0.0856,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0856,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 82,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: JavaScript, React, Node.js, MongoDB"
+      ]
+    },
+    {
+      "resume": "priya_nair.pdf",
+      "jd_file": "sde_ii",
+      "final_score": 0.0856,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0856,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 82,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: JavaScript, React, Node.js, MongoDB"
+      ]
+    },
+    {
+      "resume": "riya_deshmukh_fresher_docx.docx",
+      "jd_file": "sde_ii",
+      "final_score": 0.0135,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0135,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 4,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: JavaScript, React, Node.js, MongoDB",
+        "Experience (4 months) outside required range {'min_years': 3, 'max_years': None}"
+      ]
+    },
+    {
+      "resume": "rohan_mehta.docx",
+      "jd_file": "sde_ii",
+      "final_score": 0.2925,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": true,
+          "value": 0.2925,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "JavaScript",
+            "React",
+            "Node.js"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 64,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: JavaScript, React, Node.js"
+      ]
+    },
+    {
+      "resume": "rohan_mehta.pdf",
+      "jd_file": "sde_ii",
+      "final_score": 0.2925,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": true,
+          "value": 0.2925,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "JavaScript",
+            "React",
+            "Node.js"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 64,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: JavaScript, React, Node.js"
+      ]
+    },
+    {
+      "resume": "sneha_thomas.docx",
+      "jd_file": "sde_ii",
+      "final_score": 0.0869,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0869,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 89,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: JavaScript, React, Node.js, MongoDB"
+      ]
+    },
+    {
+      "resume": "sneha_thomas.pdf",
+      "jd_file": "sde_ii",
+      "final_score": 0.0869,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0869,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 89,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: JavaScript, React, Node.js, MongoDB"
+      ]
+    },
+    {
+      "resume": "varun_iyer_fresher_docx.docx",
+      "jd_file": "sde_ii",
+      "final_score": 0.0087,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0087,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 4,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: JavaScript, React, Node.js, MongoDB",
+        "Experience (4 months) outside required range {'min_years': 3, 'max_years': None}"
+      ]
+    },
+    {
+      "resume": "vishnu_prasad.docx",
+      "jd_file": "sde_ii",
+      "final_score": 0.1239,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1239,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 77,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: JavaScript, React, Node.js, MongoDB"
+      ]
+    },
+    {
+      "resume": "vishnu_prasad.pdf",
+      "jd_file": "sde_ii",
+      "final_score": 0.1239,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1239,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 77,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: JavaScript, React, Node.js, MongoDB"
+      ]
+    },
+    {
+      "resume": "zoya_khan_scanned.pdf",
+      "jd_file": "sde_ii",
+      "final_score": 0.0,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "JavaScript",
+            "React",
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 0,
+          "required": {
+            "min_years": 3,
+            "max_years": null
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: JavaScript, React, Node.js, MongoDB",
+        "Experience (0 months) outside required range {'min_years': 3, 'max_years': None}"
+      ]
+    }
+  ]
+}

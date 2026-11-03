@@ -1,0 +1,1226 @@
+{
+  "jd_file": "financial_analyst",
+  "rules": {
+    "jd_file": "financial_analyst",
+    "min_score": 0.15,
+    "mandatory_skills": [
+      "Excel",
+      "Power BI",
+      "SAP FICO"
+    ],
+    "experience_range": {
+      "min_years": 2,
+      "max_years": 4
+    },
+    "location": {
+      "evaluated": false,
+      "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+    }
+  },
+  "candidates": [
+    {
+      "resume": "aarav_nair_fresher_docx.docx",
+      "jd_file": "financial_analyst",
+      "final_score": 0.0064,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0064,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Excel",
+            "Power BI",
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 3,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Excel, Power BI, SAP FICO",
+        "Experience (3 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "abiyal_ms_fresher_docx.docx",
+      "jd_file": "financial_analyst",
+      "final_score": 0.1886,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": true,
+          "value": 0.1886,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Excel",
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 0,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Excel, SAP FICO",
+        "Experience (0 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "aditya_rao.docx",
+      "jd_file": "financial_analyst",
+      "final_score": 0.069,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.069,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Excel",
+            "Power BI",
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 88,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Excel, Power BI, SAP FICO",
+        "Experience (88 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "aditya_rao.pdf",
+      "jd_file": "financial_analyst",
+      "final_score": 0.069,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.069,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Excel",
+            "Power BI",
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 88,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Excel, Power BI, SAP FICO",
+        "Experience (88 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "ananya_rao.docx",
+      "jd_file": "financial_analyst",
+      "final_score": 0.0469,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0469,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Excel",
+            "Power BI",
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 34,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Excel, Power BI, SAP FICO"
+      ]
+    },
+    {
+      "resume": "anjali_suresh.docx",
+      "jd_file": "financial_analyst",
+      "final_score": 0.0714,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0714,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Excel",
+            "Power BI",
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 101,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Excel, Power BI, SAP FICO",
+        "Experience (101 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "anjali_suresh.pdf",
+      "jd_file": "financial_analyst",
+      "final_score": 0.0714,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0714,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Excel",
+            "Power BI",
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 101,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Excel, Power BI, SAP FICO",
+        "Experience (101 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "arun_kumar.docx",
+      "jd_file": "financial_analyst",
+      "final_score": 0.0679,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0679,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Excel",
+            "Power BI",
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 137,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Excel, Power BI, SAP FICO",
+        "Experience (137 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "arun_kumar.pdf",
+      "jd_file": "financial_analyst",
+      "final_score": 0.0679,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0679,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Excel",
+            "Power BI",
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 137,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Excel, Power BI, SAP FICO",
+        "Experience (137 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "divya_menon.docx",
+      "jd_file": "financial_analyst",
+      "final_score": 0.0695,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0695,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Excel",
+            "Power BI",
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 70,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Excel, Power BI, SAP FICO",
+        "Experience (70 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "divya_menon.pdf",
+      "jd_file": "financial_analyst",
+      "final_score": 0.0695,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0695,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Excel",
+            "Power BI",
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 70,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Excel, Power BI, SAP FICO",
+        "Experience (70 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "fathima_rasheed.docx",
+      "jd_file": "financial_analyst",
+      "final_score": 0.0745,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0745,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Excel",
+            "Power BI",
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 69,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Excel, Power BI, SAP FICO",
+        "Experience (69 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "fathima_rasheed.pdf",
+      "jd_file": "financial_analyst",
+      "final_score": 0.0745,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0745,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Excel",
+            "Power BI",
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 69,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Excel, Power BI, SAP FICO",
+        "Experience (69 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "ishaan_kapoor_photo.docx",
+      "jd_file": "financial_analyst",
+      "final_score": 0.0794,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0794,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Excel",
+            "Power BI",
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 80,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Excel, Power BI, SAP FICO",
+        "Experience (80 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "karthik_subramaniam.docx",
+      "jd_file": "financial_analyst",
+      "final_score": 0.4086,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": true,
+          "value": 0.4086,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": true,
+          "missing": [
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 88,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Experience (88 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "karthik_subramaniam.pdf",
+      "jd_file": "financial_analyst",
+      "final_score": 0.4086,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": true,
+          "value": 0.4086,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": true,
+          "missing": [
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 88,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Experience (88 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "kunal_bhatia_fresher_docx.docx",
+      "jd_file": "financial_analyst",
+      "final_score": 0.0067,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0067,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Excel",
+            "Power BI",
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 3,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Excel, Power BI, SAP FICO",
+        "Experience (3 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "meera_iyer_table.docx",
+      "jd_file": "financial_analyst",
+      "final_score": 0.2939,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": true,
+          "value": 0.2939,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": true,
+          "missing": [
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 58,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Experience (58 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "neha_choudhary_fresher_docx.docx",
+      "jd_file": "financial_analyst",
+      "final_score": 0.104,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.104,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Power BI",
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 3,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Power BI, SAP FICO",
+        "Experience (3 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "nikhil_verma_two_column.pdf",
+      "jd_file": "financial_analyst",
+      "final_score": 0.1125,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1125,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Excel",
+            "Power BI",
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 76,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Excel, Power BI, SAP FICO",
+        "Experience (76 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "no_headings_meena.docx",
+      "jd_file": "financial_analyst",
+      "final_score": 0.1122,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1122,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Excel",
+            "Power BI",
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 89,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Excel, Power BI, SAP FICO",
+        "Experience (89 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "no_headings_vikram.docx",
+      "jd_file": "financial_analyst",
+      "final_score": 0.4716,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": true,
+          "value": 0.4716,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": true,
+          "missing": [
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 101,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Experience (101 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "priya_nair.docx",
+      "jd_file": "financial_analyst",
+      "final_score": 0.0718,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0718,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Excel",
+            "Power BI",
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 82,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Excel, Power BI, SAP FICO",
+        "Experience (82 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "priya_nair.pdf",
+      "jd_file": "financial_analyst",
+      "final_score": 0.0718,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0718,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Excel",
+            "Power BI",
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 82,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Excel, Power BI, SAP FICO",
+        "Experience (82 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "riya_deshmukh_fresher_docx.docx",
+      "jd_file": "financial_analyst",
+      "final_score": 0.109,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.109,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Power BI",
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 4,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Power BI, SAP FICO",
+        "Experience (4 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "rohan_mehta.docx",
+      "jd_file": "financial_analyst",
+      "final_score": 0.0709,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0709,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Excel",
+            "Power BI",
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 64,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Excel, Power BI, SAP FICO",
+        "Experience (64 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "rohan_mehta.pdf",
+      "jd_file": "financial_analyst",
+      "final_score": 0.0709,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0709,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Excel",
+            "Power BI",
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 64,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Excel, Power BI, SAP FICO",
+        "Experience (64 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "sneha_thomas.docx",
+      "jd_file": "financial_analyst",
+      "final_score": 0.0688,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0688,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Excel",
+            "Power BI",
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 89,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Excel, Power BI, SAP FICO",
+        "Experience (89 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "sneha_thomas.pdf",
+      "jd_file": "financial_analyst",
+      "final_score": 0.0688,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0688,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Excel",
+            "Power BI",
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 89,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Excel, Power BI, SAP FICO",
+        "Experience (89 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "varun_iyer_fresher_docx.docx",
+      "jd_file": "financial_analyst",
+      "final_score": 0.1077,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1077,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Power BI",
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 4,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Power BI, SAP FICO",
+        "Experience (4 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "vishnu_prasad.docx",
+      "jd_file": "financial_analyst",
+      "final_score": 0.0692,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0692,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Excel",
+            "Power BI",
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 77,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Excel, Power BI, SAP FICO",
+        "Experience (77 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "vishnu_prasad.pdf",
+      "jd_file": "financial_analyst",
+      "final_score": 0.0692,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0692,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Excel",
+            "Power BI",
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 77,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Excel, Power BI, SAP FICO",
+        "Experience (77 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "zoya_khan_scanned.pdf",
+      "jd_file": "financial_analyst",
+      "final_score": 0.0,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Excel",
+            "Power BI",
+            "SAP FICO"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 0,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Excel, Power BI, SAP FICO",
+        "Experience (0 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    }
+  ]
+}

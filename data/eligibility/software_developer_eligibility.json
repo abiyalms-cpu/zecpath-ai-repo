@@ -1,0 +1,1391 @@
+{
+  "jd_file": "software_developer",
+  "rules": {
+    "jd_file": "software_developer",
+    "min_score": 0.15,
+    "mandatory_skills": [
+      "SQL",
+      "Microservices",
+      "PostgreSQL",
+      "REST APIs",
+      "Python",
+      "MySQL",
+      "Java",
+      "AWS"
+    ],
+    "experience_range": {
+      "min_years": 2,
+      "max_years": 4
+    },
+    "location": {
+      "evaluated": false,
+      "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+    }
+  },
+  "candidates": [
+    {
+      "resume": "aarav_nair_fresher_docx.docx",
+      "jd_file": "software_developer",
+      "final_score": 0.3004,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": true,
+          "value": 0.3004,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": true,
+          "missing": [
+            "Microservices",
+            "PostgreSQL",
+            "REST APIs",
+            "MySQL"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 3,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Experience (3 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "abiyal_ms_fresher_docx.docx",
+      "jd_file": "software_developer",
+      "final_score": 0.1583,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": true,
+          "value": 0.1583,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Microservices",
+            "PostgreSQL",
+            "REST APIs",
+            "MySQL",
+            "Java",
+            "AWS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 0,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Microservices, PostgreSQL, REST APIs, MySQL, Java, AWS",
+        "Experience (0 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "aditya_rao.docx",
+      "jd_file": "software_developer",
+      "final_score": 0.0873,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0873,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SQL",
+            "Microservices",
+            "PostgreSQL",
+            "REST APIs",
+            "Python",
+            "MySQL",
+            "Java",
+            "AWS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 88,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SQL, Microservices, PostgreSQL, REST APIs, Python, MySQL, Java, AWS",
+        "Experience (88 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "aditya_rao.pdf",
+      "jd_file": "software_developer",
+      "final_score": 0.0873,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0873,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SQL",
+            "Microservices",
+            "PostgreSQL",
+            "REST APIs",
+            "Python",
+            "MySQL",
+            "Java",
+            "AWS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 88,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SQL, Microservices, PostgreSQL, REST APIs, Python, MySQL, Java, AWS",
+        "Experience (88 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "ananya_rao.docx",
+      "jd_file": "software_developer",
+      "final_score": 0.0599,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0599,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SQL",
+            "Microservices",
+            "PostgreSQL",
+            "REST APIs",
+            "Python",
+            "MySQL",
+            "Java",
+            "AWS"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 34,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SQL, Microservices, PostgreSQL, REST APIs, Python, MySQL, Java, AWS"
+      ]
+    },
+    {
+      "resume": "anjali_suresh.docx",
+      "jd_file": "software_developer",
+      "final_score": 0.0865,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0865,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SQL",
+            "Microservices",
+            "PostgreSQL",
+            "REST APIs",
+            "Python",
+            "MySQL",
+            "Java",
+            "AWS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 101,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SQL, Microservices, PostgreSQL, REST APIs, Python, MySQL, Java, AWS",
+        "Experience (101 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "anjali_suresh.pdf",
+      "jd_file": "software_developer",
+      "final_score": 0.0865,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0865,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SQL",
+            "Microservices",
+            "PostgreSQL",
+            "REST APIs",
+            "Python",
+            "MySQL",
+            "Java",
+            "AWS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 101,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SQL, Microservices, PostgreSQL, REST APIs, Python, MySQL, Java, AWS",
+        "Experience (101 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "arun_kumar.docx",
+      "jd_file": "software_developer",
+      "final_score": 0.0838,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0838,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SQL",
+            "Microservices",
+            "PostgreSQL",
+            "REST APIs",
+            "Python",
+            "MySQL",
+            "Java",
+            "AWS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 137,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SQL, Microservices, PostgreSQL, REST APIs, Python, MySQL, Java, AWS",
+        "Experience (137 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "arun_kumar.pdf",
+      "jd_file": "software_developer",
+      "final_score": 0.0838,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0838,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SQL",
+            "Microservices",
+            "PostgreSQL",
+            "REST APIs",
+            "Python",
+            "MySQL",
+            "Java",
+            "AWS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 137,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SQL, Microservices, PostgreSQL, REST APIs, Python, MySQL, Java, AWS",
+        "Experience (137 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "divya_menon.docx",
+      "jd_file": "software_developer",
+      "final_score": 0.0868,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0868,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SQL",
+            "Microservices",
+            "PostgreSQL",
+            "REST APIs",
+            "Python",
+            "MySQL",
+            "Java",
+            "AWS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 70,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SQL, Microservices, PostgreSQL, REST APIs, Python, MySQL, Java, AWS",
+        "Experience (70 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "divya_menon.pdf",
+      "jd_file": "software_developer",
+      "final_score": 0.0868,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0868,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SQL",
+            "Microservices",
+            "PostgreSQL",
+            "REST APIs",
+            "Python",
+            "MySQL",
+            "Java",
+            "AWS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 70,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SQL, Microservices, PostgreSQL, REST APIs, Python, MySQL, Java, AWS",
+        "Experience (70 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "fathima_rasheed.docx",
+      "jd_file": "software_developer",
+      "final_score": 0.0895,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0895,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SQL",
+            "Microservices",
+            "PostgreSQL",
+            "REST APIs",
+            "Python",
+            "MySQL",
+            "Java",
+            "AWS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 69,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SQL, Microservices, PostgreSQL, REST APIs, Python, MySQL, Java, AWS",
+        "Experience (69 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "fathima_rasheed.pdf",
+      "jd_file": "software_developer",
+      "final_score": 0.0895,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0895,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SQL",
+            "Microservices",
+            "PostgreSQL",
+            "REST APIs",
+            "Python",
+            "MySQL",
+            "Java",
+            "AWS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 69,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SQL, Microservices, PostgreSQL, REST APIs, Python, MySQL, Java, AWS",
+        "Experience (69 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "ishaan_kapoor_photo.docx",
+      "jd_file": "software_developer",
+      "final_score": 0.0833,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0833,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SQL",
+            "Microservices",
+            "PostgreSQL",
+            "REST APIs",
+            "Python",
+            "MySQL",
+            "Java",
+            "AWS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 80,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SQL, Microservices, PostgreSQL, REST APIs, Python, MySQL, Java, AWS",
+        "Experience (80 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "karthik_subramaniam.docx",
+      "jd_file": "software_developer",
+      "final_score": 0.0865,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0865,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SQL",
+            "Microservices",
+            "PostgreSQL",
+            "REST APIs",
+            "Python",
+            "MySQL",
+            "Java",
+            "AWS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 88,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SQL, Microservices, PostgreSQL, REST APIs, Python, MySQL, Java, AWS",
+        "Experience (88 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "karthik_subramaniam.pdf",
+      "jd_file": "software_developer",
+      "final_score": 0.0865,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0865,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SQL",
+            "Microservices",
+            "PostgreSQL",
+            "REST APIs",
+            "Python",
+            "MySQL",
+            "Java",
+            "AWS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 88,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SQL, Microservices, PostgreSQL, REST APIs, Python, MySQL, Java, AWS",
+        "Experience (88 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "kunal_bhatia_fresher_docx.docx",
+      "jd_file": "software_developer",
+      "final_score": 0.008,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.008,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SQL",
+            "Microservices",
+            "PostgreSQL",
+            "REST APIs",
+            "Python",
+            "MySQL",
+            "Java",
+            "AWS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 3,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SQL, Microservices, PostgreSQL, REST APIs, Python, MySQL, Java, AWS",
+        "Experience (3 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "meera_iyer_table.docx",
+      "jd_file": "software_developer",
+      "final_score": 0.2125,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": true,
+          "value": 0.2125,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Microservices",
+            "PostgreSQL",
+            "REST APIs",
+            "MySQL",
+            "Java",
+            "AWS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 58,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Microservices, PostgreSQL, REST APIs, MySQL, Java, AWS",
+        "Experience (58 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "neha_choudhary_fresher_docx.docx",
+      "jd_file": "software_developer",
+      "final_score": 0.0088,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0088,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SQL",
+            "Microservices",
+            "PostgreSQL",
+            "REST APIs",
+            "Python",
+            "MySQL",
+            "Java",
+            "AWS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 3,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SQL, Microservices, PostgreSQL, REST APIs, Python, MySQL, Java, AWS",
+        "Experience (3 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "nikhil_verma_two_column.pdf",
+      "jd_file": "software_developer",
+      "final_score": 0.288,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": true,
+          "value": 0.288,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SQL",
+            "Microservices",
+            "REST APIs",
+            "Python",
+            "MySQL",
+            "Java"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 76,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SQL, Microservices, REST APIs, Python, MySQL, Java",
+        "Experience (76 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "no_headings_meena.docx",
+      "jd_file": "software_developer",
+      "final_score": 0.1013,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1013,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SQL",
+            "Microservices",
+            "PostgreSQL",
+            "REST APIs",
+            "Python",
+            "MySQL",
+            "Java",
+            "AWS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 89,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SQL, Microservices, PostgreSQL, REST APIs, Python, MySQL, Java, AWS",
+        "Experience (89 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "no_headings_vikram.docx",
+      "jd_file": "software_developer",
+      "final_score": 0.0955,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0955,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SQL",
+            "Microservices",
+            "PostgreSQL",
+            "REST APIs",
+            "Python",
+            "MySQL",
+            "Java",
+            "AWS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 101,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SQL, Microservices, PostgreSQL, REST APIs, Python, MySQL, Java, AWS",
+        "Experience (101 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "priya_nair.docx",
+      "jd_file": "software_developer",
+      "final_score": 0.0858,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0858,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SQL",
+            "Microservices",
+            "PostgreSQL",
+            "REST APIs",
+            "Python",
+            "MySQL",
+            "Java",
+            "AWS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 82,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SQL, Microservices, PostgreSQL, REST APIs, Python, MySQL, Java, AWS",
+        "Experience (82 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "priya_nair.pdf",
+      "jd_file": "software_developer",
+      "final_score": 0.0858,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0858,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SQL",
+            "Microservices",
+            "PostgreSQL",
+            "REST APIs",
+            "Python",
+            "MySQL",
+            "Java",
+            "AWS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 82,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SQL, Microservices, PostgreSQL, REST APIs, Python, MySQL, Java, AWS",
+        "Experience (82 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "riya_deshmukh_fresher_docx.docx",
+      "jd_file": "software_developer",
+      "final_score": 0.0097,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0097,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SQL",
+            "Microservices",
+            "PostgreSQL",
+            "REST APIs",
+            "Python",
+            "MySQL",
+            "Java",
+            "AWS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 4,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SQL, Microservices, PostgreSQL, REST APIs, Python, MySQL, Java, AWS",
+        "Experience (4 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "rohan_mehta.docx",
+      "jd_file": "software_developer",
+      "final_score": 0.4933,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": true,
+          "value": 0.4933,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": true,
+          "missing": [
+            "SQL",
+            "Microservices",
+            "PostgreSQL",
+            "REST APIs"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 64,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Experience (64 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "rohan_mehta.pdf",
+      "jd_file": "software_developer",
+      "final_score": 0.4933,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": true,
+          "value": 0.4933,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": true,
+          "missing": [
+            "SQL",
+            "Microservices",
+            "PostgreSQL",
+            "REST APIs"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 64,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Experience (64 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "sneha_thomas.docx",
+      "jd_file": "software_developer",
+      "final_score": 0.0867,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0867,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SQL",
+            "Microservices",
+            "PostgreSQL",
+            "REST APIs",
+            "Python",
+            "MySQL",
+            "Java",
+            "AWS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 89,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SQL, Microservices, PostgreSQL, REST APIs, Python, MySQL, Java, AWS",
+        "Experience (89 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "sneha_thomas.pdf",
+      "jd_file": "software_developer",
+      "final_score": 0.0867,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0867,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SQL",
+            "Microservices",
+            "PostgreSQL",
+            "REST APIs",
+            "Python",
+            "MySQL",
+            "Java",
+            "AWS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 89,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SQL, Microservices, PostgreSQL, REST APIs, Python, MySQL, Java, AWS",
+        "Experience (89 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "varun_iyer_fresher_docx.docx",
+      "jd_file": "software_developer",
+      "final_score": 0.0075,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0075,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SQL",
+            "Microservices",
+            "PostgreSQL",
+            "REST APIs",
+            "Python",
+            "MySQL",
+            "Java",
+            "AWS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 4,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SQL, Microservices, PostgreSQL, REST APIs, Python, MySQL, Java, AWS",
+        "Experience (4 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "vishnu_prasad.docx",
+      "jd_file": "software_developer",
+      "final_score": 0.1253,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1253,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SQL",
+            "Microservices",
+            "PostgreSQL",
+            "REST APIs",
+            "Python",
+            "MySQL",
+            "Java",
+            "AWS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 77,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SQL, Microservices, PostgreSQL, REST APIs, Python, MySQL, Java, AWS",
+        "Experience (77 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "vishnu_prasad.pdf",
+      "jd_file": "software_developer",
+      "final_score": 0.1253,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1253,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SQL",
+            "Microservices",
+            "PostgreSQL",
+            "REST APIs",
+            "Python",
+            "MySQL",
+            "Java",
+            "AWS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 77,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SQL, Microservices, PostgreSQL, REST APIs, Python, MySQL, Java, AWS",
+        "Experience (77 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    },
+    {
+      "resume": "zoya_khan_scanned.pdf",
+      "jd_file": "software_developer",
+      "final_score": 0.0,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "SQL",
+            "Microservices",
+            "PostgreSQL",
+            "REST APIs",
+            "Python",
+            "MySQL",
+            "Java",
+            "AWS"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 0,
+          "required": {
+            "min_years": 2,
+            "max_years": 4
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: SQL, Microservices, PostgreSQL, REST APIs, Python, MySQL, Java, AWS",
+        "Experience (0 months) outside required range {'min_years': 2, 'max_years': 4}"
+      ]
+    }
+  ]
+}

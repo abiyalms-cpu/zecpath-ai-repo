@@ -1,0 +1,1310 @@
+{
+  "jd_file": "mechanical_engineer",
+  "rules": {
+    "jd_file": "mechanical_engineer",
+    "min_score": 0.15,
+    "mandatory_skills": [
+      "Lean Manufacturing",
+      "SolidWorks",
+      "AutoCAD",
+      "DFMEA",
+      "GD&T"
+    ],
+    "experience_range": {
+      "min_years": 3,
+      "max_years": 5
+    },
+    "location": {
+      "evaluated": false,
+      "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+    }
+  },
+  "candidates": [
+    {
+      "resume": "aarav_nair_fresher_docx.docx",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.0064,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0064,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 3,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T",
+        "Experience (3 months) outside required range {'min_years': 3, 'max_years': 5}"
+      ]
+    },
+    {
+      "resume": "abiyal_ms_fresher_docx.docx",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.0033,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0033,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 0,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T",
+        "Experience (0 months) outside required range {'min_years': 3, 'max_years': 5}"
+      ]
+    },
+    {
+      "resume": "aditya_rao.docx",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.0902,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0902,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 88,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T",
+        "Experience (88 months) outside required range {'min_years': 3, 'max_years': 5}"
+      ]
+    },
+    {
+      "resume": "aditya_rao.pdf",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.0902,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0902,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 88,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T",
+        "Experience (88 months) outside required range {'min_years': 3, 'max_years': 5}"
+      ]
+    },
+    {
+      "resume": "ananya_rao.docx",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.0512,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0512,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 34,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T",
+        "Experience (34 months) outside required range {'min_years': 3, 'max_years': 5}"
+      ]
+    },
+    {
+      "resume": "anjali_suresh.docx",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.0879,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0879,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 101,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T",
+        "Experience (101 months) outside required range {'min_years': 3, 'max_years': 5}"
+      ]
+    },
+    {
+      "resume": "anjali_suresh.pdf",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.0879,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0879,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 101,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T",
+        "Experience (101 months) outside required range {'min_years': 3, 'max_years': 5}"
+      ]
+    },
+    {
+      "resume": "arun_kumar.docx",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.0848,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0848,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 137,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T",
+        "Experience (137 months) outside required range {'min_years': 3, 'max_years': 5}"
+      ]
+    },
+    {
+      "resume": "arun_kumar.pdf",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.0848,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0848,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 137,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T",
+        "Experience (137 months) outside required range {'min_years': 3, 'max_years': 5}"
+      ]
+    },
+    {
+      "resume": "divya_menon.docx",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.0869,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0869,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 70,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T",
+        "Experience (70 months) outside required range {'min_years': 3, 'max_years': 5}"
+      ]
+    },
+    {
+      "resume": "divya_menon.pdf",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.0869,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0869,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 70,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T",
+        "Experience (70 months) outside required range {'min_years': 3, 'max_years': 5}"
+      ]
+    },
+    {
+      "resume": "fathima_rasheed.docx",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.0891,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0891,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 69,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T",
+        "Experience (69 months) outside required range {'min_years': 3, 'max_years': 5}"
+      ]
+    },
+    {
+      "resume": "fathima_rasheed.pdf",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.0891,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0891,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 69,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T",
+        "Experience (69 months) outside required range {'min_years': 3, 'max_years': 5}"
+      ]
+    },
+    {
+      "resume": "ishaan_kapoor_photo.docx",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.0833,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0833,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 80,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T",
+        "Experience (80 months) outside required range {'min_years': 3, 'max_years': 5}"
+      ]
+    },
+    {
+      "resume": "karthik_subramaniam.docx",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.0849,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0849,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 88,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T",
+        "Experience (88 months) outside required range {'min_years': 3, 'max_years': 5}"
+      ]
+    },
+    {
+      "resume": "karthik_subramaniam.pdf",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.0849,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0849,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 88,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T",
+        "Experience (88 months) outside required range {'min_years': 3, 'max_years': 5}"
+      ]
+    },
+    {
+      "resume": "kunal_bhatia_fresher_docx.docx",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.0067,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0067,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 3,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T",
+        "Experience (3 months) outside required range {'min_years': 3, 'max_years': 5}"
+      ]
+    },
+    {
+      "resume": "meera_iyer_table.docx",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.0805,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0805,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": true,
+          "candidate_months": 58,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T"
+      ]
+    },
+    {
+      "resume": "neha_choudhary_fresher_docx.docx",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.0057,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0057,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 3,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T",
+        "Experience (3 months) outside required range {'min_years': 3, 'max_years': 5}"
+      ]
+    },
+    {
+      "resume": "nikhil_verma_two_column.pdf",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.0931,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0931,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 76,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T",
+        "Experience (76 months) outside required range {'min_years': 3, 'max_years': 5}"
+      ]
+    },
+    {
+      "resume": "no_headings_meena.docx",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.1012,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.1012,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 89,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T",
+        "Experience (89 months) outside required range {'min_years': 3, 'max_years': 5}"
+      ]
+    },
+    {
+      "resume": "no_headings_vikram.docx",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.103,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.103,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 101,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T",
+        "Experience (101 months) outside required range {'min_years': 3, 'max_years': 5}"
+      ]
+    },
+    {
+      "resume": "priya_nair.docx",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.086,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.086,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 82,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T",
+        "Experience (82 months) outside required range {'min_years': 3, 'max_years': 5}"
+      ]
+    },
+    {
+      "resume": "priya_nair.pdf",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.086,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.086,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 82,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T",
+        "Experience (82 months) outside required range {'min_years': 3, 'max_years': 5}"
+      ]
+    },
+    {
+      "resume": "riya_deshmukh_fresher_docx.docx",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.0988,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0988,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 4,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T",
+        "Experience (4 months) outside required range {'min_years': 3, 'max_years': 5}"
+      ]
+    },
+    {
+      "resume": "rohan_mehta.docx",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.114,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.114,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 64,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T",
+        "Experience (64 months) outside required range {'min_years': 3, 'max_years': 5}"
+      ]
+    },
+    {
+      "resume": "rohan_mehta.pdf",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.114,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.114,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 64,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T",
+        "Experience (64 months) outside required range {'min_years': 3, 'max_years': 5}"
+      ]
+    },
+    {
+      "resume": "sneha_thomas.docx",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.0883,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0883,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 89,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T",
+        "Experience (89 months) outside required range {'min_years': 3, 'max_years': 5}"
+      ]
+    },
+    {
+      "resume": "sneha_thomas.pdf",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.0883,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0883,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 89,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T",
+        "Experience (89 months) outside required range {'min_years': 3, 'max_years': 5}"
+      ]
+    },
+    {
+      "resume": "varun_iyer_fresher_docx.docx",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.011,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.011,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 4,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T",
+        "Experience (4 months) outside required range {'min_years': 3, 'max_years': 5}"
+      ]
+    },
+    {
+      "resume": "vishnu_prasad.docx",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.2866,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": true,
+          "value": 0.2866,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 77,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T",
+        "Experience (77 months) outside required range {'min_years': 3, 'max_years': 5}"
+      ]
+    },
+    {
+      "resume": "vishnu_prasad.pdf",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.2866,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": true,
+          "value": 0.2866,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 77,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T",
+        "Experience (77 months) outside required range {'min_years': 3, 'max_years': 5}"
+      ]
+    },
+    {
+      "resume": "zoya_khan_scanned.pdf",
+      "jd_file": "mechanical_engineer",
+      "final_score": 0.0,
+      "status": "Rejected",
+      "checks": {
+        "score": {
+          "passed": false,
+          "value": 0.0,
+          "required_min": 0.15
+        },
+        "mandatory_skills": {
+          "passed": false,
+          "missing": [
+            "Lean Manufacturing",
+            "SolidWorks",
+            "AutoCAD",
+            "DFMEA",
+            "GD&T"
+          ]
+        },
+        "experience": {
+          "passed": false,
+          "candidate_months": 0,
+          "required": {
+            "min_years": 3,
+            "max_years": 5
+          }
+        },
+        "location": {
+          "evaluated": false,
+          "reason": "No resume-side location/availability field exists yet. Per the PRD, this is captured later via the AI screening call (Phase 5), not from resume parsing (Phase 2)."
+        }
+      },
+      "reasons": [
+        "Missing mandatory skills: Lean Manufacturing, SolidWorks, AutoCAD, DFMEA, GD&T",
+        "Experience (0 months) outside required range {'min_years': 3, 'max_years': 5}"
+      ]
+    }
+  ]
+}
