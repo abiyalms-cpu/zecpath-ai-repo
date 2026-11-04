@@ -1,0 +1,96 @@
+{
+  "jd_file": "software_developer",
+  "role_title": "Software Engineer",
+  "questions": [
+    {
+      "id": "software_developer_introduction_01",
+      "category": "introduction",
+      "text": "Could you briefly introduce yourself and walk me through your professional background?",
+      "expected_answer_type": "free_text",
+      "mandatory": true,
+      "scoring_importance": 0.05,
+      "language": "en"
+    },
+    {
+      "id": "software_developer_education_01",
+      "category": "education",
+      "text": "What is your highest educational qualification, and which field was it in?",
+      "expected_answer_type": "free_text",
+      "mandatory": true,
+      "scoring_importance": 0.1,
+      "language": "en"
+    },
+    {
+      "id": "software_developer_education_02",
+      "category": "education",
+      "text": "Do you hold any certifications relevant to this role?",
+      "expected_answer_type": "free_text",
+      "mandatory": false,
+      "scoring_importance": 0.05,
+      "language": "en"
+    },
+    {
+      "id": "software_developer_experience_01",
+      "category": "experience",
+      "text": "You're applying for the Software Engineer position \u2014 could you walk me through your total years of relevant experience?",
+      "expected_answer_type": "number",
+      "mandatory": true,
+      "scoring_importance": 0.2,
+      "language": "en"
+    },
+    {
+      "id": "software_developer_experience_02",
+      "category": "experience",
+      "text": "Have you worked in a Software Engineer role, or something close to it, before? For how long?",
+      "expected_answer_type": "free_text",
+      "mandatory": false,
+      "scoring_importance": 0.1,
+      "language": "en"
+    },
+    {
+      "id": "software_developer_skills_01",
+      "category": "skills",
+      "text": "This role expects hands-on experience with SQL, Microservices, PostgreSQL, REST APIs, Python, MySQL, Java, AWS. Which of these have you personally worked with?",
+      "expected_answer_type": "list",
+      "mandatory": true,
+      "scoring_importance": 0.25,
+      "language": "en"
+    },
+    {
+      "id": "software_developer_skills_02",
+      "category": "skills",
+      "text": "Is there anything on that list you haven't used yet but would be confident picking up quickly?",
+      "expected_answer_type": "free_text",
+      "mandatory": false,
+      "scoring_importance": 0.05,
+      "language": "en"
+    },
+    {
+      "id": "software_developer_location_01",
+      "category": "location",
+      "text": "This role is based in Bengaluru, Karnataka (Hybrid). Are you currently located there, or would relocation be needed?",
+      "expected_answer_type": "yes_no",
+      "mandatory": true,
+      "scoring_importance": 0.1,
+      "language": "en"
+    },
+    {
+      "id": "software_developer_salary_01",
+      "category": "salary",
+      "text": "What are your salary expectations for this role?",
+      "expected_answer_type": "currency",
+      "mandatory": true,
+      "scoring_importance": 0.05,
+      "language": "en"
+    },
+    {
+      "id": "software_developer_notice_period_01",
+      "category": "notice_period",
+      "text": "What's your current notice period, or how soon would you be available to join?",
+      "expected_answer_type": "duration",
+      "mandatory": true,
+      "scoring_importance": 0.1,
+      "language": "en"
+    }
+  ]
+}
